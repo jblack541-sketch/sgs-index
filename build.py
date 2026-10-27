@@ -170,8 +170,7 @@ def episode_block(d, r):
 </div>"""
 
 
-SIGNUP_FORM = """<form class="signup" action="{action}" method="{method}" data-placeholder="{ph}" novalidate>
-  <!-- Form action is not wired to a newsletter provider yet. Set content/site.json → newsletter.form_action -->
+SIGNUP_FORM = """<form class="signup" action="{action}" method="{method}" novalidate>
   <label for="{fid}-email">Email address</label>
   <div class="row"><input id="{fid}-email" type="email" name="{field}" placeholder="you@example.com" autocomplete="email" required>
   <button type="submit">Join the list</button></div>
@@ -188,8 +187,7 @@ def signup(site, fid):
     n = site["newsletter"]
     return SIGNUP_FORM.format(action=e(n["form_action"]), method=e(n.get("form_method", "post")),
                               field=e(n.get("email_field_name", "email")), fid=fid,
-                              name=e(n.get("name", "The Sovereign Ledger")),
-                              ph="true" if n["form_action"].startswith("#") else "false")
+                              name=e(n.get("name", "The Sovereign Ledger")))
 
 
 def pitch_full(site):

@@ -15,13 +15,12 @@
   "disclaimer_short": "The SGS Index, the Daily SGS Top 5, and The Sovereign Ledger are commentary and research for informational and educational purposes only. Not financial, investment, legal, or tax advice.",
   "disclaimer": "The SGS Index, the Daily SGS Top 5, and The Sovereign Ledger newsletter are commentary and research for informational and educational purposes only. They are not financial, investment, legal or tax advice, and nothing here is a recommendation or offer to buy or sell any security, currency or other asset. SGS labels are opinion-based ratings of news events, not predictions of market performance. Any backtests, simulations or projections are hypothetical, have real limitations, and don't guarantee future results. Investing involves risk, including the possible loss of principal. Do your own research and consult a licensed professional before making financial decisions. CreatorJoe is not a registered investment adviser or broker-dealer.",
   "newsletter": {
-    "_comment": "Form action is not wired yet (Kit form coming next). While form_action starts with '#', submitting the form sends nothing and tells the visitor signups aren't live yet.",
     "name": "The Sovereign Ledger",
     "cadence": "monthly",
     "tier": "free",
     "pitch": "Long-term investing doesn't change day to day, so this letter doesn't either. Once a month, The Sovereign Ledger steps back from the daily headlines and looks at where the Sovereignty–Globalism Spectrum moved. It covers which trends toward decentralization or centralization picked up, which ones faded, and what that could mean for the bigger picture: debt and interest rates, central banks and fiat currency, sound money like gold, silver and Bitcoin, energy and supply-chain dependence, and the shift toward decentralized tech. You'll also get my research notes: the themes I'm testing, how I set up the premise, and what the AI backtests and simulations showed, including where they fall short. It's free, it comes once a month, and it's not financial advice.",
-    "form_action": "#NEWSLETTER_PROVIDER_FORM_ACTION",
+    "form_action": "https://app.kit.com/forms/10106122/subscriptions",
     "form_method": "post",
-    "email_field_name": "email"
+    "email_field_name": "email_address"
   }
 }
