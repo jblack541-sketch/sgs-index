@@ -3,10 +3,23 @@
   "site_full_name": "Sovereignty–Globalism Spectrum (SGS) Index",
   "creator": "CreatorJoe",
   "x_handle": "TraderJoe541",
+  "x_url": "https://x.com/TraderJoe541",
   "base_url": "https://jblack541-sketch.github.io/sgs-index",
+  "tagline": "Truth over narrative. Who's really in control, one story at a time.",
+  "definition": "The Sovereignty–Globalism Spectrum (SGS) Index rates news events, policies, leaders and countries by one question: does this move power toward individuals and truly independent nations, or toward centralized, global control? Individual freedom carries the most weight, because real sovereignty begins and ends with the individual, not with how strong a government is. Each day's top stories get a plain-English label, from Extremely Sovereign through Neutral to Extremely Globalist.",
+  "about": [
+    "I'm Joe, CreatorJoe on X (@TraderJoe541). I've been on X since 2017 talking news and finance, and I'm the creator of the Sovereignty–Globalism Spectrum (SGS) Index.",
+    "I built the SGS Index because I wanted a way to cut through the noise. Instead of just reading headlines, I ask one question about each story: is power moving toward individuals and independent nations, or toward centralized and global control? The index has gone through more than twenty public versions since late 2025, and I post the updates openly on X.",
+    "On the markets side I watch debt, interest rates, sound money and decentralization, and I use AI backtests and simulations to pressure-test ideas. Stay sovereign."
+  ],
+  "disclaimer_short": "The SGS Index, the Daily SGS Top 5, and The Sovereign Ledger are commentary and research for informational and educational purposes only. Not financial, investment, legal, or tax advice.",
+  "disclaimer": "The SGS Index, the Daily SGS Top 5, and The Sovereign Ledger newsletter are commentary and research for informational and educational purposes only. They are not financial, investment, legal or tax advice, and nothing here is a recommendation or offer to buy or sell any security, currency or other asset. SGS labels are opinion-based ratings of news events, not predictions of market performance. Any backtests, simulations or projections are hypothetical, have real limitations, and don't guarantee future results. Investing involves risk, including the possible loss of principal. Do your own research and consult a licensed professional before making financial decisions. CreatorJoe is not a registered investment adviser or broker-dealer.",
   "newsletter": {
-    "_comment": "PLACEHOLDER: replace form_action with your newsletter provider's form endpoint (e.g. Buttondown, Beehiiv, ConvertKit/Kit, Mailchimp embed URL). While it starts with '#', the form will NOT send anything and says so.",
+    "_comment": "Form action is not wired yet (Kit form coming next). While form_action starts with '#', submitting the form sends nothing and tells the visitor signups aren't live yet.",
+    "name": "The Sovereign Ledger",
     "cadence": "monthly",
+    "tier": "free",
+    "pitch": "Long-term investing doesn't change day to day, so this letter doesn't either. Once a month, The Sovereign Ledger steps back from the daily headlines and looks at where the Sovereignty–Globalism Spectrum moved. It covers which trends toward decentralization or centralization picked up, which ones faded, and what that could mean for the bigger picture: debt and interest rates, central banks and fiat currency, sound money like gold, silver and Bitcoin, energy and supply-chain dependence, and the shift toward decentralized tech. You'll also get my research notes: the themes I'm testing, how I set up the premise, and what the AI backtests and simulations showed, including where they fall short. It's free, it comes once a month, and it's not financial advice.",
     "form_action": "#NEWSLETTER_PROVIDER_FORM_ACTION",
     "form_method": "post",
     "email_field_name": "email"

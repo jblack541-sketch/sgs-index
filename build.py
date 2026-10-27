@@ -27,6 +27,18 @@ def slug(label):
     return label.lower().replace(" ", "-")
 
 
+def x_url(site):
+    return site.get("x_url") or f"https://x.com/{site['x_handle']}"
+
+
+def link_x(site, text):
+    """Escape text, then link a standalone X and @handle. Wording stays verbatim."""
+    url = e(x_url(site))
+    handle = site["x_handle"]
+    out = e(text).replace(e("@" + handle), f'<a href="{url}" rel="noopener">@{e(handle)}</a>')
+    return re.sub(r"(?<![\w])X(?![\w])", f'<a href="{url}" rel="noopener">X</a>', out)
+
+
 # ---------------------------------------------------------------- data
 def load_days():
     days = []
@@ -61,7 +73,8 @@ def validate_day(d, name):
 
 # ---------------------------------------------------------------- layout
 NAV = [("index.html", "Home"), ("news/index.html", "Daily News"),
-       ("newsletter.html", "Investor Newsletter"), ("about.html", "About")]
+       ("how-it-works.html", "How It Works"), ("newsletter.html", "Newsletter"),
+       ("about.html", "About")]
 
 
 def site_base(site):
@@ -101,7 +114,8 @@ def page(title, body, depth, active, site, desc="", rel=""):
   <div><strong>SGS Index</strong> · Sovereignty–Globalism Spectrum by {e(site['creator'])}.<br>
   Follow <a href="https://x.com/{e(site['x_handle'])}" rel="noopener">@{e(site['x_handle'])}</a> on X for the daily index. ·
   <a href="{r}feed.xml">RSS</a></div>
-  <div class="muted small">Commentary and classification, not financial advice. © {year} {e(site['creator'])}.</div>
+  <div class="muted small">{e(site.get('disclaimer_short', ''))}<br>
+  <a href="{r}newsletter.html#disclaimer">Full disclaimer</a> · © {year} {e(site['creator'])}.</div>
 </div></footer>
 <script src="{r}assets/site.js" defer></script>
 </body></html>"""
@@ -157,12 +171,12 @@ def episode_block(d, r):
 
 
 SIGNUP_FORM = """<form class="signup" action="{action}" method="{method}" data-placeholder="{ph}" novalidate>
-  <!-- PLACEHOLDER: form action is not wired to a newsletter provider yet. Set content/site.json → newsletter.form_action -->
+  <!-- Form action is not wired to a newsletter provider yet. Set content/site.json → newsletter.form_action -->
   <label for="{fid}-email">Email address</label>
   <div class="row"><input id="{fid}-email" type="email" name="{field}" placeholder="you@example.com" autocomplete="email" required>
   <button type="submit">Join the list</button></div>
   <fieldset><legend class="small">Send me</legend>
-    <label class="chk"><input type="checkbox" name="list" value="investor" checked> {cadence} investor newsletter (SGS Index + quant research)</label>
+    <label class="chk"><input type="checkbox" name="list" value="ledger" checked> {name} (free monthly letter)</label>
     <label class="chk"><input type="checkbox" name="list" value="daily"> Daily SGS Top 5 news digest</label>
   </fieldset>
   <label class="chk small"><input type="checkbox" name="consent" required> I agree to receive email from CreatorJoe and can unsubscribe anytime.</label>
@@ -174,39 +188,72 @@ def signup(site, fid):
     n = site["newsletter"]
     return SIGNUP_FORM.format(action=e(n["form_action"]), method=e(n.get("form_method", "post")),
                               field=e(n.get("email_field_name", "email")), fid=fid,
-                              cadence=e(str(n.get("cadence", "monthly")).capitalize()),
+                              name=e(n.get("name", "The Sovereign Ledger")),
                               ph="true" if n["form_action"].startswith("#") else "false")
 
 
-EXPLAINER = """<div class="grid3">
-  <div class="card"><h3 class="glob">◀ Globalist</h3><p>Power moving <em>up and away</em> from nations — to supranational bodies such as the UN, WHO, EU or WEF, to international treaties and to global governance.</p></div>
-  <div class="card"><h3 class="neu">The question</h3><p>Every story gets the same test: <strong>who's in control?</strong> Each one is placed on the spectrum and given a plain-language rating.</p></div>
-  <div class="card"><h3 class="sov">Sovereign ▶</h3><p>Power <em>returning</em> to nations — borders, national control and self-determination.</p></div>
-</div>
-<div class="scale">
-  <h3>How to read a rating</h3>
-  <p>Ratings are words, not numbers. The first word says how far a story leans; the second says which way.</p>
-  <ul class="pills">
-    <li class="glob">Extremely Globalist</li><li class="glob">Strongly Globalist</li><li class="glob">Moderately Globalist</li><li class="glob">Slightly Globalist</li>
-    <li class="neu">Neutral</li>
-    <li class="sov">Slightly Sovereign</li><li class="sov">Moderately Sovereign</li><li class="sov">Strongly Sovereign</li><li class="sov">Extremely Sovereign</li>
-  </ul>
-  <p class="placeholder small"><b>Draft copy — please confirm.</b> This description of the spectrum's two ends comes from the working notes used for the first episodes; the index's official methodology page (bio link) wasn't reachable when this was written.</p>
+def pitch_full(site):
+    n = site["newsletter"]
+    name = n.get("name", "The Sovereign Ledger")
+    html = e(n["pitch"]).replace(e(name), f"<em>{e(name)}</em>", 1)
+    return f'<p class="lede">{html}</p>'
+
+
+def pitch_short(site, r=""):
+    name = e(site["newsletter"].get("name", "The Sovereign Ledger"))
+    return f"""<div class="pitch">
+  <p class="kicker">Free monthly letter</p>
+  <h2>{name}</h2>
+  <p>Long-term investing doesn't change day to day, so this letter doesn't either. Once a month, <em>{name}</em> steps back from the daily headlines and looks at where the Sovereignty–Globalism Spectrum moved. You'll also get research notes on the themes being tested. It's free, it comes once a month, and it's not financial advice.</p>
+  <p><a href="{r}newsletter.html">About {name}</a></p>
 </div>"""
 
-def newsletter_pitch(site):
-    cadence = e(str(site["newsletter"].get("cadence", "monthly")))
-    return f"""<div class="pitch">
-  <p class="kicker">Investor Newsletter</p>
-  <h2>The SGS Index, for investors.</h2>
-  <p class="lede">The daily show tells you which way the world moved. The newsletter is a {cadence} letter, focused on long-term investing: CreatorJoe connects the Sovereignty–Globalism Spectrum to markets, using his own quant research. It goes out once a month, because long-term investing does not change much from day to day.</p>
+
+SCALE = [f"{k} Globalist" for k in reversed(INTENSITY)] + ["Neutral"] + [f"{k} Sovereign" for k in INTENSITY]
+
+
+def scale_pills():
+    items = []
+    for label in SCALE:
+        side = "sov" if "Sovereign" in label else "glob" if "Globalist" in label else "neu"
+        items.append(f'<li class="{side}">{e(label)}</li>')
+    return '<ul class="pills">' + "".join(items) + "</ul>"
+
+
+def how_body(site):
+    x = link_x(site, "The SGS Index is versioned, and I post updates openly on X (@TraderJoe541) so anyone can see what changed and why.")
+    return f"""<section class="section"><div class="wrap narrow prose">
+  <p class="kicker">The Index</p>
+  <h1>How the index works</h1>
+  <h2>Two ends of one spectrum</h2>
+  <p><strong class="sov">Sovereign</strong> means power is moving toward the individual, the local community, or a truly independent nation. Examples are free speech, privacy, medical choice, self-defense, local control, and stepping back from supranational bodies or foreign leverage.</p>
+  <p><strong class="glob">Globalist</strong> means power is moving toward centralized or supranational control. Examples are global governance bodies and treaties that override national decisions, debt traps and aid with strings attached, central bank digital currencies, and anything that trades individual freedom for top-down management.</p>
+  <h2>Sovereignty is not the same as state power</h2>
+  <p>A strong government isn't automatically "sovereign." Early versions of the index drifted that way, so I reset it: a regime that crushes its own people's freedoms lands toward the globalist/centralized end, whatever flag it flies. Individual freedom comes first, and everything else is secondary.</p>
+  <h2>What gets weighed</h2>
   <ul class="ticks">
-    <li>Index-based commentary: what the month's sovereignty vs. globalism shifts may mean for long-term investors.</li>
-    <li>Notes from CreatorJoe's quant research built around the SGS Index.</li>
-    <li>The daily Top 5 stories, collected in one place.</li>
+    <li><strong>Individual freedoms and bodily autonomy</strong> (the biggest share, about half): speech, privacy, medical choice, self-defense, protest, movement, religious expression.</li>
+    <li><strong>Anti-globalism and decentralization:</strong> does it actually break from centralized systems like the UN, WHO, IMF or supranational debt, or does it just look sovereign while adding top-down control?</li>
+    <li><strong>Economic and data sovereignty:</strong> CBDCs, capital controls, debt leverage, who controls the data.</li>
+    <li><strong>Foreign ties and elite networks:</strong> outside leverage, influence operations, and information warfare.</li>
   </ul>
-  <p class="placeholder small"><b>Placeholder — to confirm with CreatorJoe:</b> newsletter name, free vs. paid tiers, and exactly what research is included. Nothing here is a performance claim.</p>
-</div>"""
+  <h2>Checks that keep it honest</h2>
+  <ul class="ticks">
+    <li><strong>Rhetoric vs. outcomes.</strong> What a leader says doesn't count. What actually changes does.</li>
+    <li><strong>Show the power shift.</strong> A sovereign rating needs evidence that power really moved toward individuals, communities or independent nations.</li>
+    <li><strong>Spot disguised centralization.</strong> Policies sold as freedom that quietly centralize get flagged.</li>
+    <li><strong>Evidence first.</strong> Public records and primary sources come first, decentralized sources are prioritized, and there are no blanket generalizations. Speculation stays off unless it's clearly labeled as speculation.</li>
+  </ul>
+  <div class="scale">
+    <h2>The label scale</h2>
+    <p>Every rated story gets one label (we never publish numbers on this site):</p>
+    {scale_pills()}
+  </div>
+  <h2>What gets rated</h2>
+  <p>The biggest geopolitical, policy and economic stories of the day. That includes international bodies (UN, EU, WHO, IMF), treaties and trade deals, elections and leadership moves, borders and self-determination, central banking, currencies and digital money, climate and global tax proposals, energy and supply-chain dependence, and tech and data control. The Daily SGS Top 5 counts down the day's five biggest moves on the spectrum.</p>
+  <h2>An evolving framework</h2>
+  <p>{x}</p>
+</div></section>"""
 
 
 # ---------------------------------------------------------------- pages
@@ -233,23 +280,31 @@ def build(site, days):
   </div></div></section>"""
     else:
         latest_html = ""
+    tag = site.get("tagline", "")
+    if ". " in tag:
+        head, rest = tag.split(". ", 1)
+        head += "."
+    else:
+        head, rest = tag, ""
+    name = e(site["newsletter"].get("name", "The Sovereign Ledger"))
     home = f"""<section class="hero"><div class="wrap">
   <p class="kicker">Sovereignty–Globalism Spectrum</p>
-  <h1>Five stories. One question:<br><span class="accent">who's in control?</span></h1>
-  <p class="lede">The SGS Index places the day's global news on a single spectrum — from power flowing to global institutions, to power returning to nations. Every day: the top five stories, each with a plain-language rating.</p>
-  <p><a class="btn" href="news/index.html">Daily News</a> <a class="btn ghost" href="newsletter.html">Investor Newsletter</a></p>
+  <h1>{e(head)}</h1>
+  <p class="lede">{e(rest)}</p>
+  <p><a class="btn" href="news/index.html">Daily News</a> <a class="btn ghost" href="newsletter.html">{name}</a></p>
   {spectrum('Neutral', big=True).replace('<p class="label neu">Neutral</p>', '')}
 </div></section>
 {latest_html}
-<section class="section alt" id="what"><div class="wrap">
+<section class="section alt" id="what"><div class="wrap narrow">
   <div class="section-head"><p class="kicker">The Index in plain terms</p><h2>What is the SGS Index?</h2></div>
-  {EXPLAINER}
+  <p class="lede">{e(site['definition'])}</p>
+  <p><a class="btn ghost" href="how-it-works.html">How the index works</a></p>
 </div></section>
 <section class="section" id="newsletter"><div class="wrap split">
-  {newsletter_pitch(site)}
+  {pitch_short(site)}
   <div class="card form-card">{signup(site, 'home')}</div>
 </div></section>"""
-    write("index.html", page("Daily global news on the Sovereignty–Globalism Spectrum", home, 0, "Home", site, rel=""))
+    write("index.html", page(head, home, 0, "Home", site, desc=tag, rel=""))
 
     # Day pages
     for i, d in enumerate(days):
@@ -263,7 +318,7 @@ def build(site, days):
   {episode_block(d, '../../')}
   {pager}
 </div></section>
-<section class="section alt"><div class="wrap split">{newsletter_pitch(site)}<div class="card form-card">{signup(site, 'day')}</div></div></section>"""
+<section class="section alt"><div class="wrap split">{pitch_short(site, '../../')}<div class="card form-card">{signup(site, 'day')}</div></div></section>"""
         write(f"news/{d['date']}/index.html", page(f"SGS Top 5 · {fmt_date(d['date'], False)}", body, 2, "Daily News", site,
                                                    desc=" · ".join(s["headline"] for s in d["stories"]),
                                                    rel=f"news/{d['date']}/index.html"))
@@ -278,37 +333,43 @@ def build(site, days):
   <ul class="archive">{items or '<li>No episodes yet.</li>'}</ul></div></section>"""
     write("news/index.html", page("Daily News archive", body, 1, "Daily News", site, rel="news/index.html"))
 
-    # Newsletter
-    body = f"""<section class="section"><div class="wrap split">
-  {newsletter_pitch(site)}
-  <div class="card form-card"><h3>Get on the list</h3>{signup(site, 'nl')}
-  <p class="placeholder small"><b>Placeholder:</b> signup isn't connected to an email service yet — submitting this form sends nothing.</p></div>
+    # How the index works
+    write("how-it-works.html", page("How the index works", how_body(site), 0, "How It Works", site,
+                                    desc="How the Sovereignty–Globalism Spectrum rates a story, from what gets weighed to the verbal label scale.",
+                                    rel="how-it-works.html"))
+
+    # Newsletter — full pitch here; the home signup uses the short version.
+    nname = site["newsletter"].get("name", "The Sovereign Ledger")
+    body = f"""<section class="section"><div class="wrap">
+  <div class="section-head"><p class="kicker">Free monthly letter</p><h1>{e(nname)}</h1></div>
+  <div class="split">
+    {pitch_full(site)}
+    <div class="card form-card"><h2>Get the letter</h2>{signup(site, 'nl')}</div>
+  </div>
 </div></section>
-<section class="section alt"><div class="wrap narrow">
-  <h2>Important</h2>
-  <p class="muted">The SGS Index is a way of classifying news, and the newsletter is commentary and research for information only. It is not investment advice or a recommendation to buy or sell any security. Do your own research.</p>
-  <p class="placeholder small"><b>Placeholder legal copy</b> — have this disclaimer reviewed before launch.</p>
+<section class="section alt" id="disclaimer"><div class="wrap narrow">
+  <h2>Disclaimer</h2>
+  <p class="muted">{e(site['disclaimer'])}</p>
 </div></section>"""
-    write("newsletter.html", page("Investor Newsletter", body, 0, "Investor Newsletter", site,
-                                  desc="A monthly investor newsletter based on the SGS Index and CreatorJoe's quant research, focused on long-term investing.",
+    write("newsletter.html", page(nname, body, 0, "Newsletter", site,
+                                  desc=site["newsletter"]["pitch"],
                                   rel="newsletter.html"))
 
-    # About
-    body = f"""<section class="section"><div class="wrap narrow">
+    # About — bio verbatim, with X mentions linked.
+    paras = "".join(f"<p>{link_x(site, p)}</p>" for p in site["about"])
+    body = f"""<section class="section"><div class="wrap narrow prose">
   <p class="kicker">About</p><h1>About the SGS Index</h1>
-  <p class="lede">The Sovereignty–Globalism Spectrum (SGS) Index was created by <strong>CreatorJoe</strong> (<a href="https://x.com/{e(site['x_handle'])}" rel="noopener">@{e(site['x_handle'])}</a> on X), who also does quant research built around it.</p>
-  <p>Each day, the <a href="news/index.html">Daily SGS Top 5</a> takes five global stories and asks one question: who's in control? Each story gets a plain-language rating — from <span class="glob">Extremely Globalist</span> to <span class="sov">Extremely Sovereign</span> — with a one-line reason and links to the original sources. The countdown runs from #5 to #1, ranked by how far each story moves along the spectrum.</p>
-  <h2>How it's made</h2>
+  {paras}
+  <h2>How the episodes are made</h2>
   <ul>
-    <li>Stories are found on X News and linked to their primary or press sources.</li>
+    <li>Stories are found on {link_x(site, "X")} News and linked to their primary or press sources.</li>
     <li>Episode artwork is AI-generated; no real people are depicted.</li>
     <li>Narration is CreatorJoe's voice (an AI voice clone); the background music is original.</li>
   </ul>
-  <div class="placeholder"><b>Placeholder — CreatorJoe's bio.</b> Add a short bio, background in markets/quant research, and how the index came to be. Nothing has been written here so we don't put words in Joe's mouth.</div>
   <h2>Contact</h2>
-  <p>Reach CreatorJoe on X: <a href="https://x.com/{e(site['x_handle'])}" rel="noopener">@{e(site['x_handle'])}</a>.</p>
+  <p>Reach CreatorJoe on {link_x(site, "X")}: {link_x(site, "@" + site["x_handle"])}.</p>
 </div></section>"""
-    write("about.html", page("About", body, 0, "About", site, rel="about.html"))
+    write("about.html", page("About", body, 0, "About", site, desc=site["about"][0], rel="about.html"))
 
     # Public data index + RSS (labels only). Absolute links use base_url so they
     # stay on the project-site subpath; with no base_url they stay site-relative.
