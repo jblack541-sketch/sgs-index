@@ -1,0 +1,5 @@
+.venv/
+public/
+public.tmp/
+screenshots/
+__pycache__/

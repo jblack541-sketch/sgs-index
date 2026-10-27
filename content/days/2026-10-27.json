@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-27",
+  "title": "Daily SGS Top 5",
+  "tagline": "Five stories, one question: who's in control?",
+  "video": "media/2026-10-27/episode.mp4",
+  "poster": "media/2026-10-27/poster.jpg",
+  "thumbnail": "media/2026-10-27/thumbnail.jpg",
+  "video_credits": [
+    "Narration: CreatorJoe's voice (AI voice clone, Chatterbox TTS).",
+    "Background images: AI-generated for this episode; no real people depicted.",
+    "Music: \"SGS Briefing\", an original track made for CreatorJoe."
+  ],
+  "discovery_note": "Stories found via X News (last 24 hours).",
+  "stories": [
+    {
+      "rank": 5,
+      "headline": "India demands equal veto for new UN Security Council seats",
+      "summary": "India told the UN General Assembly that any new permanent Security Council members must get the same veto as the current five.",
+      "label": "Slightly Sovereign",
+      "why": "More national power inside a global body.",
+      "story_date": "Oct 26, 2026 (UNGA veto debate)",
+      "image": "media/2026-10-27/bg_5.jpg",
+      "sources": [
+        {"name": "UN Press GA/12799", "url": "https://press.un.org/en/2026/ga12799.doc.htm"},
+        {"name": "The Hindu", "url": "https://www.thehindu.com/news/national/new-unsc-permanent-members-without-veto-would-be-second-class-india/article71630266.ece"},
+        {"name": "India Today", "url": "https://www.indiatoday.in/world/story/un-security-council-reform-india-demands-veto-equality-permanent-members-ptag-3025762-2026-10-27"}
+      ]
+    },
+    {
+      "rank": 4,
+      "headline": "Greece, EU and allies declare Turkey–Libya sea deal \"null and void\"",
+      "summary": "Greece, Cyprus, Egypt, Bahrain, the UAE and the EU declared the Turkey–Libya maritime deal null and void under the UN Law of the Sea.",
+      "label": "Moderately Globalist",
+      "why": "Leans on international law (the UN Law of the Sea) over a bilateral pact.",
+      "story_date": "Oct 26, 2026 (UN HQ)",
+      "image": "media/2026-10-27/bg_4.jpg",
+      "sources": [
+        {"name": "Hellenic MFA", "url": "https://www.mfa.gr/en/stake-out-statement-on-the-decision-of-the-libyan-house-of-representatives-to-approve-the-2019-turkish-libyan-memorandum-of-understanding-new-york-26-10-2026/"},
+        {"name": "Euronews", "url": "https://www.euronews.com/2026/10/26/turkey-libya-maritime-boundaries-deal-remains-null-and-void-greek-foreign-minister-says"}
+      ]
+    },
+    {
+      "rank": 3,
+      "headline": "Report: Trump officials urge Orbán to run for UN Secretary-General",
+      "summary": "The Wall Street Journal reports Trump officials urged Viktor Orbán to run for UN Secretary-General. Nothing is confirmed.",
+      "label": "Moderately Sovereign",
+      "why": "A sovereigntist eyeing the top global post.",
+      "story_date": "WSJ Oct 25; coverage Oct 26, 2026",
+      "image": "media/2026-10-27/bg_3.jpg",
+      "sources": [
+        {"name": "Euronews (citing WSJ)", "url": "https://www.euronews.com/2026/10/26/trump-officials-back-orban-bid-for-un-secretary-general-wsj-reports"},
+        {"name": "Politico", "url": "https://www.politico.com/news/2026/10/26/donald-tusk-viktor-orban-united-nations-secretary-general"},
+        {"name": "Wall Street Journal", "url": "https://www.wsj.com/opinion/viktor-orban-u-n-secretary-general-china-russia-us-d968fcaf"}
+      ]
+    },
+    {
+      "rank": 2,
+      "headline": "Oxfam: richest 0.1% out-pollute 3.5 billion people, ahead of COP31",
+      "summary": "Ahead of COP31, Oxfam's \"Disaster Divide\" report says the richest 0.1% out-pollute 3.5 billion people, and calls for wealth and fossil-fuel taxes.",
+      "label": "Strongly Globalist",
+      "why": "A push for global wealth and climate taxes.",
+      "story_date": "Oct 26–27, 2026",
+      "image": "media/2026-10-27/bg_2.jpg",
+      "sources": [
+        {"name": "Oxfam International", "url": "https://www.oxfam.org/en/research/disaster-divide-how-climate-chaos-deepens-inequality-and-enriches-few"},
+        {"name": "Oxfam America", "url": "https://www.oxfamamerica.org/press/ultra-rich-01-produce-more-carbon-pollution-than-nearly-half-of-humanity-while-cashing-in-on-the-climate-disasters-they-create/"},
+        {"name": "Irish Times", "url": "https://www.irishtimes.com/environment/climate-crisis/2026/10/27/richest-01-of-world-have-greater-carbon-footprint-than-poorest-44/"}
+      ]
+    },
+    {
+      "rank": 1,
+      "headline": "UN ends 30+ years of missions in Somalia at Mogadishu's request",
+      "summary": "The UN's political mission in Somalia (UNTMIS) closes October 31, at Somalia's own request, ending three decades of UN missions.",
+      "label": "Strongly Sovereign",
+      "why": "A nation taking back its own state-building.",
+      "story_date": "Announced Oct 26, 2026",
+      "image": "media/2026-10-27/bg_1.jpg",
+      "sources": [
+        {"name": "UN Press SG/SM/23348", "url": "https://press.un.org/en/2026/sgsm23348.doc.htm"},
+        {"name": "UN News", "url": "https://news.un.org/en/story/2026/10/1168674"}
+      ]
+    }
+  ]
+}

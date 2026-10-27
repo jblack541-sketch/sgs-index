@@ -1,0 +1,13 @@
+{
+  "site_name": "SGS Index",
+  "site_full_name": "Sovereignty–Globalism Spectrum (SGS) Index",
+  "creator": "CreatorJoe",
+  "x_handle": "TraderJoe541",
+  "base_url": "https://jblack541-sketch.github.io/sgs-index",
+  "newsletter": {
+    "_comment": "PLACEHOLDER: replace form_action with your newsletter provider's form endpoint (e.g. Buttondown, Beehiiv, ConvertKit/Kit, Mailchimp embed URL). While it starts with '#', the form will NOT send anything and says so.",
+    "form_action": "#NEWSLETTER_PROVIDER_FORM_ACTION",
+    "form_method": "post",
+    "email_field_name": "email"
+  }
+}
