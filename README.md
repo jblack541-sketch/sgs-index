@@ -67,6 +67,6 @@ python3 -m http.server 8765 --bind 127.0.0.1 --directory public    # http://127.
 
 ## Placeholders still to fill (marked on the pages with dashed amber boxes)
 - How the index is defined (taken from the episode working notes; the bio link returned 404).
-- Newsletter name, how often it goes out, free/paid tiers, and what research it includes.
+- Newsletter name, free vs. paid tiers, and what research it includes. The letter is monthly.
 - Legal disclaimer review.
 - CreatorJoe's bio on the About page.

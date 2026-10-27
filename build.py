@@ -162,7 +162,7 @@ SIGNUP_FORM = """<form class="signup" action="{action}" method="{method}" data-p
   <div class="row"><input id="{fid}-email" type="email" name="{field}" placeholder="you@example.com" autocomplete="email" required>
   <button type="submit">Join the list</button></div>
   <fieldset><legend class="small">Send me</legend>
-    <label class="chk"><input type="checkbox" name="list" value="investor" checked> Investor newsletter (SGS Index + quant research)</label>
+    <label class="chk"><input type="checkbox" name="list" value="investor" checked> {cadence} investor newsletter (SGS Index + quant research)</label>
     <label class="chk"><input type="checkbox" name="list" value="daily"> Daily SGS Top 5 news digest</label>
   </fieldset>
   <label class="chk small"><input type="checkbox" name="consent" required> I agree to receive email from CreatorJoe and can unsubscribe anytime.</label>
@@ -174,6 +174,7 @@ def signup(site, fid):
     n = site["newsletter"]
     return SIGNUP_FORM.format(action=e(n["form_action"]), method=e(n.get("form_method", "post")),
                               field=e(n.get("email_field_name", "email")), fid=fid,
+                              cadence=e(str(n.get("cadence", "monthly")).capitalize()),
                               ph="true" if n["form_action"].startswith("#") else "false")
 
 
@@ -193,16 +194,18 @@ EXPLAINER = """<div class="grid3">
   <p class="placeholder small"><b>Draft copy — please confirm.</b> This description of the spectrum's two ends comes from the working notes used for the first episodes; the index's official methodology page (bio link) wasn't reachable when this was written.</p>
 </div>"""
 
-NEWSLETTER_PITCH = """<div class="pitch">
+def newsletter_pitch(site):
+    cadence = e(str(site["newsletter"].get("cadence", "monthly")))
+    return f"""<div class="pitch">
   <p class="kicker">Investor Newsletter</p>
   <h2>The SGS Index, for investors.</h2>
-  <p class="lede">The daily show tells you which way the world moved. The newsletter is where CreatorJoe connects the Sovereignty–Globalism Spectrum to markets, using his own quant research.</p>
+  <p class="lede">The daily show tells you which way the world moved. The newsletter is a {cadence} letter, focused on long-term investing: CreatorJoe connects the Sovereignty–Globalism Spectrum to markets, using his own quant research. It goes out once a month, because long-term investing does not change much from day to day.</p>
   <ul class="ticks">
-    <li>Index-based commentary: what the week's sovereignty vs. globalism shifts may mean for investors.</li>
+    <li>Index-based commentary: what the month's sovereignty vs. globalism shifts may mean for long-term investors.</li>
     <li>Notes from CreatorJoe's quant research built around the SGS Index.</li>
     <li>The daily Top 5 stories, collected in one place.</li>
   </ul>
-  <p class="placeholder small"><b>Placeholder — to confirm with CreatorJoe:</b> newsletter name, how often it's sent, free vs. paid tiers, and exactly what research is included. Nothing here is a performance claim.</p>
+  <p class="placeholder small"><b>Placeholder — to confirm with CreatorJoe:</b> newsletter name, free vs. paid tiers, and exactly what research is included. Nothing here is a performance claim.</p>
 </div>"""
 
 
@@ -243,7 +246,7 @@ def build(site, days):
   {EXPLAINER}
 </div></section>
 <section class="section" id="newsletter"><div class="wrap split">
-  {NEWSLETTER_PITCH}
+  {newsletter_pitch(site)}
   <div class="card form-card">{signup(site, 'home')}</div>
 </div></section>"""
     write("index.html", page("Daily global news on the Sovereignty–Globalism Spectrum", home, 0, "Home", site, rel=""))
@@ -260,7 +263,7 @@ def build(site, days):
   {episode_block(d, '../../')}
   {pager}
 </div></section>
-<section class="section alt"><div class="wrap split">{NEWSLETTER_PITCH}<div class="card form-card">{signup(site, 'day')}</div></div></section>"""
+<section class="section alt"><div class="wrap split">{newsletter_pitch(site)}<div class="card form-card">{signup(site, 'day')}</div></div></section>"""
         write(f"news/{d['date']}/index.html", page(f"SGS Top 5 · {fmt_date(d['date'], False)}", body, 2, "Daily News", site,
                                                    desc=" · ".join(s["headline"] for s in d["stories"]),
                                                    rel=f"news/{d['date']}/index.html"))
@@ -277,7 +280,7 @@ def build(site, days):
 
     # Newsletter
     body = f"""<section class="section"><div class="wrap split">
-  {NEWSLETTER_PITCH}
+  {newsletter_pitch(site)}
   <div class="card form-card"><h3>Get on the list</h3>{signup(site, 'nl')}
   <p class="placeholder small"><b>Placeholder:</b> signup isn't connected to an email service yet — submitting this form sends nothing.</p></div>
 </div></section>
@@ -287,7 +290,7 @@ def build(site, days):
   <p class="placeholder small"><b>Placeholder legal copy</b> — have this disclaimer reviewed before launch.</p>
 </div></section>"""
     write("newsletter.html", page("Investor Newsletter", body, 0, "Investor Newsletter", site,
-                                  desc="An investor newsletter based on the SGS Index and CreatorJoe's quant research.",
+                                  desc="A monthly investor newsletter based on the SGS Index and CreatorJoe's quant research, focused on long-term investing.",
                                   rel="newsletter.html"))
 
     # About
