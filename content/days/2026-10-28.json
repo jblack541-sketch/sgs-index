@@ -1,0 +1,112 @@
+{
+  "date": "2026-10-28",
+  "title": "Daily SGS Top 5",
+  "tagline": "Five stories, one question: who's in control?",
+  "video": "media/2026-10-28/episode.mp4",
+  "poster": "media/2026-10-28/poster.jpg",
+  "thumbnail": "media/2026-10-28/thumbnail.jpg",
+  "video_credits": [
+    "Narration: CreatorJoe's voice, recreated with AI (Chatterbox text-to-speech).",
+    "Background images: made with AI for this episode. None of them show real people.",
+    "Music: \"SGS Briefing\", an original track made for CreatorJoe."
+  ],
+  "stories": [
+    {
+      "rank": 5,
+      "headline": "UK and EU open talks that include free movement",
+      "summary": "PM Andy Burnham called for an \"honest discussion\" on EU free movement (the right to live and work in each other's countries). Officials are working through options before the Nov 20 summit in Brussels. He rules out the euro and Schengen (the EU's passport-free zone), and any big change needs voters' approval by 2029.",
+      "label": "Moderately Globalist",
+      "why": "A nation that took back control weighs handing part back.",
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/politics/2026/oct/27/uk-eu-relationship-talks-summit-free-movement-jonathan-reynolds"
+        }
+      ],
+      "what_it_means": "Nine years after leaving, Britain is talking about letting some EU rules back in.",
+      "economic_impact": "Near-term talks on food trade and youth visas could make trade cheaper and easier, but reopening Brexit adds uncertainty for business.",
+      "everyday_example": "Like moving out of a shared house, then asking if you can still use the kitchen.",
+      "image": "media/2026-10-28/bg_5.jpg"
+    },
+    {
+      "rank": 4,
+      "headline": "Ireland drops the UN's veto over where its troops go",
+      "summary": "Ireland's parliament (the Dáil) voted 79 to 71 to scrap the \"triple lock\": sending more than 12 troops abroad needed a yes from the government, parliament and the UN Security Council (the five big powers that make the UN's biggest calls). The Taoiseach (Ireland's prime minister) called the Council \"dysfunctional\" and said there is no plan to join NATO.",
+      "label": "Strongly Sovereign",
+      "why": "The decision moves from a global body back to the nation.",
+      "sources": [
+        {
+          "name": "RTÉ",
+          "url": "https://www.rte.ie/news/2026/1021/1596278-triple-lock/"
+        },
+        {
+          "name": "RTÉ",
+          "url": "https://www.rte.ie/news/2026/1027/1596989-triple-lock-misinformation/"
+        }
+      ],
+      "what_it_means": "Ireland, not Washington, Moscow or Beijing, decides where Irish soldiers serve.",
+      "economic_impact": "Little direct effect on prices or jobs. This one is about control, not cash.",
+      "everyday_example": "Like needing five strangers' permission to leave your own house, then deciding to just ask your family.",
+      "image": "media/2026-10-28/bg_4.jpg"
+    },
+    {
+      "rank": 3,
+      "headline": "Four EU countries refuse to back a new €45 billion Ukraine loan",
+      "summary": "The EU wants a new loan of about €45 billion to cover most of Ukraine's €70 billion gap next year. Hungary, Czechia and Slovakia want out of guaranteeing it, Bulgaria says it \"cannot under any circumstances\" take part, and Germany is pushing back.",
+      "label": "Moderately Sovereign",
+      "why": "National budgets push back against a shared EU bill.",
+      "sources": [
+        {
+          "name": "Politico Europe",
+          "url": "https://www.politico.eu/newsletter/brussels-playbook/ukraine-loan-stirs-the-budget-pot/"
+        },
+        {
+          "name": "bne IntelliNews",
+          "url": "https://www.intellinews.com/eu-eyes-new-45bn-loan-to-cover-ukraine-s-2027-gap-479143/"
+        }
+      ],
+      "what_it_means": "Four governments are putting their own taxpayers first.",
+      "economic_impact": "They avoid being on the hook if the loan isn't repaid, but the fight strains talks on the 2028-2034 EU budget, where they rely on EU farm and regional money.",
+      "everyday_example": "Like four roommates refusing to co-sign a friend's new loan when they're already short on rent.",
+      "image": "media/2026-10-28/bg_3.jpg"
+    },
+    {
+      "rank": 2,
+      "headline": "The EU plans a 30,000-officer border force",
+      "summary": "The European Commission (the EU's executive arm in Brussels) proposed growing Frontex, the EU's border and coast guard agency, to 30,000 officers, including a 17,000-strong reserve, a quick-reaction force and a bigger role in sending migrants home. The European Parliament and member countries must still approve.",
+      "label": "Strongly Globalist",
+      "why": "Border control, a core national job, moves to the EU level.",
+      "sources": [
+        {
+          "name": "European Commission",
+          "url": "https://commission.europa.eu/news-and-media/news/reinforcing-frontex-stronger-protection-eus-external-borders-2026-10-27_en"
+        }
+      ],
+      "what_it_means": "Guarding Europe's borders shifts from each country to Brussels.",
+      "economic_impact": "More shared EU spending from the budget member countries pay into. Buying equipment together could cut costs, but countries give up some say.",
+      "everyday_example": "Like neighbors pooling money for one big security team instead of each locking their own door.",
+      "image": "media/2026-10-28/bg_2.jpg"
+    },
+    {
+      "rank": 1,
+      "headline": "Lula's surprise re-election sends Brazil's markets into a tailspin",
+      "summary": "Lula won the runoff with 51.8% over Flávio Bolsonaro. On Monday Brazil's main stock index fell 13.9%, its worst day since 2020, and trading was briefly halted. The real (Brazil's currency) lost about 8% against the dollar. Bolsonaro refused to concede and left for the US.",
+      "label": "Slightly Globalist",
+      "why": "Brazil kept a leader who leans toward global deals, but voters chose it.",
+      "sources": [
+        {
+          "name": "Valor International",
+          "url": "https://valorinternational.globo.com/markets/news/2026/10/27/brazilian-markets-plunge-as-lulas-reelection-rattles-investors.ghtml"
+        },
+        {
+          "name": "Investing.com",
+          "url": "https://www.investing.com/news/economy-news/brazils-markets-recover-some-ground-after-selloff-minister-vows-fiscal-discipline-4976164"
+        }
+      ],
+      "what_it_means": "Investors bet on a business-friendly win and got four more years of a big-spending leader who likes global deals.",
+      "economic_impact": "The government bought back about R$14 billion of its own bonds to calm markets and borrowing costs jumped; markets steadied a bit on Tuesday after the finance minister promised to keep spending in check.",
+      "everyday_example": "Like a crowd betting everything on one horse: when another wins, everyone rushes for the exit.",
+      "image": "media/2026-10-28/bg_1.jpg"
+    }
+  ]
+}
