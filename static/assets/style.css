@@ -90,3 +90,7 @@ h1{font-size:clamp(2.1rem,5vw,3.6rem)}h2{font-size:clamp(1.6rem,3.2vw,2.4rem)}h3
 @media (max-width:480px){.signup .row{flex-direction:column}}
 /* footer */
 .site-footer{border-top:1px solid var(--line);padding:34px 0;color:var(--muted);font-size:.9rem}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.breakdown{margin:.4rem 0 .9rem;padding:10px 14px;border-left:3px solid var(--sov);background:rgba(255,255,255,.03);border-radius:0 8px 8px 0}
+.breakdown dt{font:600 .72rem/1.2 Inter,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--sov);margin-top:.55rem}
+.breakdown dt:first-child{margin-top:0}.breakdown dd{margin:.15rem 0 0}
+.story.no-img{grid-template-columns:1fr}.story.no-img .story-body{padding-left:22px}

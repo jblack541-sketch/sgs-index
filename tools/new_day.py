@@ -14,6 +14,9 @@ has an internal score, the label is derived with the public mapping
 
 sources.json (optional) maps rank -> [{"name": ..., "url": ...}, ...]; without it,
 source names from data.py's 'src' are used with no links (add URLs by hand).
+If a story has 'specifics', it is used as the facts text (otherwise the narration
+'text' is cleaned up). Optional per-story fields what_it_means, economic_impact and everyday_example are
+copied when present (shown as "What this means", "Money impact", "In everyday terms").
 Review the generated JSON (summaries especially), then run: python3 build.py
 """
 import argparse, json, re, runpy, shutil, subprocess, sys
@@ -72,9 +75,13 @@ def main():
         label = s.get("label") or (label_for(s["score"]) if "score" in s else None)
         if not label:
             sys.exit(f"story #{s['num']} has no label")
-        story = {"rank": s["num"], "headline": s["head"], "summary": summary_from(s.get("text", "")),
+        story = {"rank": s["num"], "headline": s["head"], "summary": str(s.get("specifics") or "").strip() or summary_from(s.get("text", "")),
                  "label": label, "why": s.get("reason", "").rstrip(".") + ".",
                  "sources": srcmap.get(str(s["num"])) or [{"name": n.strip()} for n in s.get("src", "").split("·") if n.strip()]}
+        for k in ("what_it_means", "economic_impact", "everyday_example"):  # optional; skipped when missing
+            v = str(s.get(k) or "").strip()
+            if v:
+                story[k] = v
         if a.img_dir and s.get("bg"):
             src = Path(a.img_dir) / f"{s['bg']}.jpg"
             if src.exists():

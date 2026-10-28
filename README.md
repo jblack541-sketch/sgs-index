@@ -26,7 +26,7 @@ public/                  # GENERATED: deploy this folder (GitHub Pages, Netlify,
 screenshots/             # latest screenshots
 ```
 Generated pages: `index.html`, `news/index.html` (archive), `news/<date>/index.html`,
-`newsletter.html`, `about.html`, plus `days.json` (labels only) and `feed.xml` (RSS).
+`newsletter.html`, `about.html`, `mission.html`, plus `days.json` (labels only) and `feed.xml` (RSS).
 
 ## Adding a day
 **Option A: from the Top 5 video pipeline** (`/workspace/sgs`):
@@ -47,7 +47,13 @@ media in `static/media/<date>/`, then run `python3 build.py`.
 
 Day file fields: `date`, `title`, `tagline`, `video`, `poster`, `thumbnail`, `video_credits[]`,
 `discovery_note`, `stories[]` (`rank`, `headline`, `summary`, `label`, `why`, `story_date`, `image`,
-`image_alt`, `sources[]{name,url}`). Media paths are relative to `static/`.
+`image_alt`, `sources[]{name,url}`, and optional `what_it_means`, `economic_impact`, `everyday_example`).
+The optional three show under each story as "What this means", "Money impact" and "In everyday terms" and are
+skipped when missing; `tools/new_day.py` copies them from data.py when present. Media paths are relative to `static/`.
+
+## Writing style
+Plain, everyday words for everyone: short sentences, and explain any term (sovereignty, globalism, backtest, UN bodies…)
+in a few simple words the first time it appears. Labels only, never numbers.
 
 The newest day goes on the home page automatically, and every day is listed in the archive with
 older/newer links.
