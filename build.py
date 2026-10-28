@@ -276,9 +276,9 @@ def mission_body(site):
   <p class="kicker">Mission</p>
   <h1>My mission</h1>
   <h2>Why I started this</h2>
-  <p>I'll be honest: I started studying markets to make money. Somewhere along the way, I started enjoying it. Once I understood how money really works, I could see the world more clearly, and I could tell what's built to last and what isn't.</p>
+  <p>I'll be honest: I started studying the market and the news to make money. Somewhere along the way, I started enjoying it. Once I understood how money really works, I could see the world more clearly, and I could tell what's built to last and what isn't.</p>
   <h2>What I learned</h2>
-  <p>Money leaves a trail. When you follow it, you can check anyone's receipts, including politicians. Where is the money going? Is it giving power back to people, or taking it away? That one question changed how I see the market and the news.</p>
+  <p>Money leaves a trail. When you follow it, you can check anyone's receipts, including politicians. Where is the money going? Is it giving power back to people, or taking it away? That one question changed how I see the news.</p>
   <h2>What I'm doing with it</h2>
   <p>The SGS Index is how I share that question with you. Every day I break down the biggest stories in plain words: what happened, what it means, and how it hits your wallet. Once a month, <em>{name}</em> looks at the long-term picture for investors.</p>
   <h2>What you'll get</h2>
