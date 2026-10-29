@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-29",
+  "title": "Daily SGS Top 5",
+  "tagline": "Five stories, one question: who's in control?",
+  "video_credits": [
+    "Narration: CreatorJoe's voice, recreated with AI (Chatterbox text-to-speech).",
+    "Background images: made with AI for this episode. None of them show real people.",
+    "Music: \"SGS Briefing\", an original track made for CreatorJoe."
+  ],
+  "stories": [
+    {
+      "rank": 5,
+      "headline": "UN experts slam France's crackdown on student protests",
+      "summary": "Four UN human-rights experts said French police used too much force on student protesters and arrested thousands of people, mostly minors.",
+      "label": "Moderately Globalist",
+      "why": "Outside officials judge how a nation polices its own streets.",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/28/un-experts-sound-alarm-at-excessive-use-of-force-in-french-student-protests"
+        }
+      ],
+      "what_it_means": "Outside officials are judging how a country polices its own streets.",
+      "economic_impact": "The unrest comes while France's government borrowing costs are already climbing fast.",
+      "everyday_example": "It's like a referee from another league telling your school's hall monitors they were too rough.",
+      "image": "media/2026-10-29/bg_5.jpg"
+    },
+    {
+      "rank": 4,
+      "headline": "UN nature summit fights over who pays",
+      "summary": "COP17, the UN's big nature summit in Yerevan, Armenia, wraps up Friday with more than $1.8 billion pledged. Countries are still split on who should pay to protect nature.",
+      "label": "Moderately Globalist",
+      "why": "Targets are set globally, and each nation gets the bill.",
+      "sources": [
+        {
+          "name": "UN Convention on Biological Diversity",
+          "url": "https://www.cbd.int/doc/press/2026/pr-2026-10-26-cop17-en.pdf"
+        }
+      ],
+      "what_it_means": "Global targets get set in one room, and each country gets handed the bill.",
+      "economic_impact": "Donor countries pay into a global fund that's grown to about $4.4 billion, and that money comes out of their own budgets.",
+      "everyday_example": "It's a group project where everyone agrees on the goal but argues over who buys the supplies.",
+      "image": "media/2026-10-29/bg_4.jpg"
+    },
+    {
+      "rank": 3,
+      "headline": "Europe's top central banker quits early",
+      "summary": "Christine Lagarde will leave the European Central Bank on Feb 7, about nine months early. The ECB sets interest rates for the 21 countries that use the euro. EU leaders start picking her replacement today.",
+      "label": "Slightly Globalist",
+      "why": "Leaders lock in the next euro chief before voters weigh in.",
+      "sources": [
+        {
+          "name": "European Central Bank",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html"
+        },
+        {
+          "name": "Reuters via Yahoo Finance",
+          "url": "https://finance.yahoo.com/economy/policy/articles/ecb-president-lagarde-resigns-months-101955920.html"
+        }
+      ],
+      "what_it_means": "Leaders can lock in the next euro chief before France's presidential election next year. Polls favor Marine Le Pen, who wants more power for France.",
+      "economic_impact": "The bank is expected to keep its key rate at 2.5% today. Traders expect hikes later, and those would make loans pricier across Europe.",
+      "everyday_example": "It's like the team captain quitting early so the current coaches can pick the next one before new owners arrive.",
+      "image": "media/2026-10-29/bg_3.jpg"
+    },
+    {
+      "rank": 2,
+      "headline": "EU countries kill \"associate membership\" for Canada",
+      "summary": "Germany led several EU countries in cutting \"associate membership\" for Canada out of the summit statement in Montreal. EU Commission President Ursula von der Leyen had offered it without asking them first. The Commission is the EU's central government office in Brussels.",
+      "label": "Moderately Sovereign",
+      "why": "National governments overruled Brussels.",
+      "sources": [
+        {
+          "name": "Euronews",
+          "url": "https://www.euronews.com/2026/10/29/is-von-der-leyens-associate-membership-for-canada-already-dead"
+        }
+      ],
+      "what_it_means": "National governments overruled Brussels. Canada gets \"ever closer\" ties, not a seat in the club.",
+      "economic_impact": "The deals on minerals, defense and tech move ahead step by step, and Canada keeps full control of its own trade choices.",
+      "everyday_example": "You're invited to join a club, then the members vote you in as a \"close friend\" instead.",
+      "image": "media/2026-10-29/bg_2.jpg"
+    },
+    {
+      "rank": 1,
+      "headline": "Iran pushes a fast deal to reopen the Strait of Hormuz",
+      "summary": "Iran says it's working with mediators, led by Qatar, on a plan to reopen Hormuz in under a week. Before the war, about a fifth of the world's oil and gas went through that sea lane. In return, Iran wants the US naval blockade lifted and its frozen money released, and it might let UN nuclear inspectors back in.",
+      "label": "Neutral",
+      "why": "Each side trades what it controls.",
+      "sources": [
+        {
+          "name": "Al Arabiya",
+          "url": "https://english.alarabiya.net/News/middle-east/2026/10/29/iran-seeks-to-shorten-peace-plan-to-four-days-as-mediators-discuss-turkey-meeting"
+        },
+        {
+          "name": "Arab News/AFP",
+          "url": "https://www.arabnews.com/middle-east/iran-says-discussing-plan-with-mediators-to-end-war-reopen-hormuz-3008650"
+        }
+      ],
+      "what_it_means": "Each side is trading what it controls. Iran holds the sea lane, and the US holds the blockade and the money.",
+      "economic_impact": "Europe is paying about €10 billion a month more for oil than it did last year, and Iran's own ports are cut off.",
+      "everyday_example": "It's like a neighbor blocking the only road to the store, so everyone's groceries cost more until it opens.",
+      "image": "media/2026-10-29/bg_1.jpg"
+    }
+  ],
+  "video": "media/2026-10-29/episode.mp4",
+  "poster": "media/2026-10-29/poster.jpg",
+  "thumbnail": "media/2026-10-29/thumbnail.jpg"
+}
