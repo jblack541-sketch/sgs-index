@@ -35,11 +35,20 @@ def x_url(site):
     return site.get("x_url") or f"https://x.com/{site['x_handle']}"
 
 
+def youtube_url(site):
+    return site.get("youtube_url") or "https://www.youtube.com/channel/UCJ6zCkWymGBKPzLgj1MYIxQ"
+
+
+def yt_link(site, label="YouTube", new_tab=False):
+    blank = ' target="_blank"' if new_tab else ""
+    return f'<a href="{e(youtube_url(site))}"{blank} rel="noopener">{e(label)}</a>'
+
+
 def link_x(site, text):
     """Escape text, then link a standalone X and @handle. Wording stays verbatim."""
     url = e(x_url(site))
     handle = site["x_handle"]
-    out = e(text).replace(e("@" + handle), f'<a href="{url}" rel="noopener">@{e(handle)}</a>')
+    out = e(text).replace(e("@" + handle), f'<a href="{url}" rel="noopener">@{e(handle)}</a> · {yt_link(site)}')
     return re.sub(r"(?<![\w])X(?![\w])", f'<a href="{url}" rel="noopener">X</a>', out)
 
 
@@ -116,7 +125,7 @@ def page(title, body, depth, active, site, desc="", rel=""):
 <main>{body}</main>
 <footer class="site-footer"><div class="wrap foot">
   <div><strong>SGS Index</strong> · the Sovereignty–Globalism Spectrum, by {e(site['creator'])}. Who's really in control, explained in plain words.<br>
-  Follow <a href="https://x.com/{e(site['x_handle'])}" rel="noopener">@{e(site['x_handle'])}</a> on X for daily updates. ·
+  Follow <a href="https://x.com/{e(site['x_handle'])}" rel="noopener">@{e(site['x_handle'])}</a> on X · {yt_link(site)} for daily updates. ·
   <a href="{r}mission.html">My mission</a> · <a href="{r}feed.xml">RSS feed</a></div>
   <div class="muted small">{e(site.get('disclaimer_short', ''))}<br>
   <a href="{r}newsletter.html#disclaimer">Full disclaimer (plain English)</a> · © {year} {e(site['creator'])}.</div>
@@ -164,7 +173,7 @@ def breakdown(s):
     return '<dl class="breakdown">' + "".join(f"<dt>{e(l)}</dt><dd>{e(v)}</dd>" for l, v in rows) + "</dl>"
 
 
-def episode_block(d, r):
+def episode_block(d, r, site):
     credits = "".join(f"<li>{e(c)}</li>" for c in d.get("video_credits", []))
     video = (f'<video controls preload="metadata" playsinline poster="{r}{e(d.get("poster") or d.get("thumbnail", ""))}">'
              f'<source src="{r}{e(d["video"])}" type="video/mp4">Your browser can\'t play this video. '
@@ -172,9 +181,11 @@ def episode_block(d, r):
     links = ([f'<a href="{r}{e(d["video"])}" download>Download MP4</a>'] if d.get("video") else []) + \
             ([f'<a href="{r}{e(d["thumbnail"])}">Thumbnail</a>'] if d.get("thumbnail") else [])
     dl = f'<p class="small muted">{" · ".join(links)}</p>' if links else '<p class="small muted">Video coming soon.</p>'
+    watch = f'<p class="small">{yt_link(site, "Watch the daily Top 5 on YouTube", new_tab=True)}</p>'
     return f"""<div class="episode">
   <div class="player">{video}
     {dl}
+    {watch}
   </div>
   <div class="stories">{''.join(story_card(s, r) for s in d['stories'])}
     <div class="credits small muted"><strong>Episode credits.</strong><ul>{credits}</ul>{e(d.get('discovery_note', ''))}</div>
@@ -374,7 +385,7 @@ def build(site, days):
         body = f"""<section class="section"><div class="wrap">
   <div class="section-head"><p class="kicker">Daily News · {fmt_date(d['date'])}</p><h1>{e(d.get('title', 'Daily SGS Top 5'))}</h1>
   <p class="lede">{e(d.get('tagline', ''))} We count down from #5 to #1, and each story gets a simple label showing which way it moves power.</p></div>
-  {episode_block(d, '../../')}
+  {episode_block(d, '../../', site)}
   {pager}
 </div></section>
 <section class="section alt"><div class="wrap split">{pitch_short(site, '../../')}<div class="card form-card">{signup(site, 'day')}</div></div></section>"""
