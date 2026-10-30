@@ -1,0 +1,116 @@
+{
+  "date": "2026-10-30",
+  "title": "Daily SGS Top 5",
+  "tagline": "Five stories, one question: who's in control?",
+  "video_credits": [
+    "Narration: CreatorJoe's voice, recreated with AI (Chatterbox text-to-speech).",
+    "Background images: made with AI for this episode. None of them show real people.",
+    "Music: \"SGS Briefing\", an original track made for CreatorJoe."
+  ],
+  "stories": [
+    {
+      "rank": 5,
+      "headline": "Dockworkers at 110+ ports walk out to block war cargo",
+      "summary": "Today more than 25 dockworker unions at over 110 ports in 22 countries are striking or protesting, including 24-hour walkouts in France and Italy. Their slogan is \"Dockworkers do not work for war.\" They want to stop weapons from moving through ordinary ports.",
+      "label": "Slightly Globalist",
+      "why": "Workers team up across borders to block what their governments allow.",
+      "sources": [
+        {
+          "name": "AP",
+          "url": "https://apnews.com/article/port-strikes-arms-shipments-france-greece-italy-4a8813406fd51b91b3b7d17826c1883d"
+        },
+        {
+          "name": "Splash247",
+          "url": "https://splash247.com/dockworkers-unite-across-113-ports-in-global-anti-war-protest/"
+        }
+      ],
+      "what_it_means": "Workers in different countries are teaming up across borders to block shipments their own governments allow.",
+      "economic_impact": "Up to 40,000 shipping containers could be held up in the Mediterranean, and Italy expects delays into next week. How much actually stops varies by port.",
+      "everyday_example": "It's like every cashier in town agreeing to close the registers on the same day.",
+      "image": "media/2026-10-30/bg_5.jpg"
+    },
+    {
+      "rank": 4,
+      "headline": "EU border carbon tax hits $2.8B of Canadian metals",
+      "summary": "Canadian government papers obtained by CBC show the EU's new carbon border tax will apply to Canadian iron, steel and aluminum starting in 2027. The tax is a fee the EU charges at its border, based on how much pollution went into making a product. Canada can't get out of it, because its carbon price isn't linked to Europe's system.",
+      "label": "Moderately Globalist",
+      "why": "Europe's climate rules set the price of another country's exports.",
+      "sources": [
+        {
+          "name": "CBC News",
+          "url": "https://www.cbc.ca/news/politics/cbam-carbon-tariff-canada-european-union-9.7398807"
+        }
+      ],
+      "what_it_means": "Europe's climate rules now reach past its own borders and set the price of another country's exports.",
+      "economic_impact": "About $2.8 billion a year in Canadian metal sales is exposed. That includes about $885 million from Newfoundland and Labrador, nearly half its iron and steel exports, and about $792 million from Quebec. It lands just as Canada is trying to sell more to Europe and less to the US.",
+      "everyday_example": "It's like your neighbor charging you to use their driveway because your car doesn't meet their rules.",
+      "image": "media/2026-10-30/bg_4.jpg"
+    },
+    {
+      "rank": 3,
+      "headline": "US sanctions Rwanda's defense ministry over the Congo war",
+      "summary": "On Oct 28, the US Treasury sanctioned Rwanda's Ministry of Defence and a Rwandan bank called Zigama. The Treasury says both backed M23, a rebel group that has taken cities and mines in eastern Congo with help from thousands of Rwandan troops.",
+      "label": "Moderately Sovereign",
+      "why": "Punishing a country for sending troops into its neighbor.",
+      "sources": [
+        {
+          "name": "US Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/sb0668/"
+        },
+        {
+          "name": "AP",
+          "url": "https://apnews.com/article/congo-rwanda-m23-us-1297c38fde8b5595229fb9700419e098"
+        }
+      ],
+      "what_it_means": "The US is punishing one country for sending soldiers into its neighbor's land.",
+      "economic_impact": "M23 controls gold mines and coltan mines (coltan is a metal used in phones), and the US says those minerals get passed through Rwanda's supply chains. The sanctions cut Rwanda's military and that bank off from the US money system.",
+      "everyday_example": "It's like your neighbor moving their fence onto your yard and selling your apples.",
+      "image": "media/2026-10-30/bg_3.jpg"
+    },
+    {
+      "rank": 2,
+      "headline": "EU to Serbia's new government: sanction Russia, or no membership",
+      "summary": "A movement backed by students just won Serbia's election after promising not to sanction Russia. Marta Kos, the EU official in charge of adding new members, says joining will be \"very, very difficult\" unless Serbia lines up with the EU's foreign policy, including on Russia.",
+      "label": "Moderately Globalist",
+      "why": "Brussels sets conditions on Serbia's foreign policy.",
+      "sources": [
+        {
+          "name": "Gazeta Tema",
+          "url": "https://english.gazetatema.net/kosovo-region/eu-warns-serbia-over-russia-sanctions-i347878"
+        },
+        {
+          "name": "Srpske Novine",
+          "url": "https://srpske.rs/en/news/politika/2026/10/28/kos-serbia-eu-alignment-new-government-sanctions-russia"
+        }
+      ],
+      "what_it_means": "Brussels is setting conditions on Serbia's foreign policy before its new government has even formed.",
+      "economic_impact": "Serbia relies on Russian energy and wants EU money and markets, so picking a side could cost it one or the other.",
+      "everyday_example": "It's like a club saying you can join, but only if you stop talking to your old friend.",
+      "image": "media/2026-10-30/bg_2.jpg"
+    },
+    {
+      "rank": 1,
+      "headline": "Russia's price for peace: Donbas, no NATO, Europe kept out",
+      "summary": "Russia, Ukraine and the US are preparing peace talks, likely in Abu Dhabi after Nov 4 or in mid-November. Russia still wants all of Donbas, Ukraine's eastern region, plus a promise that Ukraine never joins NATO, the Western military alliance. The Kremlin says European countries won't get a seat at the table.",
+      "label": "Neutral",
+      "why": "Big powers may decide borders while the EU is shut out.",
+      "sources": [
+        {
+          "name": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russia-says-battlefield-situation-will-determine-when-ukraine-peace-talks-begin/"
+        },
+        {
+          "name": "AP",
+          "url": "https://apnews.com/article/russia-ukraine-war-putin-zelenskyy-trump-witkoff-94e0aee5d56bcd164f8cbae0918ed1f8"
+        }
+      ],
+      "what_it_means": "Big powers may decide Ukraine's borders while the EU is shut out.",
+      "economic_impact": "Limited ceasefires could make energy and grain shipping easier, but Ukraine would lose land and industry in the east. Right now these are only early technical talks, and nobody expects a breakthrough.",
+      "everyday_example": "It's like two people deciding how to split your house while you stand in the hallway.",
+      "image": "media/2026-10-30/bg_1.jpg"
+    }
+  ],
+  "video": "media/2026-10-30/episode.mp4",
+  "poster": "media/2026-10-30/poster.jpg",
+  "thumbnail": "media/2026-10-30/thumbnail.jpg"
+}
