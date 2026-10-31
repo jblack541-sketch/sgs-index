@@ -1,0 +1,144 @@
+{
+  "date": "2026-10-31",
+  "title": "Daily SGS Top 5",
+  "tagline": "Five stories, one question: who's in control?",
+  "video_credits": [
+    "Narration: CreatorJoe's voice, recreated with AI (Chatterbox text-to-speech).",
+    "Background images: made with AI for this episode. None of them show real people.",
+    "Music: \"SGS Briefing\", an original track made for CreatorJoe."
+  ],
+  "stories": [
+    {
+      "rank": 5,
+      "headline": "Europe opens its emergency oil tanks",
+      "summary": "Eleven EU countries, including France, Germany and Italy, will release 42.6 million barrels from their emergency oil stocks by the end of January. About half is diesel. It's part of a larger 100-million-barrel plan agreed by the G7, the group of seven big Western economies, and run by the International Energy Agency, a global energy watchdog.",
+      "label": "Moderately Globalist",
+      "why": "National stockpiles released on a schedule set by the G7 and a global agency.",
+      "sources": [
+        {
+          "name": "Anadolu",
+          "url": "https://www.aa.com.tr/en/europe/eu-countries-to-accelerate-release-of-426-million-barrels-from-oil-reserves/4106087"
+        },
+        {
+          "name": "Agence Europe",
+          "url": "https://agenceurope.eu/en/bulletin/article/13971/6/426-million-barrels-of-oil-to-be-released-from-strategic-reserves-of-12-european-countries-by-end-of-january-2027"
+        },
+        {
+          "name": "CNBC on oil prices",
+          "url": "https://www.cnbc.com/2026/10/30/oil-rises-on-supply-concerns-as-houthis-attack-saudi-arabia.html"
+        }
+      ],
+      "what_it_means": "Each country owns its own oil, but global groups set the timing and the amount, and Brussels will track the release.",
+      "economic_impact": "Brent oil, the global benchmark, closed near $113 on Oct 30, a six-month high. Europe's release covers only about four days of what the EU uses, and the EU's own energy chief says diesel will stay expensive this winter.",
+      "everyday_example": "It's like a whole street opening their pantries at once, and it only covers a few days of meals.",
+      "image": "media/2026-10-31/bg_5.jpg"
+    },
+    {
+      "rank": 4,
+      "headline": "Saudi Arabia shuts its door to Kenya over Ebola",
+      "summary": "On Oct 30, Saudi Arabia suspended all visas for travelers from Kenya and barred entry to anyone who has been in Kenya or other Ebola-affected countries in the last 21 days. Saudi citizens can't travel to Kenya either. Kenya has nine confirmed cases, all linked to one case brought in from Congo, where the outbreak has killed nearly 5,000 people.",
+      "label": "Moderately Sovereign",
+      "why": "A nation using its own border control instead of waiting for global guidance.",
+      "sources": [
+        {
+          "name": "Anadolu on the Saudi ban",
+          "url": "https://www.aa.com.tr/en/africa/saudi-arabia-suspends-travel-entry-from-kenya-over-ebola-concerns/4106748"
+        },
+        {
+          "name": "WHO outbreak update",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622"
+        },
+        {
+          "name": "Xinhua on Congo's death toll",
+          "url": "https://english.news.cn/20261031/008e7edef7f54e9f807b91841c2a085f/c.html"
+        }
+      ],
+      "what_it_means": "One country decided for itself who crosses its border, without waiting for a global health body to tell it to.",
+      "economic_impact": "Kenyan workers and travelers headed to Saudi Arabia are now stuck, and Kenya takes a hit to its image as a safe place to visit and do business.",
+      "everyday_example": "It's like locking your front door when the flu goes around the neighborhood.",
+      "image": "media/2026-10-31/bg_4.jpg"
+    },
+    {
+      "rank": 3,
+      "headline": "Biggest theft in history: $6.4B stolen from Binance",
+      "summary": "Hackers took about $6.4 billion in crypto from Binance, the world's largest crypto exchange. Tracking firms say North Korea's state hackers likely did it, but no government has confirmed that. Within hours, companies froze about $3 billion of stablecoins, digital dollars that a company issues and can lock.",
+      "label": "Neutral",
+      "why": "Companies froze what they could; a rogue state kept what no one could freeze.",
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/30/billions-in-crypto-frozen-in-binance-hack-heres-what-happens-next-.html"
+        },
+        {
+          "name": "Elliptic",
+          "url": "https://www.elliptic.co/insights/binance-largest-hack-in-history/"
+        },
+        {
+          "name": "Kyodo on the US-Japan-South Korea pledge",
+          "url": "https://english.kyodonews.net/articles/-/90011"
+        }
+      ],
+      "what_it_means": "Some digital money has an off switch, and some doesn't. The roughly $3 billion nobody could freeze, mostly Bitcoin and Ether, is still out of reach.",
+      "economic_impact": "Binance says it will cover every customer's loss with its own money. The US, Japan and South Korea pledged to work together against North Korean hacking.",
+      "everyday_example": "It's like a bank robbery where only half the cash had a dye pack the bank could set off.",
+      "image": "media/2026-10-31/bg_3.jpg"
+    },
+    {
+      "rank": 2,
+      "headline": "G20 talks in Atlanta end with no joint deal",
+      "summary": "G20 foreign ministers wrap up two days of talks in Atlanta today without a joint statement. Instead, the US host will issue a chair's statement, a summary only the host signs. European ministers objected to a group photo with Russia's foreign minister, so the US canceled it. South Africa, a G20 member, wasn't invited.",
+      "label": "Slightly Sovereign",
+      "why": "A big global forum stalled because national interests came first.",
+      "sources": [
+        {
+          "name": "AP via PBS",
+          "url": "https://www.pbs.org/newshour/politics/watch-rubio-welcomes-g20-foreign-ministers-to-atlanta-at-critical-moment"
+        },
+        {
+          "name": "AP: no consensus expected",
+          "url": "https://apnews.com/article/rubio-g20-ukraine-russia-poland-21c65a8bb02a3a0f0c89f0ce6d56d5fd"
+        },
+        {
+          "name": "BBC on the photo",
+          "url": "https://www.bbc.com/news/articles/cmd6dp2y576do"
+        },
+        {
+          "name": "The Hindu (AP) on the chair's statement",
+          "url": "https://www.thehindu.com/news/international/g20-foreign-ministers-to-end-atlanta-meeting-without-consensus-on-key-issues/article71648418.ece"
+        }
+      ],
+      "what_it_means": "The world's biggest global table can't agree on Ukraine, Iran, tariffs or shipping, so each country goes its own way.",
+      "economic_impact": "There's still no shared plan to keep oil and shipping lanes open, which keeps fuel prices high, and the leaders' summit in Florida in December looks harder.",
+      "everyday_example": "It's like a family reunion where nobody will sit together for the photo.",
+      "image": "media/2026-10-31/bg_2.jpg"
+    },
+    {
+      "rank": 1,
+      "headline": "France braces for protests as its debt gets a warning",
+      "summary": "About 70,000 police and other security forces are deployed across France today for a third straight weekend of protests. It started with high school students demanding better schools, then unions and Yellow Vest activists joined over the cost of living and inequality. Masks are banned at the marches, demonstrations are kept out of city centers, and parts of Paris are under an 11 PM curfew. On Oct 30, Fitch, a US credit rating firm, kept France's A+ grade but changed its outlook from stable to negative, a warning that the grade could drop.",
+      "label": "Slightly Sovereign",
+      "why": "Citizens, not Brussels, are pressuring their government; outside lenders pull the other way.",
+      "sources": [
+        {
+          "name": "Euronews on Fitch",
+          "url": "https://www.euronews.com/2026/10/31/france-aims-for-responsible-2027-budget-as-fitch-downgrades-outlook"
+        },
+        {
+          "name": "AFP via France 24 on the protests",
+          "url": "https://www.france24.com/en/live-news/20261030-french-authorities-fear-new-street-violence-at-halloween-protests"
+        },
+        {
+          "name": "AFP on the 70,000 police",
+          "url": "https://www.afp.com/en/france-deploy-70000-police-fresh-weekend-protests"
+        }
+      ],
+      "what_it_means": "French people are pushing their own government from the streets, while lenders push from the other side to cut spending.",
+      "economic_impact": "France's economy shrank 0.1% last quarter, and a lower grade would make France pay more to borrow. The government wants a 5% deficit but has no majority to pass a budget, six months before a presidential election.",
+      "everyday_example": "It's like your family arguing at dinner while the bank calls about your credit rating.",
+      "image": "media/2026-10-31/bg_1.jpg"
+    }
+  ],
+  "video": "media/2026-10-31/episode.mp4",
+  "poster": "media/2026-10-31/poster.jpg",
+  "thumbnail": "media/2026-10-31/thumbnail.jpg"
+}
