@@ -1,0 +1,152 @@
+{
+  "date": "2026-11-01",
+  "title": "SGS Weekly Recap: Top 5",
+  "tagline": "The week in power: where the world leaned, and why.",
+  "video_credits": [
+    "Narration: CreatorJoe's voice, recreated with AI (Chatterbox text-to-speech).",
+    "Background images: made with AI for this episode. None of them show real people.",
+    "Music: \"SGS Briefing\", an original track made for CreatorJoe."
+  ],
+  "stories": [
+    {
+      "rank": 5,
+      "headline": "UN nature summit: targets off track, money still short",
+      "summary": "COP17, the UN's nature summit in Yerevan, Armenia, ended Oct 31 with the \"Yerevan Pathway.\" It responds to the first global review, which found the world is off track on the 23 nature targets for 2030. The plan calls for cutting nature-harming subsidies by at least $500 billion a year, more money for developing countries, and lining up national budgets with the goals. About $1.8 to $2 billion in new money was announced, against a goal of $200 billion a year.",
+      "label": "Moderately Globalist",
+      "why": "Goals are set in one global room, and each nation gets the bill.",
+      "sources": [
+        {
+          "name": "Reuters via Investing.com",
+          "url": "https://www.investing.com/news/economy-news/countries-reach-cop17-deal-to-speed-up-biodiversity-action-but-money-still-short-4989314"
+        },
+        {
+          "name": "UN CBD",
+          "url": "https://www.cbd.int/article/cop-17-closes"
+        },
+        {
+          "name": "Xinhua",
+          "url": "https://english.news.cn/20261031/69fcbd41140b491a87d3f6eee19c3148/c.html"
+        }
+      ],
+      "what_it_means": "Targets are set globally, and each country is asked to bend its own budget and subsidies to meet them.",
+      "economic_impact": "Donor countries pay from their own budgets, and cutting subsidies can hit farmers, fishers and fuel users. Observers say the money is still far short.",
+      "everyday_example": "It's like a group project that's behind schedule, and nobody wants to buy the supplies.",
+      "image": "media/2026-11-01/bg_7.jpg"
+    },
+    {
+      "rank": 4,
+      "headline": "Europe's top central banker quits early as rates hold",
+      "summary": "Christine Lagarde leaves the ECB on Feb 7, 2027, about nine months early. On Oct 29 the ECB held its key rate at 2.5%. Euro-area inflation is 3.8%. A successor is expected at the mid-December summit.",
+      "label": "Slightly Globalist",
+      "why": "Leaders lock in the euro's next chief before voters weigh in.",
+      "sources": [
+        {
+          "name": "ECB on the rate decision",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html"
+        },
+        {
+          "name": "ECB on Lagarde",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html"
+        },
+        {
+          "name": "CNBC on the rates",
+          "url": "https://www.cnbc.com/2026/10/29/european-central-bank-interest-rates.html"
+        },
+        {
+          "name": "CNBC on the successors",
+          "url": "https://www.cnbc.com/2026/10/29/lagarde-ecb-stand-down.html"
+        }
+      ],
+      "what_it_means": "EU leaders pick the next euro chief before France's presidential election.",
+      "economic_impact": "Markets put about 67% odds on a December hike, which would make loans pricier in the 21 euro countries.",
+      "everyday_example": "It's like the old owners picking the next coach right before new owners might arrive.",
+      "image": "media/2026-11-01/bg_5.jpg"
+    },
+    {
+      "rank": 3,
+      "headline": "FBI: North Korea pulled off the $6B Binance theft",
+      "summary": "About $6.3 to $6.4 billion in crypto was stolen from Binance on Oct 29. The FBI named North Korea's TraderTraitor group. Binance has replaced 90% with its own money, and about $2.85 billion was frozen or seized.",
+      "label": "Neutral",
+      "why": "Firms froze what they could; a rogue state kept the rest.",
+      "sources": [
+        {
+          "name": "FBI",
+          "url": "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/business/2026/nov/01/binance-losses-covered-hack-fbi-north-korea-cryptocurrency"
+        },
+        {
+          "name": "Elliptic",
+          "url": "https://www.elliptic.co/insights/binance-largest-hack-in-history/"
+        }
+      ],
+      "what_it_means": "Some digital money has an off switch, and some doesn't.",
+      "economic_impact": "Customers are covered, but a rogue state gained billions that the US says help fund its weapons.",
+      "everyday_example": "It's like a robbery where half the cash had a dye pack.",
+      "image": "media/2026-11-01/bg_3.jpg"
+    },
+    {
+      "rank": 2,
+      "headline": "France's third protest weekend: 320,000 march",
+      "summary": "About 320,000 marched across France on Oct 31 over living costs and schools; police made 565 arrests. Fitch kept France at A+ but moved its outlook to negative.",
+      "label": "Slightly Sovereign",
+      "why": "Citizens, not Brussels, drive the pressure; lenders pull the other way.",
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/31/police-clash-rioters-after-largely-peaceful-protests-across-france"
+        },
+        {
+          "name": "CNews (final arrest count)",
+          "url": "https://www.cnews.fr/france/2026-11-01/mobilisation-du-31-octobre-565-personnes-interpellees-sur-lensemble-du-territoire"
+        },
+        {
+          "name": "DW",
+          "url": "https://www.dw.com/en/more-than-290-arrested-in-france-as-some-weekend-protests-turn-violent/a-79818138"
+        },
+        {
+          "name": "Euronews on Fitch",
+          "url": "https://www.euronews.com/2026/10/31/france-aims-for-responsible-2027-budget-as-fitch-downgrades-outlook"
+        }
+      ],
+      "what_it_means": "Citizens push their government from the streets, while lenders push it to cut spending.",
+      "economic_impact": "A lower debt grade would make France pay more to borrow, with no majority to pass a budget.",
+      "everyday_example": "It's like arguing at dinner while the bank calls about your credit rating.",
+      "image": "media/2026-11-01/bg_2.jpg"
+    },
+    {
+      "rank": 1,
+      "headline": "Iran's Hormuz offer shrinks to two days, nothing signed",
+      "summary": "Iran says talks with Qatari mediators cut its plan to reopen the Strait of Hormuz to two days, if the US lifts new sanctions, restores oil waivers, frees frozen money and reduces forces.",
+      "label": "Neutral",
+      "why": "Two governments trade power for power; no global body is in charge.",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/1/mediators-continue-us-iran-negotiations-amid-war-rhetoric-what-we-know"
+        },
+        {
+          "name": "Dawn",
+          "url": "https://www.dawn.com/news/2041203"
+        },
+        {
+          "name": "EnergyNow on October oil",
+          "url": "https://energynow.com/2026/10/october-oil-gains-exceed-13-oil-climbs-more-than-2-friday-as-middle-east-attacks-intensify-wti-and-brent-finish-week-higher-october-gains-exceed-13/"
+        },
+        {
+          "name": "Xinhua on the settlement",
+          "url": "https://english.news.cn/20261031/9156cd5984c741dbabc132ce9ff130de/c.html"
+        }
+      ],
+      "what_it_means": "Each side trades what it controls.",
+      "economic_impact": "Oil rose more than 13% in October, pushing fuel and heating costs up worldwide.",
+      "everyday_example": "It's like a neighbor blocking the only road to the store.",
+      "image": "media/2026-11-01/bg_1.jpg"
+    }
+  ],
+  "video": "media/2026-11-01/episode.mp4",
+  "poster": "media/2026-11-01/poster.jpg",
+  "thumbnail": "media/2026-11-01/thumbnail.jpg"
+}
