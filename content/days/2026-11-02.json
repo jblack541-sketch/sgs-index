@@ -1,0 +1,104 @@
+{
+  "date": "2026-11-02",
+  "title": "Daily SGS Top 5",
+  "tagline": "Five stories, one question: who's in control?",
+  "video_credits": [],
+  "stories": [
+    {
+      "rank": 5,
+      "headline": "WHO pushes countries to finish the pandemic treaty",
+      "summary": "Talks opened Nov 2 in Geneva on the last piece of the WHO pandemic treaty: how countries share virus samples and who gets the vaccines made from them. Tedros pointed to Ebola in Congo, with more than 5,000 deaths.",
+      "label": "Moderately Globalist",
+      "why": "Outbreak decisions shift from nations to a global system.",
+      "sources": [
+        {
+          "name": "WHO"
+        },
+        {
+          "name": "Euronews/AFP"
+        }
+      ],
+      "what_it_means": "A global body wants countries to hand over virus samples and help decide who gets the cures.",
+      "economic_impact": "Drug makers would set aside 20% of key vaccines and tests for the WHO to steer, taking supply out of national hands.",
+      "everyday_example": "It's like a neighborhood tool pact where one office decides who borrows first."
+    },
+    {
+      "rank": 4,
+      "headline": "Bulgaria elects a president against more arms for Ukraine",
+      "summary": "Iliana Yotova won Sunday's runoff with 57.6%, becoming Bulgaria's first elected female president. She opposes more military aid to Ukraine and wants talks with Moscow. Turnout was low.",
+      "label": "Moderately Sovereign",
+      "why": "Voters chose a national line over the bloc line.",
+      "sources": [
+        {
+          "name": "AP"
+        },
+        {
+          "name": "Kyiv Independent"
+        }
+      ],
+      "what_it_means": "Bulgarian voters backed their own line on the war, breaking with the EU and NATO mainstream.",
+      "economic_impact": "Drones have hit ships off its Black Sea coast; its leaders want to spend on their own defense, not on arming Ukraine.",
+      "everyday_example": "It's like guarding your own street but not lending out your tools."
+    },
+    {
+      "rank": 3,
+      "headline": "South Korea budgets to take back wartime command",
+      "summary": "President Lee Jae-myung asked for a record defense budget of about $51 billion, up 8.2%, to retake wartime command of his forces from a US-led command, plus nuclear-powered subs and the KF-21 jet.",
+      "label": "Strongly Sovereign",
+      "why": "A nation pays to command its own military.",
+      "sources": [
+        {
+          "name": "Yonhap"
+        },
+        {
+          "name": "KBS World"
+        }
+      ],
+      "what_it_means": "In a war today, an American general would lead South Korea's forces. Lee wants Korean generals to do it.",
+      "economic_impact": "A record budget, due Dec 2, that also funds oil storage and a fund to secure oil and minerals.",
+      "everyday_example": "It's like a grown kid asking for the car keys back and paying their own insurance."
+    },
+    {
+      "rank": 2,
+      "headline": "Britain doubles the wait to settle for good",
+      "summary": "Home Secretary Shabana Mahmood said the default wait for permanent residency goes from 5 to 10 years. High earners, doctors, nurses and teachers can still settle in 5; rule-breakers wait 20.",
+      "label": "Moderately Sovereign",
+      "why": "A nation sets its own residency rules.",
+      "sources": [
+        {
+          "name": "GOV.UK"
+        },
+        {
+          "name": "AP"
+        },
+        {
+          "name": "The Guardian"
+        }
+      ],
+      "what_it_means": "Britain is setting its own rules on who gets to stay.",
+      "economic_impact": "The government says over 500,000 people will wait longer, saving on welfare; businesses warn it could scare off needed workers.",
+      "everyday_example": "It's like a club where membership is earned by years of dues."
+    },
+    {
+      "rank": 1,
+      "headline": "America votes tomorrow on who controls Congress",
+      "summary": "Midterms Tuesday decide control of Congress. Republicans hold the House 218-214 and the Senate 53-47. Over 57 million have voted early, and it is on track to be the most expensive US election ever.",
+      "label": "Neutral",
+      "why": "American voters, not outsiders, decide who holds power.",
+      "sources": [
+        {
+          "name": "Reuters"
+        },
+        {
+          "name": "NPR"
+        }
+      ],
+      "what_it_means": "It's the first nationwide report card on the president: keep one party in charge or split power.",
+      "economic_impact": "Prices and fuel costs are top issues. A split Congress means fewer big laws and more spending fights.",
+      "everyday_example": "It's like a midyear review where staff can vote in a new manager for half the office."
+    }
+  ],
+  "video": "media/2026-11-02/episode.mp4",
+  "poster": "media/2026-11-02/poster.jpg",
+  "thumbnail": "media/2026-11-02/thumbnail.png"
+}
