@@ -52,7 +52,7 @@ The optional three show under each story as "What this means", "Money impact" an
 skipped when missing; `tools/new_day.py` copies them from data.py when present. Media paths are relative to `static/`.
 
 ## Writing style
-Plain, everyday words for everyone: short sentences, and explain any term (sovereignty, globalism, backtest, UN bodies…)
+Plain, everyday words for everyone: short sentences, and explain any term (sovereignty, globalism, central banks, UN bodies…)
 in a few simple words the first time it appears. Labels only, never numbers.
 
 The newest day goes on the home page automatically, and every day is listed in the archive with

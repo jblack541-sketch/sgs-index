@@ -302,7 +302,7 @@ def mission_body(site):
   <ul class="ticks">
     <li><strong>Plain words, every time.</strong> Every story gets explained so anyone can follow it. No background needed.</li>
     <li><strong>Why it matters to you.</strong> I'll connect the headlines to everyday life: your freedom, your paycheck, your savings.</li>
-    <li><strong>Terms explained.</strong> If I use a word like sovereignty or backtest, I'll tell you what it means right there.</li>
+    <li><strong>Terms explained.</strong> If I use a word like sovereignty or central bank, I'll tell you what it means right there.</li>
     <li><strong>Open about the method.</strong> I show how the index works, and where it falls short.</li>
     <li><strong>No hype. No buy or sell calls.</strong> This is about understanding the world, not chasing quick trades.</li>
     <li><strong>Learning together.</strong> {x}</li>
@@ -311,8 +311,7 @@ def mission_body(site):
     <h2>Quick word guide</h2>
     <p><strong class="sov">Sovereign:</strong> people and nations running their own affairs.<br>
     <strong class="glob">Globalist:</strong> decisions moving up to big international bodies.<br>
-    <strong>Index:</strong> a consistent way of rating things, so one day can be compared with the next.<br>
-    <strong>Backtest:</strong> checking how an idea would have played out in the past.</p>
+    <strong>Index:</strong> a consistent way of rating things, so one day can be compared with the next.</p>
   </div>
   <h2>My promise</h2>
   <p>No hype and no jargon. If you can read the news, you can follow along, and we'll learn this together.</p>
