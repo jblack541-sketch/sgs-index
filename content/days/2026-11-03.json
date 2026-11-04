@@ -1,0 +1,116 @@
+{
+  "date": "2026-11-03",
+  "title": "Daily SGS Top 5",
+  "tagline": "Five stories, one question: who's in control?",
+  "video_credits": [],
+  "stories": [
+    {
+      "rank": 5,
+      "headline": "The UN aid agency for Palestinians may be shut down",
+      "summary": "UNRWA's acting head reportedly plans to cut 7,000 to 8,000 of its 15,000 staff, citing a $70 to $100 million shortfall. The plan is not publicly confirmed.",
+      "label": "Slightly Sovereign",
+      "why": "A global UN body hands its work to local and regional hands.",
+      "sources": [
+        {
+          "name": "Israel Hayom",
+          "url": "https://www.israelhayom.com/2026/11/01/unrwa-faces-shutdown-as-plan-emerges-to-transfer-responsibilities-to-board-of-peace/"
+        },
+        {
+          "name": "PIC",
+          "url": "https://english.palinfo.com/news/2026/11/02/372985/\n\n##"
+        }
+      ],
+      "what_it_means": "Schools and clinics would pass to the Palestinian Authority in the West Bank and the US-backed Board of Peace in Gaza.",
+      "economic_impact": "Thousands of paychecks at risk where jobs are scarce; some donors warn they may stop paying.",
+      "everyday_example": "It's like a charity out of money handing its soup kitchen to the town.",
+      "image": "media/2026-11-03/bg_5.jpg"
+    },
+    {
+      "rank": 4,
+      "headline": "Australia's interest rate hits an 18-year high",
+      "summary": "The Reserve Bank of Australia raised its rate to 4.85%, its fifth hike of 2026 and the highest since 2008. The board split 6 to 3.",
+      "label": "Neutral",
+      "why": "A national bank doing its normal job.",
+      "sources": [
+        {
+          "name": "RBA",
+          "url": "https://www.rba.gov.au/media-releases/2026/mr-26-30.html"
+        },
+        {
+          "name": "SBS",
+          "url": "https://www.sbs.com.au/news/live-blog/rba-november-2026-interest-rates-decision-live/f6csn2n1w\n\n##"
+        }
+      ],
+      "what_it_means": "Australia is fighting high prices on its own terms; inflation is not expected back in its 2 to 3% target until late 2027.",
+      "economic_impact": "A $500,000 home loan costs about $77 more a month.",
+      "everyday_example": "It's like turning down the heat in a too-warm house while everyone grabs a sweater.",
+      "image": "media/2026-11-03/bg_4.jpg"
+    },
+    {
+      "rank": 3,
+      "headline": "Venezuela's new foreign minister visits Washington",
+      "summary": "Oliver Blanco met Rubio and Bessent on Nov 2, the first top-level meeting since Maduro's capture in January.",
+      "label": "Moderately Sovereign",
+      "why": "Venezuela pulls away from Russia, China and Iran toward its own elections.",
+      "sources": [
+        {
+          "name": "US Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/sb0674/"
+        },
+        {
+          "name": "AP",
+          "url": "https://apnews.com/article/venezuela-rubio-blanco-elections-trump-rodriguez-bc2edbe9c9257e82c821ccdc89035936\n\n##"
+        }
+      ],
+      "what_it_means": "The US backs a three-step plan: stabilize, recover, then free elections.",
+      "economic_impact": "Washington wants more Venezuelan oil pumped and its banks reconnected to the world.",
+      "everyday_example": "It's like a neighbor helping fix your house so you can run it yourself again.",
+      "image": "media/2026-11-03/bg_3.jpg"
+    },
+    {
+      "rank": 2,
+      "headline": "Belgium's prime minister offers to quit over the budget",
+      "summary": "Bart De Wever offered his resignation after his five-party government failed to agree €10 billion in cuts and taxes for 2027. The King holds it until Friday.",
+      "label": "Slightly Globalist",
+      "why": "EU deficit rules set the deadline and the size of the cuts.",
+      "sources": [
+        {
+          "name": "POLITICO",
+          "url": "https://www.politico.eu/article/belgian-government-in-crisis-over-failed-budget-talks/"
+        },
+        {
+          "name": "AP",
+          "url": "https://apnews.com/article/belgium-budget-wever-king-government-crisis-debt-d6e28f97ddcf13c3b358201c4d45cf7e\n\n##"
+        }
+      ],
+      "what_it_means": "The fight is over who pays: top earners or spending cuts.",
+      "economic_impact": "The deficit was 5.2% of GDP in 2025 and rising; no deal risks pricier borrowing.",
+      "everyday_example": "It's like roommates who can't split the rent while the landlord says pay in full.",
+      "image": "media/2026-11-03/bg_2.jpg"
+    },
+    {
+      "rank": 1,
+      "headline": "Iran opens the door to talks, and oil plunges",
+      "summary": "President Pezeshkian says the Supreme Leader gave his government powers for peace talks with the US. Brent fell 7.6% to $104.77, the biggest one-day drop since July.",
+      "label": "Neutral",
+      "why": "Two nations bargaining, no global body in charge.",
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
+        },
+        {
+          "name": "Straits Times",
+          "url": "https://www.straitstimes.com/world/middle-east/irans-khamenei-gives-government-powers-to-hold-talks-on-war\n\n##"
+        }
+      ],
+      "what_it_means": "Iran may bargain, but wants sanctions lifted and the blockade ended before reopening Hormuz. Nothing is agreed.",
+      "economic_impact": "Cheaper oil could ease fuel prices worldwide.",
+      "everyday_example": "It's like the guy blocking the road saying he'll talk, and prices drop before the car moves.",
+      "image": "media/2026-11-03/bg_1.jpg"
+    }
+  ],
+  "video": "media/2026-11-03/episode.mp4",
+  "poster": "media/2026-11-03/poster.jpg",
+  "thumbnail": "media/2026-11-03/thumbnail.png"
+}
