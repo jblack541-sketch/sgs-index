@@ -1,0 +1,116 @@
+{
+  "date": "2026-11-04",
+  "title": "Daily SGS Top 5",
+  "tagline": "Five stories, one question: who's in control?",
+  "video_credits": [],
+  "stories": [
+    {
+      "rank": 5,
+      "headline": "World Bank says corruption is holding Kenya back",
+      "summary": "Corruption costs Kenya about 2% of GDP a year. 39% of firms call it a major problem, up from 25% in 2013.",
+      "label": "Slightly Globalist",
+      "why": "A global lender sets the reform agenda before Kenya's 2027 election.",
+      "sources": [
+        {
+          "name": "World Bank",
+          "url": "https://documents1.worldbank.org/curated/en/099110226121518967/pdf/P518942-68dd8254-9e64-46ca-b177-6d46a9861e0f.pdf"
+        },
+        {
+          "name": "Kenyans.co.ke",
+          "url": "https://www.kenyans.co.ke/news/129113-world-bank-flags-corruption-key-barrier-kenyas-economic-growth"
+        }
+      ],
+      "what_it_means": "Strong reforms could make the economy 22.3% bigger by 2035 and add up to 7.7 million better jobs.",
+      "economic_impact": "More borrowing at higher cost; 2026 growth forecast raised to 4.6%.",
+      "everyday_example": "It's like a leaky bucket that never fills up.",
+      "image": "media/2026-11-04/bg_5.jpg"
+    },
+    {
+      "rank": 4,
+      "headline": "Oracle drops a $7 billion AI chip deal with China's Tencent",
+      "summary": "Oracle cancelled a five-year lease giving Tencent about 100,000 AI chips in Southeast Asia after US officials raised concerns. Reported by the FT; not yet confirmed.",
+      "label": "Moderately Sovereign",
+      "why": "Governments, not markets, decide who gets critical tech.",
+      "sources": [
+        {
+          "name": "Financial Times via Business Times",
+          "url": "https://www.businesstimes.com.sg/companies-markets/oracle-scraps-us7-billion-deal-lease-chips-tencent-under-trump-pressure-ft-reports"
+        },
+        {
+          "name": "TNW",
+          "url": "https://thenextweb.com/news/oracle-cancels-tencent-ai-chip-lease"
+        }
+      ],
+      "what_it_means": "Washington and Beijing are both pulling key tech back inside their own borders.",
+      "economic_impact": "Oracle loses a big contract; Chinese firms lose a back door to top chips.",
+      "everyday_example": "It's like two neighbors telling their kids to stop sharing toys over the fence.",
+      "image": "media/2026-11-04/bg_4.jpg"
+    },
+    {
+      "rank": 3,
+      "headline": "Iran picks which countries' ships can pass Hormuz",
+      "summary": "An Iranian lawmaker says ships from India, China, Iraq and Qatar are exempt from Hormuz limits. India and China still pay fees.",
+      "label": "Moderately Globalist",
+      "why": "One country takes control of a shared energy route and picks favorites.",
+      "sources": [
+        {
+          "name": "Anadolu",
+          "url": "https://www.aa.com.tr/en/middle-east/iran-exempts-ships-from-india-china-iraq-qatar-from-hormuz-transit-restrictions-lawmaker/4110513"
+        },
+        {
+          "name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/india-news/iran-exempts-ships-from-india-china-iraq-qatar-from-hormuz-strait-restrictions-us-war-oil-prices-101793784043931.html"
+        }
+      ],
+      "what_it_means": "Iran is treating a world shipping lane as its own gate.",
+      "economic_impact": "Relief for India's oil imports, but Brent is still about $104 a barrel.",
+      "everyday_example": "It's like a bouncer letting his friends skip the line, and still charging most of them.",
+      "image": "media/2026-11-04/bg_3.jpg"
+    },
+    {
+      "rank": 2,
+      "headline": "Britain and the EU finalize a deal to cut Brexit food checks",
+      "summary": "The UK and EU finished a food-trade deal ahead of a Nov 20 summit. Britain follows EU food rules again.",
+      "label": "Moderately Globalist",
+      "why": "A nation accepts a bloc's rules it doesn't get to write.",
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cmp3grwre9xdo"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/politics/2026/nov/03/new-uk-eu-brexit-food-produce-deal-explained"
+        }
+      ],
+      "what_it_means": "A big step back toward Brussels to drop border paperwork.",
+      "economic_impact": "Exporters skip £200 vet certificates; fresh sausages and shellfish can be sold to the EU again.",
+      "everyday_example": "It's like moving out, then following your parents' rules to keep using the fridge.",
+      "image": "media/2026-11-04/bg_2.jpg"
+    },
+    {
+      "rank": 1,
+      "headline": "Democrats win the House and Senate",
+      "summary": "AP says Democrats took both chambers, flipping at least seven Senate seats. Trump says he accepts the results.",
+      "label": "Neutral",
+      "why": "Voters reshape their own government.",
+      "sources": [
+        {
+          "name": "AP",
+          "url": "https://apnews.com/article/midterm-election-house-senate-democrats-republicans-trump-f126e12e05b579a327b98481c0ae2226"
+        },
+        {
+          "name": "USA Today",
+          "url": "https://www.usatoday.com/story/money/markets/2026/11/04/stocks-wednesday-democrats-midterms/92607023007/"
+        }
+      ],
+      "what_it_means": "Split government for Trump's last two years.",
+      "economic_impact": "Stock futures rose; a split Congress usually means fewer big new laws.",
+      "everyday_example": "It's like the staff voting in a new manager for half the office.",
+      "image": "media/2026-11-04/bg_1.jpg"
+    }
+  ],
+  "video": "media/2026-11-04/episode.mp4",
+  "poster": "media/2026-11-04/poster.jpg",
+  "thumbnail": "media/2026-11-04/thumbnail.png"
+}
