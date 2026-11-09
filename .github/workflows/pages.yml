@@ -40,3 +40,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
+        with:
+          # The default 10 minute wait cancels a deployment that is still
+          # syncing this site's media. Give the file sync 30 minutes.
+          timeout: 1800000
