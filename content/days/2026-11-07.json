@@ -1,0 +1,132 @@
+{
+  "date": "2026-11-07",
+  "title": "Daily SGS Top 5",
+  "tagline": "Five stories, one question: who's in control?",
+  "video_credits": [],
+  "stories": [
+    {
+      "rank": 5,
+      "headline": "Bangladesh garment workers shut factories over pay",
+      "summary": "Garment workers in Bangladesh shut factories that supply big clothing brands, marching for wages more than double the current floor. Protests turned violent in several hubs.",
+      "label": "Slightly Sovereign",
+      "why": "Workers press bosses and their own government over pay.",
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/news/articles/c3pwg91qjpq7o"
+        },
+        {
+          "name": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/bangladesh-garment-workers-stage-fourth-day-of-wage-protests"
+        },
+        {
+          "name": "SCMP",
+          "url": "https://www.scmp.com/week-asia/economics/article/3373569/there-could-be-anarchy-bangladeshs-garment-unrest-threatens-economic-disaster"
+        }
+      ],
+      "what_it_means": "Workers are pressing bosses and their own government over pay.",
+      "economic_impact": "Hundreds of plants closed, and shipments risk delay.",
+      "everyday_example": "It's like the shop floor walking out until the register pays a living wage."
+    },
+    {
+      "rank": 4,
+      "headline": "Paraguay impeaches Peña; Alliana sworn in",
+      "summary": "Paraguay's Senate removed Santiago Peña and swore in Pedro Alliana after the Ueno Bank collapse. Peña was placed under house arrest.",
+      "label": "Moderately Sovereign",
+      "why": "Lawmakers finish the accountability path they started when they refused his resignation.",
+      "sources": [
+        {
+          "name": "Senado Paraguay",
+          "url": "https://www.senado.gov.py/index.php/menu-dircom/sub-menu-noticias-presidencia/pedro-alliana-juro-como-nuevo-presidente-de-la-republica.html"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/7/paraguays-santiago-pena-under-arrest-new-president-pedro-alliana-sworn-in"
+        },
+        {
+          "name": "Euronews",
+          "url": "https://www.euronews.com/2026/11/07/pedro-alliana-sworn-in-as-paraguay-president-after-santiago-penas-impeachment"
+        }
+      ],
+      "what_it_means": "Lawmakers finished the accountability path they started when they refused his resignation.",
+      "economic_impact": "About three million depositors still wait on frozen savings.",
+      "everyday_example": "It's like the board firing the CEO after the credit union locked every card."
+    },
+    {
+      "rank": 3,
+      "headline": "Russia upgrades its team for Abu Dhabi Ukraine talks",
+      "summary": "Russia named a senior team, led by Vladimir Medinsky, for US-mediated Ukraine talks in Abu Dhabi. Deal terms are still undisclosed.",
+      "label": "Moderately Globalist",
+      "why": "Great-power rooms keep sketching Europe's next map while Ukrainians aren't holding the pen.",
+      "sources": [
+        {
+          "name": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russia-to-send-senior-diplomats-military-officials-to-upcoming-peace-talks-in-abu-dhabi/"
+        },
+        {
+          "name": "Politico",
+          "url": "https://www.politico.com/news/2026/11/07/russia-upgrades-abu-dhabi-delegation-as-zelenskyy-warns-trumps-plan-is-dangerous"
+        },
+        {
+          "name": "NV",
+          "url": "https://english.nv.ua/russian-war/medinsky-to-lead-russian-delegation-at-abu-dhabi-peace-talks-reuters-50657217.html"
+        }
+      ],
+      "what_it_means": "Great-power rooms keep sketching Europe's next map while Ukrainians aren't holding the pen.",
+      "economic_impact": "Ceasefire odds and winter energy risk will move markets.",
+      "everyday_example": "It's like upgrading the landlords at the lease table while tenants wait outside."
+    },
+    {
+      "rank": 2,
+      "headline": "US launches Task Force Iron Gate on Iran's land routes",
+      "summary": "US Central Command launched Task Force Iron Gate, about twenty people in Tampa, to disrupt Iran's land and Caspian routes for weapons and sanctioned goods. It adds to the naval blockade.",
+      "label": "Moderately Sovereign",
+      "why": "Washington chokes the overland paths Iran uses to restock.",
+      "sources": [
+        {
+          "name": "CENTCOM",
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4644250/centcom-launches-task-force-to-disrupt-iranian-ground-transit-routes-supporting/"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/8/us-launches-task-force-to-disrupt-irans-land-based-supply-routes"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/07/iran-us-task-force-land-commerce.html"
+        }
+      ],
+      "what_it_means": "Washington is choking the overland paths Iran uses to restock.",
+      "economic_impact": "Centcom says the sea blockade has blocked over twenty-five billion in Iranian crude.",
+      "everyday_example": "It's like locking the alley after blocking the front gate."
+    },
+    {
+      "rank": 1,
+      "headline": "Iran lifts missile range limit; Hormuz stays gated",
+      "summary": "Iran's Revolutionary Guard said it lifted its two-thousand-kilometer missile range limit. An army spokesman said Hormuz stays gated until the US meets Tehran's demands. Whether longer-range missiles are already fielded is not independently verified.",
+      "label": "Strongly Globalist",
+      "why": "Iran uses a shared energy lane as leverage over other nations and fuel buyers.",
+      "sources": [
+        {
+          "name": "Iran International",
+          "url": "https://www.iranintl.com/en/202611076051"
+        },
+        {
+          "name": "AP",
+          "url": "https://apnews.com/article/mideast-news-november-7-2026-c26759ac66e6c022a3256adeae40c965"
+        },
+        {
+          "name": "Monitor the Situation",
+          "url": "https://monitor-the-situation.com/brief/2026-11-07"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/9/iran-stands-by-demands-to-end-the-war-as-us-ramps-up-military-pressure"
+        }
+      ],
+      "what_it_means": "Iran is using a shared energy lane as leverage over other nations and fuel buyers.",
+      "economic_impact": "Shipping costs stay high.",
+      "everyday_example": "It's like a neighbor mining the only road and opening the gate on his terms."
+    }
+  ]
+}

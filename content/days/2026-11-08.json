@@ -1,0 +1,141 @@
+{
+  "date": "2026-11-08",
+  "title": "SGS Weekly Recap: Top 5",
+  "tagline": "The week in power: where the world leaned, and why.",
+  "video_credits": [],
+  "discovery_note": "Overall, the week leaned Moderately Globalist.",
+  "stories": [
+    {
+      "rank": 5,
+      "headline": "South Korea budgets to retake wartime command of its own forces",
+      "summary": "South Korea's president asked for a record defense budget so Seoul can retake wartime command of its own forces from the US. The bill also funds nuclear-powered subs and Korea's own fighter.",
+      "label": "Strongly Sovereign",
+      "why": "If war broke out tomorrow, Korean generals would lead Korean troops.",
+      "sources": [
+        {
+          "name": "Yonhap",
+          "url": "https://en.yna.co.kr/view/AEN20261102000953315"
+        },
+        {
+          "name": "KBS",
+          "url": "https://rki.kbs.co.kr/service/news_view.htm?Seq_Code=205274&lang=e"
+        },
+        {
+          "name": "Sedaily",
+          "url": "https://en.sedaily.com/politics/2026/11/02/lee-vows-nuclear-submarine-kf-21-as-defense-budget-rises-82"
+        }
+      ],
+      "what_it_means": "If war broke out tomorrow, Korean generals would lead Korean troops.",
+      "economic_impact": "The bill funds nuclear-powered subs and Korea's own fighter.",
+      "everyday_example": "It's like a grown kid asking for the car keys back and paying for insurance."
+    },
+    {
+      "rank": 4,
+      "headline": "Canada sells sovereignty while courting EU associate status",
+      "summary": "Canada's budget was titled Masters of Our Destiny, while Ottawa pushed to become the EU's first associate member.",
+      "label": "Moderately Globalist",
+      "why": "A sovereignty slogan covers deeper bloc integration.",
+      "sources": [
+        {
+          "name": "Globe and Mail",
+          "url": "https://www.theglobeandmail.com/politics/article-budget-will-focus-on-affordability-cultural-sovereignty-champagne-says/"
+        },
+        {
+          "name": "pm.gc.ca",
+          "url": "https://www.pm.gc.ca/en/news/speeches/2026/10/30/prime-minister-carney-delivers-remarks-conclude-canada-european-union"
+        },
+        {
+          "name": "CBC",
+          "url": "https://www.cbc.ca/news/politics/european-union-canada-associate-member-von-der-leyen-9.7401989"
+        },
+        {
+          "name": "Politico",
+          "url": "https://www.politico.eu/article/mark-carney-puts-deadline-on-eu-associate-membership-push/"
+        }
+      ],
+      "what_it_means": "It sells independence in the title while tying deeper into Brussels rules it does not write.",
+      "economic_impact": "The deficit is still in the tens of billions.",
+      "everyday_example": "It's like wearing an I'm independent jacket while moving back into your parents' house."
+    },
+    {
+      "rank": 3,
+      "headline": "Donroe Doctrine and Cuba sanctions hit outside networks",
+      "summary": "Washington amplified a Donroe Doctrine line across the Americas, then sanctioned Cuban oil networks, tankers, and Chinese military suppliers.",
+      "label": "Moderately Sovereign",
+      "why": "The hemisphere push moved from talk to paperwork.",
+      "sources": [
+        {
+          "name": "NY Post",
+          "url": "https://nypost.com/2026/11/03/us-news/how-trumps-donroe-doctrine-is-taking-back-the-western-hemisphere/"
+        },
+        {
+          "name": "State Department",
+          "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/further-sanctions-on-the-cuban-regimes-foreign-military-support-and-illicit-revenue-networks/"
+        },
+        {
+          "name": "AA",
+          "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-6-2026/4113576"
+        }
+      ],
+      "what_it_means": "The hemisphere push moved from talk to paperwork.",
+      "economic_impact": "Cuban cash channels tighten; ordinary Cubans already face blackouts.",
+      "everyday_example": "It's like a neighborhood watch locking the alley after outside crews stocked a hostile warehouse."
+    },
+    {
+      "rank": 2,
+      "headline": "Trump teases a Europe-wide deal after meeting Putin's envoy",
+      "summary": "After meeting Putin's envoy, Trump teased a big, beautiful deal that might involve all of Europe, not just Ukraine. Terms are still undisclosed.",
+      "label": "Strongly Globalist",
+      "why": "Two capitals floated a security map while Ukraine and most of Europe weren't at that table yet.",
+      "sources": [
+        {
+          "name": "Politico",
+          "url": "https://www.politico.eu/article/donald-trump-europe-ukraine-deal-vladimir-putin-envoy-kirill-dmitriev/"
+        },
+        {
+          "name": "Kyiv Independent",
+          "url": "https://kyivindependent.com/trump-meets-russian-envoy-in-washington-ahead-of-ukraine-peace-talks-claims-big-beautiful-agreement-coming/"
+        },
+        {
+          "name": "Rapid Response 47",
+          "url": "https://x.com/RapidResponse47/status/2118458464758292907"
+        }
+      ],
+      "what_it_means": "Two capitals floated a security map while Ukraine and most of Europe weren't at that table yet.",
+      "economic_impact": "Markets price ceasefire odds and winter energy risk.",
+      "everyday_example": "It's like two landlords redrawing the lease for the whole building."
+    },
+    {
+      "rank": 1,
+      "headline": "Iran treats Hormuz as its private gate all week",
+      "summary": "Iran spent the week treating Hormuz as its private gate: picking favored ships, claiming mine fires on unauthorized routes, and saying the strait stays gated until the US meets its demands. It also said it lifted its missile range limit. Mine and longer-range claims are not independently verified.",
+      "label": "Strongly Globalist",
+      "why": "One government used a shared energy lane as leverage over fuel and food.",
+      "sources": [
+        {
+          "name": "AA",
+          "url": "https://www.aa.com.tr/en/middle-east/iran-exempts-ships-from-india-china-iraq-qatar-from-hormuz-transit-restrictions-lawmaker/4110513"
+        },
+        {
+          "name": "Iran International",
+          "url": "https://www.iranintl.com/en/202611054282"
+        },
+        {
+          "name": "AP",
+          "url": "https://apnews.com/article/mideast-iran-war-hormuz-tankers-a35d13806844d99fda93de0a19de57fa"
+        },
+        {
+          "name": "Iran International",
+          "url": "https://www.iranintl.com/en/202611076051"
+        },
+        {
+          "name": "AP",
+          "url": "https://apnews.com/article/mideast-news-november-7-2026-c26759ac66e6c022a3256adeae40c965"
+        }
+      ],
+      "what_it_means": "One government used a shared energy lane as leverage over fuel and food.",
+      "economic_impact": "Shipping and insurance costs stay high at a gated chokepoint.",
+      "everyday_example": "It's like a neighbor mining the only road to the store."
+    }
+  ]
+}

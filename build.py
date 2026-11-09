@@ -180,7 +180,12 @@ def episode_block(d, r, site):
              f'<a href="{r}{e(d["video"])}">Download the episode</a>.</video>') if d.get("video") else ""
     links = ([f'<a href="{r}{e(d["video"])}" download>Download MP4</a>'] if d.get("video") else []) + \
             ([f'<a href="{r}{e(d["thumbnail"])}">Thumbnail</a>'] if d.get("thumbnail") else [])
-    dl = f'<p class="small muted">{" · ".join(links)}</p>' if links else '<p class="small muted">Video coming soon.</p>'
+    if d.get("video"):
+        dl = f'<p class="small muted">{" · ".join(links)}</p>' if links else ''
+    else:
+        note = 'Text episode — no video for this day.'
+        extra = ([f'<a href="{r}{e(d["thumbnail"])}">Thumbnail</a>'] if d.get("thumbnail") else [])
+        dl = f'<p class="small muted">{note}' + (' · ' + ' · '.join(extra) if extra else '') + '</p>'
     watch = f'<p class="small">{yt_link(site, "Watch the daily Top 5 on YouTube", new_tab=True)}</p>'
     return f"""<div class="episode">
   <div class="player">{video}
@@ -338,7 +343,7 @@ def build(site, days):
   <div class="section-head"><p class="kicker">Today's news</p><h2>SGS Top 5 · {fmt_date(latest['date'])}</h2>
   <p class="muted">{e(latest.get('tagline', ''))}</p></div>
   <div class="latest">
-    <a class="thumb" href="news/{latest['date']}/index.html"><img src="{e(latest.get('thumbnail') or latest.get('poster', ''))}" alt="Daily SGS Top 5 thumbnail for {fmt_date(latest['date'], False)}" loading="lazy"><span class="play">▶ Watch episode</span></a>
+    <a class="thumb" href="news/{latest['date']}/index.html"><img src="{e(latest.get('thumbnail') or latest.get('poster', ''))}" alt="Daily SGS Top 5 thumbnail for {fmt_date(latest['date'], False)}" loading="lazy"><span class="play">{'▶ Watch episode' if latest.get('video') else 'Read episode'}</span></a>
     <div><ol class="toplist">{top}</ol>
     <p><a class="btn" href="news/{latest['date']}/index.html">Read today's countdown →</a> <a class="btn ghost" href="news/index.html">Past days</a></p></div>
   </div></div></section>"""

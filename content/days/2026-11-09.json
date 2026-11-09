@@ -1,0 +1,144 @@
+{
+  "date": "2026-11-09",
+  "title": "Daily SGS Top 5",
+  "tagline": "Five stories, one question: who's in control?",
+  "video_credits": [],
+  "stories": [
+    {
+      "rank": 5,
+      "headline": "Herzog asks Eisenkot to form a government",
+      "summary": "President Herzog tasked Eisenkot with forming Israel's next government. Eisenkot got recommendations from 67 Knesset members vs 46 for Netanyahu; he has 28 days. No coalition locked yet.",
+      "label": "Neutral",
+      "why": "Domestic power fight; no global-control shift yet.",
+      "sources": [
+        {
+          "name": "Jerusalem Post",
+          "url": "https://www.jpost.com/israel-election-2026/article-914236"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/08/gadi-eisenkot-netanyahu-allies-form-israel-government"
+        },
+        {
+          "name": "AA",
+          "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-9/4116449"
+        },
+        {
+          "name": "Xinhua",
+          "url": "https://english.news.cn/20261109/e1d906afa36f4aa7b8e1eed37bad74d3/c.html"
+        }
+      ],
+      "what_it_means": "Israel is sorting who runs the country after a hung vote — a domestic fight, not a global handoff.",
+      "economic_impact": "Markets and aid partners will watch for a stable cabinet vs another election.",
+      "everyday_example": "It's like a co-op board picking a chair with no clear majority.",
+      "image": "media/2026-11-09/bg_5.jpg"
+    },
+    {
+      "rank": 4,
+      "headline": "Houthis strike Riyadh; Aramco tower damaged",
+      "summary": "Iran-backed Houthis launched missiles and drones at the Saudi capital. Debris/strike damage hit an Aramco tower; Saudi side said damage was minor, no deaths.",
+      "label": "Moderately Globalist",
+      "why": "Iran-backed group using a capital and oil offices as leverage.",
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/news/articles/c6ly3mjx958eo"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/8/saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-eastern-province"
+        },
+        {
+          "name": "Al-Monitor",
+          "url": "https://www.al-monitor.com/originals/2026/11/houthi-attack-damages-aramco-building-riyadhs-financial-district"
+        }
+      ],
+      "what_it_means": "A group tied to Tehran is using another country's capital and oil offices as leverage.",
+      "economic_impact": "Insurance and Gulf shipping risk stay elevated; Brent was near about $93 Monday.",
+      "everyday_example": "It's like a gang throwing fireworks at the bank to scare the street.",
+      "image": "media/2026-11-09/bg_4.jpg"
+    },
+    {
+      "rank": 3,
+      "headline": "COP31 climate summit opens in Antalya",
+      "summary": "COP31 opened Monday in Antalya, Türkiye (Nov 9–20). Nearly 200 countries bargaining over energy, farm and finance rules. Nothing binding on day one.",
+      "label": "Strongly Globalist",
+      "why": "Nearly 200 nations bargain energy and finance rules in one UN room.",
+      "sources": [
+        {
+          "name": "UNFCCC",
+          "url": "https://unfccc.int/cop31"
+        },
+        {
+          "name": "UN News",
+          "url": "https://news.un.org/en/story/2026/11/1168763"
+        }
+      ],
+      "what_it_means": "Energy, farm and finance choices for almost 200 nations are bargained again in one UN room.",
+      "economic_impact": "Any finance or fossil language that sticks later can move fuel costs and farm rules worldwide.",
+      "everyday_example": "It's like landlords rewriting everyone's lease in one hall.",
+      "image": "media/2026-11-09/bg_3.jpg"
+    },
+    {
+      "rank": 2,
+      "headline": "Trump: postwar Ukraine will have a different shape",
+      "summary": "Trump told 60 Minutes a Ukraine deal is close and Ukraine will end up with a \"little bit different shape.\" U.S.–Russia–Ukraine talks set for Abu Dhabi Nov 10–11. Deal terms undisclosed.",
+      "label": "Strongly Globalist",
+      "why": "Great powers sketching Ukraine's map before Ukrainians lock terms.",
+      "sources": [
+        {
+          "name": "CBS 60 Minutes",
+          "url": "https://www.cbsnews.com/news/donald-trump-2026-post-midterm-elections-interview-60-minutes-transcript/"
+        },
+        {
+          "name": "Kyiv Independent",
+          "url": "https://kyivindependent.com/ukraine-will-likely-end-up-with-a-little-bit-different-shape-after-war-trump-tells-60-minutes/"
+        },
+        {
+          "name": "Euronews",
+          "url": "https://www.euronews.com/2026/11/09/trump-says-post-war-ukraine-will-have-a-different-shape-ahead-of-abu-dhabi-talks"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/9/no-concession-what-to-expect-from-russia-us-ukraine-talks-in-abu-dhabi"
+        }
+      ],
+      "what_it_means": "Bigger powers are sketching Ukraine's map before Ukrainians agree.",
+      "economic_impact": "Ceasefire odds swing Europe's defense and energy budgets; markets will price whatever Abu Dhabi leaks.",
+      "everyday_example": "It's like two landlords redrawing your walls before you've signed.",
+      "image": "media/2026-11-09/bg_2.jpg"
+    },
+    {
+      "rank": 1,
+      "headline": "Iran destroys Hormuz navigation aids; claims route halted",
+      "summary": "IRGC told Iranian state media navigational aids on Hormuz southern rocks were destroyed and the unauthorized southern route is fully halted. Claims not independently verified. Brent fell about 5% to roughly $93.",
+      "label": "Strongly Globalist",
+      "why": "One government gating a shared energy route.",
+      "sources": [
+        {
+          "name": "Al-Monitor",
+          "url": "https://www.al-monitor.com/originals/2026/11/iran-says-no-unauthorised-vessels-transited-strait-hormuz-overnight-after"
+        },
+        {
+          "name": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-oil-smuggling-through-hormuz-strait-has-been-completely-halted"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/09/oil-falls-as-trump-says-new-iran-attacks-unlikely.html"
+        },
+        {
+          "name": "DW",
+          "url": "https://www.dw.com/en/strait-of-hormuz-still-a-source-of-leverage-for-iran/a-79901647"
+        }
+      ],
+      "what_it_means": "Iran is still treating a shared world energy lane as its private gate.",
+      "economic_impact": "Brent near multi-week lows on peace hopes, but shipping and insurance stay expensive at a gated chokepoint.",
+      "everyday_example": "It's like a neighbor smashing the streetlights on the road to the store.",
+      "image": "media/2026-11-09/bg_1.jpg"
+    }
+  ],
+  "video": "media/2026-11-09/episode.mp4",
+  "poster": "media/2026-11-09/poster.jpg",
+  "thumbnail": "media/2026-11-09/thumbnail.png"
+}

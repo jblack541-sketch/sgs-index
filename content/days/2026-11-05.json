@@ -1,0 +1,150 @@
+{
+  "date": "2026-11-05",
+  "title": "Daily SGS Top 5",
+  "tagline": "Five stories, one question: who's in control?",
+  "video_credits": [],
+  "stories": [
+    {
+      "rank": 5,
+      "headline": "France hit by a nationwide strike over living costs and cuts",
+      "summary": "Unions called a national strike Thursday; 70,000 police deployed. Marches in Marseille, Lyon, Grenoble and Paris. Rail, hospitals, schools, ports and air traffic join.",
+      "label": "Slightly Sovereign",
+      "why": "People pressing their own government from below.",
+      "sources": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/05/protesters-france-march-strikes-education-cost-of-living"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/news/articles/ckx2qzv835pgo"
+        },
+        {
+          "name": "Connexion",
+          "url": "https://www.connexionfrance.com/news/frances-november-5-strikes-cause-widespread-disruption-what-to-know-today/826418"
+        }
+      ],
+      "what_it_means": "French workers and students are pressing their own government over wages, schools and cuts.",
+      "economic_impact": "Trains and ports disrupted; public debt near 120% of output; belt-tightening budget still stuck.",
+      "everyday_example": "It's like the whole apartment building knocking on the landlord's door at once over the rent hike.",
+      "image": "media/2026-11-05/bg_5.jpg"
+    },
+    {
+      "rank": 4,
+      "headline": "China talks up a three-leader meeting at APEC",
+      "summary": "Beijing says it is \"in communication\" on a China–Russia–US heads-of-state meeting at APEC in Shenzhen (Nov 18–19). Not confirmed.",
+      "label": "Moderately Globalist",
+      "why": "Power concentrates in a three-leader room.",
+      "sources": [
+        {
+          "name": "China MFA",
+          "url": "https://www.mfa.gov.cn/eng/xw/fyrbt/lxjzh/202611/t20261104_12053240.html"
+        },
+        {
+          "name": "Xinhua",
+          "url": "https://english.news.cn/20261104/188ac38ab61142a3a45e6d71cafcae53/c.html"
+        },
+        {
+          "name": "CNA",
+          "url": "https://www.channelnewsasia.com/east-asia/china-us-russia-leaders-meeting-apec-6523336"
+        },
+        {
+          "name": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/china-confirms-talks-with-russia-us-on-first-trilateral-meeting"
+        }
+      ],
+      "what_it_means": "Three nuclear powers may sit down to divide influence while China also steers Middle East talks.",
+      "economic_impact": "Brent near about $96 Thursday as diplomacy headlines swing.",
+      "everyday_example": "It's like three big landlords meeting to redraw who collects rent on the block.",
+      "image": "media/2026-11-05/bg_4.jpg"
+    },
+    {
+      "rank": 3,
+      "headline": "Canada sells sovereignty while courting EU associate status",
+      "summary": "Budget titled Masters of Our Destiny. Ottawa pushing to become the EU's first associate member; talks aimed at around June 2027.",
+      "label": "Moderately Globalist",
+      "why": "A sovereignty slogan over deeper bloc integration.",
+      "sources": [
+        {
+          "name": "Globe and Mail",
+          "url": "https://www.theglobeandmail.com/politics/article-budget-will-focus-on-affordability-cultural-sovereignty-champagne-says/"
+        },
+        {
+          "name": "pm.gc.ca",
+          "url": "https://www.pm.gc.ca/en/news/speeches/2026/10/30/prime-minister-carney-delivers-remarks-conclude-canada-european-union"
+        },
+        {
+          "name": "CBC",
+          "url": "https://www.cbc.ca/news/politics/european-union-canada-associate-member-von-der-leyen-9.7401989"
+        },
+        {
+          "name": "Politico",
+          "url": "https://www.politico.eu/article/mark-carney-puts-deadline-on-eu-associate-membership-push/"
+        }
+      ],
+      "what_it_means": "Ottawa sells independence in the title while tying deeper into Brussels rules it doesn't write.",
+      "economic_impact": "Deficit still in the roughly $63–70 billion range; a gas-tax cut was extended.",
+      "everyday_example": "It's like putting \"I'm independent\" on your jacket while moving back into your parents' house for the free fridge.",
+      "image": "media/2026-11-05/bg_3.jpg"
+    },
+    {
+      "rank": 2,
+      "headline": "White House pushes a Donroe Doctrine in the Americas",
+      "summary": "White House amplified a Donroe Doctrine line after the midterms: cartels, Venezuela after Maduro, Greenland defense ties, Cuba pressure, keeping China and other outside powers out.",
+      "label": "Moderately Sovereign",
+      "why": "Hemisphere pushback on outside powers.",
+      "sources": [
+        {
+          "name": "NY Post",
+          "url": "https://nypost.com/2026/11/03/us-news/how-trumps-donroe-doctrine-is-taking-back-the-western-hemisphere/"
+        },
+        {
+          "name": "X trending",
+          "url": "https://x.com/i/trending/2118142597440872803"
+        },
+        {
+          "name": "Cuba Headlines",
+          "url": "https://www.cubaheadlines.com/articles/344746"
+        }
+      ],
+      "what_it_means": "The old Monroe idea is back on the table: this hemisphere is our lane.",
+      "economic_impact": "More US-linked trade and security deals may follow; dollar figures still thin.",
+      "everyday_example": "It's like a neighborhood watch telling outside gangs the block is closed.",
+      "image": "media/2026-11-05/bg_2.jpg"
+    },
+    {
+      "rank": 1,
+      "headline": "Iran mines unauthorized Hormuz routes; tankers catch fire",
+      "summary": "IRGC said two oil tankers and a tugboat caught fire after ships used an unauthorized southern route; one hit a mine. Claims not independently verified. Separately, a tanker was struck by two projectiles off Qatar.",
+      "label": "Strongly Globalist",
+      "why": "One government gating a shared energy route.",
+      "sources": [
+        {
+          "name": "Xinhua",
+          "url": "https://english.news.cn/20261105/91ea9945c5ee43478e5e4b22e1966b61/c.html"
+        },
+        {
+          "name": "Iran International",
+          "url": "https://www.iranintl.com/en/202611054282"
+        },
+        {
+          "name": "AP",
+          "url": "https://apnews.com/article/mideast-iran-war-hormuz-tankers-a35d13806844d99fda93de0a19de57fa"
+        },
+        {
+          "name": "OilPrice",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Reports-More-Tanker-Fires-in-Strait-of-Hormuz.html"
+        },
+        {
+          "name": "AA",
+          "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-5-2026/4112214"
+        }
+      ],
+      "what_it_means": "Iran is treating a shared world energy lane as its private gate.",
+      "economic_impact": "Brent near about $96 Thursday; shipping and insurance costs stay high.",
+      "everyday_example": "It's like a neighbor mining the only road to the grocery store and fining anyone who takes a side path.",
+      "image": "media/2026-11-05/bg_1.jpg"
+    }
+  ],
+  "thumbnail": "media/2026-11-05/thumbnail.png"
+}

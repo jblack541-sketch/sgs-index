@@ -1,0 +1,136 @@
+{
+  "date": "2026-11-06",
+  "title": "Daily SGS Top 5",
+  "tagline": "Five stories, one question: who's in control?",
+  "video_credits": [],
+  "stories": [
+    {
+      "rank": 5,
+      "headline": "Paraguay's president quits after a digital bank freezes millions of savings",
+      "summary": "Paraguay's president quit after a digital bank froze savings for about three million people. Congress refused the resignation so a Senate trial can strip immunity.",
+      "label": "Slightly Sovereign",
+      "why": "People and lawmakers force accountability after a connected lender locked everyday money.",
+      "sources": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/05/paraguay-president-santiago-pena-resigns"
+        },
+        {
+          "name": "ABC",
+          "url": "https://www.abc.net.au/news/2026-11-06/banking-crisis-plunges-paraguay-into-political-disarray/107355316"
+        },
+        {
+          "name": "NBC",
+          "url": "https://www.nbcnews.com/world/south-america/paraguay-president-pen-resigns-mounting-pressure-bank-collapse-rcna607754"
+        }
+      ],
+      "what_it_means": "People and lawmakers are forcing accountability after a connected lender locked everyday money.",
+      "economic_impact": "Families can't pay for food, and bonds fell.",
+      "everyday_example": "It's like the credit union freezing every card after the mayor's friends ran the books."
+    },
+    {
+      "rank": 4,
+      "headline": "Türkiye ratifies a Mecca defense pact with Pakistan and Saudi Arabia",
+      "summary": "Turkish lawmakers ratified the Mecca defense pact with Pakistan and Saudi Arabia. An attack on one counts as an attack on all.",
+      "label": "Moderately Sovereign",
+      "why": "Three regional powers write their own defense rules instead of waiting for NATO or the UN.",
+      "sources": [
+        {
+          "name": "AA",
+          "url": "https://www.aa.com.tr/en/politics/turkish-parliament-approves-mecca-joint-defense-pact-with-pakistan-and-saudi-arabia/4113522"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/6/turkiyes-parliament-ratifies-mecca-defence-agreement"
+        },
+        {
+          "name": "Türkiye Today",
+          "url": "https://www.turkiyetoday.com/nation/turkish-parliament-approves-mecca-defense-pact-with-pakistan-and-saudi-arabia-3231816"
+        },
+        {
+          "name": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/news/turkey-moves-closer-saudi-troop-deployment-parliament-approves-mecca-defence-pact"
+        }
+      ],
+      "what_it_means": "Three regional powers are writing their own defense rules instead of waiting for NATO or the UN.",
+      "economic_impact": "Arms and logistics ties may deepen.",
+      "everyday_example": "It's like three neighbors signing a shared alarm instead of calling a distant HOA."
+    },
+    {
+      "rank": 3,
+      "headline": "Putin meets Iran's security chief on \"no foreign\" Gulf security",
+      "summary": "At the Kremlin, Putin met Iran's security chief, who brought a message from Iran's supreme leader. Talks covered Gulf security with no outside countries, and a Russia-to-Iran gas pipeline.",
+      "label": "Moderately Globalist",
+      "why": "Moscow and Tehran sketch who runs Gulf security after the fighting.",
+      "sources": [
+        {
+          "name": "Kremlin",
+          "url": "http://en.kremlin.ru/events/president/news/81187"
+        },
+        {
+          "name": "Iran International",
+          "url": "https://www.iranintl.com/en/202611054901"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/6/irans-security-chief-meets-putin-delivers-message-from-khamenei"
+        },
+        {
+          "name": "AA",
+          "url": "https://www.aa.com.tr/en/world/putin-receives-iran-s-supreme-national-security-council-secretary-rezaei-at-kremlin/4113258"
+        }
+      ],
+      "what_it_means": "Moscow and Tehran are sketching who runs Gulf security after the fighting.",
+      "economic_impact": "A gas link would deepen energy dependency.",
+      "everyday_example": "It's like two landlords redrawing the rules while tenants aren't in the room."
+    },
+    {
+      "rank": 2,
+      "headline": "US sanctions hit Cuban oil networks, tankers and Chinese suppliers",
+      "summary": "The State Department sanctioned Cuban oil networks, tankers, and Chinese firms tied to military parts shipped through Cuba.",
+      "label": "Moderately Sovereign",
+      "why": "Washington turns Donroe talk into paperwork in America's near abroad.",
+      "sources": [
+        {
+          "name": "State Department",
+          "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/further-sanctions-on-the-cuban-regimes-foreign-military-support-and-illicit-revenue-networks/"
+        },
+        {
+          "name": "AA",
+          "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-6-2026/4113576"
+        },
+        {
+          "name": "X trending",
+          "url": "https://x.com/i/trending/2118461967304138771"
+        }
+      ],
+      "what_it_means": "Washington is turning Donroe talk into paperwork in America's near abroad.",
+      "economic_impact": "Cuban tankers lose US access while ordinary Cubans already face blackouts.",
+      "everyday_example": "It's like a neighborhood watch locking the alley after outside crews stocked a hostile warehouse."
+    },
+    {
+      "rank": 1,
+      "headline": "Trump teases a Europe-wide deal after meeting Putin's envoy",
+      "summary": "After meeting Putin's envoy, Trump teased a big, beautiful deal that might involve all of Europe, not just Ukraine. Deal terms are still undisclosed.",
+      "label": "Strongly Globalist",
+      "why": "Two capitals float a security map while Ukraine and most of Europe aren't at that table yet.",
+      "sources": [
+        {
+          "name": "Politico",
+          "url": "https://www.politico.eu/article/donald-trump-europe-ukraine-deal-vladimir-putin-envoy-kirill-dmitriev/"
+        },
+        {
+          "name": "Kyiv Independent",
+          "url": "https://kyivindependent.com/trump-meets-russian-envoy-in-washington-ahead-of-ukraine-peace-talks-claims-big-beautiful-agreement-coming/"
+        },
+        {
+          "name": "Rapid Response 47",
+          "url": "https://x.com/RapidResponse47/status/2118458464758292907"
+        }
+      ],
+      "what_it_means": "Two capitals are floating a security map while Ukraine and most of Europe aren't at that table yet.",
+      "economic_impact": "Markets will price ceasefire odds and winter energy risk.",
+      "everyday_example": "It's like two landlords redrawing the lease for the whole building."
+    }
+  ]
+}
