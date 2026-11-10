@@ -1,0 +1,168 @@
+{
+  "date": "2026-11-10",
+  "title": "Daily SGS Top 5",
+  "tagline": "Five stories, one question: who's in control?",
+  "video_credits": [],
+  "stories": [
+    {
+      "rank": 5,
+      "headline": "Nigeria asks World Bank for a $500M loan",
+      "summary": "Nigeria asked the World Bank for a $500M loan to launch INFRAGROW. Approval is set for May 2027, adding to debt near $121B.",
+      "label": "Moderately Globalist",
+      "why": "More of Nigeria's building plans would run on a lender's terms.",
+      "sources": [
+        {
+          "name": "World Bank",
+          "url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099110426093025742"
+        },
+        {
+          "name": "Punch",
+          "url": "https://punchng.com/fg-seeks-fresh-500m-world-bank-loan/"
+        },
+        {
+          "name": "Daily Trust",
+          "url": "https://dailytrust.com/fg-eyes-fresh-500m-world-bank-loan/"
+        },
+        {
+          "name": "Nairametrics",
+          "url": "https://nairametrics.com/2026/11/09/infragrow-why-investors-should-care-about-fgs-500-million-world-bank-loan/"
+        }
+      ],
+      "what_it_means": "Nigeria's building plans would run on a lender's terms.",
+      "economic_impact": "The loan would add to public debt already about $121B; repayment falls on future taxpayers.",
+      "everyday_example": "It's like putting a new roof on a credit card where the bank picks the contractor.",
+      "image": "media/2026-11-10/bg_5.jpg"
+    },
+    {
+      "rank": 4,
+      "headline": "US skips its UN human rights review again",
+      "summary": "The US is skipping its UN human rights review in Geneva for the second year, the first country to skip it completely.",
+      "label": "Slightly Sovereign",
+      "why": "Washington will not let a UN panel grade it.",
+      "sources": [
+        {
+          "name": "OHCHR",
+          "url": "https://www.ohchr.org/en/hr-bodies/upr/us-index"
+        },
+        {
+          "name": "Human Rights Watch",
+          "url": "https://www.hrw.org/news/2026/11/06/civil-society-call-for-scrutiny-of-united-states-rights-record"
+        },
+        {
+          "name": "AP",
+          "url": "https://apnews.com/article/human-rights-council-united-states-7bca68b35c6d4a4c6a414289605c8322"
+        },
+        {
+          "name": "USA Today",
+          "url": "https://www.usatoday.com/story/news/politics/2026/11/10/us-to-skip-un-human-rights-review/92703393007/"
+        },
+        {
+          "name": "Dawn",
+          "url": "https://www.dawn.com/news/2043433/outrage-as-us-set-to-snub-un-rights-review-again"
+        }
+      ],
+      "what_it_means": "Washington will not let a UN panel grade it.",
+      "economic_impact": "Little market effect, but it signals a wider walk away from UN bodies.",
+      "everyday_example": "It's like a homeowner who quit the HOA turning away its inspector.",
+      "image": "media/2026-11-10/bg_4.jpg"
+    },
+    {
+      "rank": 3,
+      "headline": "Novaya Gazeta shuts its Moscow office",
+      "summary": "Novaya Gazeta, Russia's last big independent paper, closed its Moscow office after a foreign-agent label, blocked donations, and an editor's arrest.",
+      "label": "Strongly Globalist",
+      "why": "The state shut the last big newsroom that questioned it.",
+      "sources": [
+        {
+          "name": "Novaya Gazeta",
+          "url": "https://novayagazeta.ru/articles/2026/10/30/we-have-been-killed"
+        },
+        {
+          "name": "Novaya Gazeta Europe",
+          "url": "https://novayagazeta.eu/en/articles/2026/11/09/this-isnt-goodbye-novaya-gazetas-staff-walk-out-of-its-moscow-office-for-the-last-time-en-news"
+        },
+        {
+          "name": "Meduza",
+          "url": "https://meduza.io/en/feature/2026/11/10/novaya-gazeta-closes-after-33-years-under-state-pressure-as-staff-take-down-portraits-of-six-murdered-colleagues-and-leave-their-moscow-office-to-cries-of-thank-you"
+        },
+        {
+          "name": "AP",
+          "url": "https://apnews.com/article/russian-newspaper-media-novaya-gazeta-closure-01cca444cb9636ee74a57979b0dcd604"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/9/russian-investigative-newspaper-novaya-gazeta-closes-citing-govt-clampdown"
+        }
+      ],
+      "what_it_means": "The state shut the newsroom that questioned it at home.",
+      "economic_impact": "Readers lose a free source as those donations dry up.",
+      "everyday_example": "It's like the town paper getting locked out after the mayor froze its tip jar.",
+      "image": "media/2026-11-10/bg_3.jpg"
+    },
+    {
+      "rank": 2,
+      "headline": "Iran and Qatar float a Hormuz reopening plan",
+      "summary": "Iran's leader ordered an end to the standoff, and Qatar brought a plan to reopen Hormuz. The US would lift a blockade and free part of $8B if Hormuz reopens with Oman for tankers. Iran denies any swap, and a deal is not close.",
+      "label": "Moderately Globalist",
+      "why": "Tehran still wants to decide who sails the strait.",
+      "sources": [
+        {
+          "name": "Tasnim",
+          "url": "https://www.tasnimnews.ir/en/news/2026/11/09/3744367/leader-has-ordered-end-to-no-war-no-peace-situation-iranian-president-says"
+        },
+        {
+          "name": "Jarayid",
+          "url": "https://jarayid.com/en/world-news/2049706/iran-denies-hormuz-swap"
+        },
+        {
+          "name": "Firstpost",
+          "url": "https://www.firstpost.com/world/pezeshkian-says-mojtaba-khamenei-wants-end-to-irans-neither-war-nor-peace-with-us-leaves-door-open-for-talks-14058844.html"
+        },
+        {
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/world/trump-meets-key-iran-war-mediator-uae-reveals-major-oil-export-surge-despite-conflict"
+        }
+      ],
+      "what_it_means": "Tehran still wants to decide who sails the strait.",
+      "economic_impact": "Shipping and fuel costs stay high; about a fifth of the world's oil used to pass Hormuz.",
+      "everyday_example": "It's like a neighbor offering to reopen the only road if he sets the toll lane.",
+      "image": "media/2026-11-10/bg_2.jpg"
+    },
+    {
+      "rank": 1,
+      "headline": "US floats redrawing Ukraine's map",
+      "summary": "Abu Dhabi talks opened; the US floated redrawing Ukraine's map so Moscow can claim the Donbas on paper while Ukraine keeps Sloviansk and Kramatorsk. Zelensky refuses to give up land.",
+      "label": "Strongly Globalist",
+      "why": "Outside powers are sketching a nation's borders.",
+      "sources": [
+        {
+          "name": "New Voice of Ukraine",
+          "url": "https://english.nv.ua/nation/u-s-team-crafts-map-shift-so-putin-can-claim-donbas-win-50657911.html"
+        },
+        {
+          "name": "LIGA",
+          "url": "https://news.liga.net/en/war/news/the-economist-us-proposes-redrawing-ukraines-regional-borders-for-the-sake-of-peace"
+        },
+        {
+          "name": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/02/u-s-proposes-resuming-russian-gas-sales-to-europe-through-american-intermediary-but-european-officials-firmly-reject-idea-wsj-reports"
+        },
+        {
+          "name": "Euronews",
+          "url": "https://www.euronews.com/2026/11/10/ukraine-and-russia-reportedly-show-a-little-bit-of-flexibility-on-territory-as-abu-dhabi-t"
+        },
+        {
+          "name": "AP",
+          "url": "https://apnews.com/article/russia-ukraine-war-putin-zelenskyy-uae-3d878a3e56d5df5bd198a6d20c824d18"
+        }
+      ],
+      "what_it_means": "Outside powers are sketching a nation's borders.",
+      "economic_impact": "Europe rejected a plan to bring Russian gas back, which would ease the squeeze but rebuild dependence.",
+      "everyday_example": "It's like two neighbors redrawing your property line so one of them can say he won.",
+      "image": "media/2026-11-10/bg_1.jpg"
+    }
+  ],
+  "video": "media/2026-11-10/episode.mp4",
+  "poster": "media/2026-11-10/poster.jpg",
+  "thumbnail": "media/2026-11-10/thumbnail.png"
+}
