@@ -1,0 +1,156 @@
+{
+  "date": "2026-11-12",
+  "title": "Daily SGS Top 5",
+  "tagline": "Five stories, one question: who's in control?",
+  "video_credits": [],
+  "stories": [
+    {
+      "rank": 5,
+      "headline": "India cancels a Norwegian journalist's visa hours before her flight",
+      "summary": "Hours before a flight to Hyderabad, India cancelled a Norwegian journalist's visa. The reporter, Helle Lyng, had asked Modi why he won't take press questions.",
+      "label": "Slightly Globalist",
+      "why": "A reporter who asked a hard question gets shut out.",
+      "sources": [
+        {
+          "name": "The Wire",
+          "url": "https://thewire.in/media/indian-visa-of-norwegian-journalist-who-questioned-pm-modi-cancelled-just-hours-before-her-flight"
+        },
+        {
+          "name": "The News Minute",
+          "url": "https://www.thenewsminute.com/news/norwegian-journalist-helle-lyng-says-stopped-from-traveling-to-hyderabad-on-mha-orders"
+        },
+        {
+          "name": "Nettavisen",
+          "url": "https://www.nettavisen.no/nyheter/nektet-innreise-til-india-modi-er-hevngjerrig/s/80-95-241499"
+        },
+        {
+          "name": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/norwegian-journalist-helle-lyng-says-she-has-been-stopped-from-coming-to-hyderabad-for-bharat-summit/article71691222.ece"
+        }
+      ],
+      "what_it_means": "A reporter who asked a hard question gets shut out.",
+      "economic_impact": "That dents India's business pitch.",
+      "everyday_example": "It's like being uninvited after an awkward question.",
+      "image": "media/2026-11-12/bg_5.jpg"
+    },
+    {
+      "rank": 4,
+      "headline": "The UN gives Iran a seat on a committee that reviews human rights programs",
+      "summary": "In a secret ballot, the UN gave Iran a three-year seat on the committee that reviews human rights programs.",
+      "label": "Moderately Globalist",
+      "why": "A government that crushes protests helps steer that work.",
+      "sources": [
+        {
+          "name": "UN Press",
+          "url": "https://press.un.org/en/2026/ga12808.doc.htm"
+        },
+        {
+          "name": "Iran International",
+          "url": "https://www.iranintl.com/en/202611114724"
+        },
+        {
+          "name": "JNS",
+          "url": "https://www.jns.org/news/world/house-republicans-condemn-irans-re-election-to-un-committee"
+        },
+        {
+          "name": "Jerusalem Post",
+          "url": "https://www.jpost.com/international/article-914618"
+        }
+      ],
+      "what_it_means": "A government that crushes protests helps steer that work.",
+      "economic_impact": "It adds to US doubts about funding UN programs.",
+      "everyday_example": "It's like putting the school bully on the anti-bullying committee.",
+      "image": "media/2026-11-12/bg_4.jpg"
+    },
+    {
+      "rank": 3,
+      "headline": "Congo's president signs a referendum law critics call a path to a third term",
+      "summary": "Congo's president signed a referendum law that critics call a path to a third term. Congo's President Tshisekedi says he isn't seeking one, but would accept it.",
+      "label": "Moderately Globalist",
+      "why": "Term limits just got easier to change.",
+      "sources": [
+        {
+          "name": "Echo.cd",
+          "url": "https://echo.cd/rdc-felix-tshisekedi-promulgue-la-loi-fixant-les-conditions-d-organisation-du-referendum__5293"
+        },
+        {
+          "name": "Africanews",
+          "url": "https://www.africanews.com/2026/11/11/dr-congo-tshisekedi-signs-new-referendum-law-amid-third-term-fears/"
+        },
+        {
+          "name": "CNBC Africa",
+          "url": "https://www.cnbcafrica.com/2026/congolese-president-signs-contested-referendum-law-amid-fears-over-third-term-bid"
+        }
+      ],
+      "what_it_means": "Term limits just got easier to change.",
+      "economic_impact": "Congo's cobalt mines already have investors nervous.",
+      "everyday_example": "It's like a club president changing the bylaws so he can keep running.",
+      "image": "media/2026-11-12/bg_3.jpg"
+    },
+    {
+      "rank": 2,
+      "headline": "Poland's president must decide on a law letting officials block online posts",
+      "summary": "Poland's President Nawrocki must decide by Friday on a law that puts an EU speech rule into Polish law. Officials, not judges, would order those posts blocked first.",
+      "label": "Moderately Globalist",
+      "why": "Officials would decide first which posts come down.",
+      "sources": [
+        {
+          "name": "Portal Samorzadowy",
+          "url": "https://www.portalsamorzadowy.pl/smart-city/hejt-i-grozby-maja-zniknac-z-internetu-prezydent-musi-podjac-decyzje,684082.html"
+        },
+        {
+          "name": "Gazeta",
+          "url": "https://next.gazeta.pl/next/7,151243,33123523,ai-i-gloryfikacja-mordercy-z-krakowa-panstwo-jest-bezradne.html"
+        },
+        {
+          "name": "Wprost",
+          "url": "https://www.wprost.pl/kraj/12467406/tusk-i-nawrocki-w-sporze-o-blokowanie-tresci-nowa-ustawa-po-atakach-w-szkolach.html"
+        },
+        {
+          "name": "Rzeczpospolita",
+          "url": "https://www.rp.pl/polityka/art45471861-po-zamachu-w-krakowie-tusk-zapowiada-zmiany-wydal-pilne-polecenie-ministrom"
+        }
+      ],
+      "what_it_means": "Officials would decide first which posts come down.",
+      "economic_impact": "Platforms face more costs and heavy fines.",
+      "everyday_example": "It's like a landlord taking down your hallway notes first.",
+      "image": "media/2026-11-12/bg_2.jpg"
+    },
+    {
+      "rank": 1,
+      "headline": "Germany's Merz ties the next EU budget to every country paying for Ukraine",
+      "summary": "Germany's Merz tied the next EU budget to every country paying for Ukraine. The bloc's share is about 45 billion euros in new joint debt.",
+      "label": "Strongly Globalist",
+      "why": "Smaller countries must pay, or risk their budget and maybe their veto.",
+      "sources": [
+        {
+          "name": "Rapporteur",
+          "url": "https://www.rapporteur.com/news/merz-ties-eu-budget-deal-to-new-ukraine-loans/"
+        },
+        {
+          "name": "Kyiv Independent",
+          "url": "https://kyivindependent.com/germanys-merz-complains-about-unfair-burden-sharing-calls-eu-to-prioritize-new-ukraine-loan/"
+        },
+        {
+          "name": "Politico",
+          "url": "https://www.politico.eu/article/merz-clashes-with-fico-over-german-bid-to-link-eu-budget-and-ukraine-loan/"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/10/friedrich-merz-accused-blackmail-ukraine-aid-eu-budget"
+        },
+        {
+          "name": "Euronews",
+          "url": "https://www.euronews.com/2026/11/10/costa-seeks-to-reassure-merz-after-eu-budget-ultimatum"
+        }
+      ],
+      "what_it_means": "Smaller countries must pay, or risk their budget and maybe their veto.",
+      "economic_impact": "This shared borrowing would raise costs for every member.",
+      "everyday_example": "It's like a roommate holding the lease until everyone chips in.",
+      "image": "media/2026-11-12/bg_1.jpg"
+    }
+  ],
+  "video": "media/2026-11-12/episode.mp4",
+  "poster": "media/2026-11-12/poster.jpg",
+  "thumbnail": "media/2026-11-12/thumbnail.png"
+}
