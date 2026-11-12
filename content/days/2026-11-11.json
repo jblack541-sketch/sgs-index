@@ -1,0 +1,160 @@
+{
+  "date": "2026-11-11",
+  "title": "Daily SGS Top 5",
+  "tagline": "Five stories, one question: who's in control?",
+  "video_credits": [],
+  "stories": [
+    {
+      "rank": 5,
+      "headline": "Scotland's parliament votes to take broadcasting from London",
+      "summary": "Scotland's parliament voted 70-48 to take broadcasting from London after BBC cuts. The vote is only a request for now.",
+      "label": "Slightly Sovereign",
+      "why": "Scotland wants its news decided at home.",
+      "sources": [
+        {
+          "name": "Scottish Parliament",
+          "url": "https://www.parliament.scot/chamber-and-committees/votes-and-motions/votes-and-motions-search/S7M-01962"
+        },
+        {
+          "name": "The National",
+          "url": "https://www.thenational.scot/news/26719054.scottish-parliament-votes-devolve-broadcast-bbc-scotland-cuts/"
+        },
+        {
+          "name": "Holyrood",
+          "url": "https://www.holyrood.com/news/view,mairi-mcallan-bbc-scotland-being-hollowed-out-by-cuts"
+        }
+      ],
+      "what_it_means": "Scotland wants its news decided at home.",
+      "economic_impact": "License fees raised there would stay in Scotland.",
+      "everyday_example": "It's like a town asking to run its own paper after cuts.",
+      "image": "media/2026-11-11/bg_5.jpg"
+    },
+    {
+      "rank": 4,
+      "headline": "Bangladesh refuses ousted leader Hasina a passport",
+      "summary": "Bangladesh refused a passport to ousted leader Hasina, in exile in India. She asked to come home for a December retrial; Dhaka wants India to hand her over.",
+      "label": "Slightly Globalist",
+      "why": "The state is keeping the door shut.",
+      "sources": [
+        {
+          "name": "TBS",
+          "url": "https://www.tbsnews.net/bangladesh/court/no-passport-hasina-convicted-fugitive-death-sentence-be-enforced-upon-return"
+        },
+        {
+          "name": "Daily Star",
+          "url": "https://www.thedailystar.net/news/bangladesh/news/laws-dont-allow-hasina-have-passport-4320761"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/10/what-is-hasinas-game-plan-as-she-seeks-passport-to-return-to-bangladesh"
+        },
+        {
+          "name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/bangladesh-ex-pm-sheikh-hasina-has-no-option-but-to-face-death-sentence-if-she-returns-says-ict-chief-prosecutor-aminul-islam-101794302189796.html"
+        }
+      ],
+      "what_it_means": "The state is keeping the door shut.",
+      "economic_impact": "Street unrest is hurting the garment export economy.",
+      "everyday_example": "It's like a court saying you can come home, then refusing the bus ticket.",
+      "image": "media/2026-11-11/bg_4.jpg"
+    },
+    {
+      "rank": 3,
+      "headline": "Iran's threats push Treasury chief Bessent onto a military base",
+      "summary": "Treasury chief Bessent moved to a military base after Iranian threats. He runs the sanctions on Iran; Rubio and Hegseth are also in protected housing.",
+      "label": "Moderately Globalist",
+      "why": "A foreign government is trying to scare US officials out of their policy.",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/11/us-treasury-chief-bessent-moved-to-military-base-after-iranian-threats"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/3fec1b0a85a0/world/middle-east/us-treasury-chief-bessent-moved-military-base-after-iranian-threats-nyt-reports-2026-11-11/"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/nov/11/us-treasury-chief-scott-bessent-moves-military-base-iran-threats"
+        },
+        {
+          "name": "USA Today",
+          "url": "https://www.usatoday.com/story/news/politics/2026/11/10/scott-bessent-moved-to-military-base-after-iranian-death-threats/92719256007/"
+        }
+      ],
+      "what_it_means": "A foreign government is trying to scare US officials out of their policy.",
+      "economic_impact": "Oil and shipping risk stay high.",
+      "everyday_example": "It's like a neighbor threatening the person who reported him, so he moves in with the police.",
+      "image": "media/2026-11-11/bg_3.jpg"
+    },
+    {
+      "rank": 2,
+      "headline": "UK regulator Ofcom seeks arrest warrants for Americans",
+      "summary": "Ofcom said it will seek arrest warrants for Americans who ignore its online speech law. Fines can reach 10% of global revenue; nearly 200 Americans already got letters.",
+      "label": "Strongly Globalist",
+      "why": "A foreign censor wants to police what Americans post at home.",
+      "sources": [
+        {
+          "name": "Instapundit",
+          "url": "https://instapundit.com/835259/"
+        },
+        {
+          "name": "Sayer Ji",
+          "url": "https://read.sayerji.com/p/arrested-over-bunny-ears-britains"
+        },
+        {
+          "name": "Preston Byrne",
+          "url": "https://prestonjbyrne.substack.com/p/the-2025-us-counter-offensive-against"
+        },
+        {
+          "name": "CourtListener",
+          "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.284218/gov.uscourts.dcd.284218.3.1.pdf"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/news/articles/clyjq40vjl7o"
+        }
+      ],
+      "what_it_means": "A foreign censor wants to police what Americans post at home.",
+      "economic_impact": "Small sites may block UK users and lose British readers.",
+      "everyday_example": "It's like a neighbor's HOA fining you for what you say at home.",
+      "image": "media/2026-11-11/bg_2.jpg"
+    },
+    {
+      "rank": 1,
+      "headline": "UK and EU finish a draft food deal that takes EU rules automatically",
+      "summary": "The UK and EU finished a draft food deal that has Britain follow EU food rules automatically. Most checks go away, but Britain takes the rules with no vote, and the EU court gets the final say.",
+      "label": "Strongly Globalist",
+      "why": "Britain gets easier trade, but Brussels writes its food laws.",
+      "sources": [
+        {
+          "name": "British Agriculture Bureau",
+          "url": "https://www.britishagriculturebureau.co.uk/updates-and-information/eu-uk-summit-to-take-place-in-brussels-on-20-november/"
+        },
+        {
+          "name": "Food Safety",
+          "url": "https://www.food-safety.com/articles/12000-ukeu-sps-agreement-implications-for-food-safety-regulations-trade-and-compliance"
+        },
+        {
+          "name": "Fishing News",
+          "url": "https://fishingnews.co.uk/news/sps-deal-agreed-uk-eu-summit-fisheries-concerns/"
+        },
+        {
+          "name": "The Grocer",
+          "url": "https://www.thegrocer.co.uk/news/food-and-drink-deal-with-eu-agreed-ahead-of-key-20-november-summit/725499.article"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cmp3grwre9xdo"
+        }
+      ],
+      "what_it_means": "Britain gets easier trade, but Brussels writes its food laws.",
+      "economic_impact": "Exporters save paperwork; importers warn of heavy extra costs.",
+      "everyday_example": "It's like getting a faster lane at the store if you let the store rewrite your grocery list.",
+      "image": "media/2026-11-11/bg_1.jpg"
+    }
+  ],
+  "video": "media/2026-11-11/episode.mp4",
+  "poster": "media/2026-11-11/poster.jpg",
+  "thumbnail": "media/2026-11-11/thumbnail.png"
+}
