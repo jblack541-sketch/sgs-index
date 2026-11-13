@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-13",
+  "title": "Daily SGS Top 5",
+  "tagline": "Five stories, one question: who's in control?",
+  "video_credits": [],
+  "stories": [
+    {
+      "rank": 5,
+      "headline": "EU drops its hate-speech crime plan",
+      "summary": "The EU is dropping its plan to make hate speech an EU-wide crime. It never got all 27 nations to agree.",
+      "label": "Slightly Sovereign",
+      "why": "Each country keeps its own speech laws.",
+      "sources": [
+        {
+          "name": "EUR-Lex"
+        },
+        {
+          "name": "Brussels Signal"
+        },
+        {
+          "name": "WNG"
+        }
+      ],
+      "what_it_means": "Each country keeps its own speech laws, for now.",
+      "economic_impact": "Platforms avoid one more EU rulebook.",
+      "everyday_example": "It's like a neighborhood board dropping a porch rule, then writing a new mailbox rule.",
+      "image": "media/2026-11-13/bg_5.jpg"
+    },
+    {
+      "rank": 4,
+      "headline": "Ottawa won't appeal Alberta's court win",
+      "summary": "Canada's government will not appeal Alberta's court win over the federal project-review law. Officials in Ottawa will rewrite the law instead, with no timeline yet.",
+      "label": "Moderately Sovereign",
+      "why": "Provinces get more say over projects.",
+      "sources": [
+        {
+          "name": "The Hub"
+        },
+        {
+          "name": "National Observer"
+        },
+        {
+          "name": "The Deep Dive"
+        }
+      ],
+      "what_it_means": "Provinces get more say over their own mines and pipelines.",
+      "economic_impact": "Investors still wait for the new rules.",
+      "everyday_example": "It's like a landlord who can't veto your kitchen.",
+      "image": "media/2026-11-13/bg_4.jpg"
+    },
+    {
+      "rank": 3,
+      "headline": "Nvidia CEO Huang resigns",
+      "summary": "Nvidia CEO Jensen Huang resigned after admitting an affair. Finance chief Colette Kress is now interim CEO. Reports of a spy link are unconfirmed; China denies them, and the board sees no sign secrets were taken.",
+      "label": "Neutral",
+      "why": "The spy-link reports are unconfirmed.",
+      "sources": [
+        {
+          "name": "Nvidia"
+        },
+        {
+          "name": "SEC"
+        },
+        {
+          "name": "BBC"
+        }
+      ],
+      "what_it_means": "The spy claim is still unproven.",
+      "economic_impact": "Shares fell about 4%.",
+      "everyday_example": "It's like a star coach quitting on an unproven scout report.",
+      "image": "media/2026-11-13/bg_3.jpg"
+    },
+    {
+      "rank": 2,
+      "headline": "UK teen app ban could hit 150 apps",
+      "summary": "The UK's under-16 social media ban could grow to 150 apps. That includes YouTube Kids, Spotify and eBay.",
+      "label": "Moderately Globalist",
+      "why": "The government, not parents, picks the apps.",
+      "sources": [
+        {
+          "name": "Commons Library"
+        },
+        {
+          "name": "MLex"
+        },
+        {
+          "name": "BBC"
+        }
+      ],
+      "what_it_means": "The government, not parents, picks the apps, and everyone may face age checks.",
+      "economic_impact": "Platforms face new costs.",
+      "everyday_example": "It's like banning kids from the whole mall because one store sells something bad.",
+      "image": "media/2026-11-13/bg_2.jpg"
+    },
+    {
+      "rank": 1,
+      "headline": "Australia bill lets a regulator grab data",
+      "summary": "Australia's online safety bill would let a regulator collect political and religious data without consent, and share it with Ofcom and other overseas agencies.",
+      "label": "Strongly Globalist",
+      "why": "One official gets wide power to watch users.",
+      "sources": [
+        {
+          "name": "ParlInfo"
+        },
+        {
+          "name": "IPA"
+        },
+        {
+          "name": "eSafety"
+        }
+      ],
+      "what_it_means": "One unelected official gets wide power to watch users.",
+      "economic_impact": "Huge fines push platforms to take down too many posts.",
+      "everyday_example": "It's like the hall monitor mailing out everyone's diary.",
+      "image": "media/2026-11-13/bg_1.jpg"
+    }
+  ],
+  "video": "media/2026-11-13/episode.mp4",
+  "poster": "media/2026-11-13/poster.jpg",
+  "thumbnail": "media/2026-11-13/thumbnail.png"
+}
