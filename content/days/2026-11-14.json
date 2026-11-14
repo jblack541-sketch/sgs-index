@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-14",
+  "title": "Daily SGS Top 5",
+  "tagline": "Five stories, one question: who's in control?",
+  "video_credits": [],
+  "stories": [
+    {
+      "rank": 5,
+      "headline": "DOJ tells agencies to use English only",
+      "summary": "A Justice Department memo tells federal agencies to run official business, forms and websites in English. Other languages stay only for health, courts and emergencies.",
+      "label": "Neutral",
+      "why": "It changes how agencies talk, not who holds power.",
+      "sources": [
+        {
+          "name": "ImmigrationProf"
+        },
+        {
+          "name": "Epoch Times"
+        },
+        {
+          "name": "Right Line News"
+        }
+      ],
+      "what_it_means": "People who don't read English get less help from the government.",
+      "economic_impact": "Agencies spend less on translation.",
+      "everyday_example": "It's like a school sending every note home in English only.",
+      "image": "media/2026-11-14/bg_5.jpg"
+    },
+    {
+      "rank": 4,
+      "headline": "Islamabad city offices go cashless",
+      "summary": "City offices in Islamabad will stop taking cash after November 30. Merchants are meant to go digital by December 31.",
+      "label": "Moderately Globalist",
+      "why": "People lose the choice to pay the city in cash.",
+      "sources": [
+        {
+          "name": "Independent Pakistan"
+        },
+        {
+          "name": "Minute Mirror"
+        },
+        {
+          "name": "The Opinion"
+        }
+      ],
+      "what_it_means": "To pay the city, people must use a bank or an app, so every payment can be tracked.",
+      "economic_impact": "Cash-only vendors get squeezed.",
+      "everyday_example": "It's like your town hall refusing a twenty-dollar bill.",
+      "image": "media/2026-11-14/bg_4.jpg"
+    },
+    {
+      "rank": 3,
+      "headline": "Poland vetoes the EU content law again",
+      "summary": "Poland's president vetoed the EU online-content law a second time. It would have let officials order fast takedowns and block whole websites. He said courts, not officials, should decide.",
+      "label": "Moderately Sovereign",
+      "why": "Courts, not officials, still decide on speech.",
+      "sources": [
+        {
+          "name": "Hungarian Conservative"
+        },
+        {
+          "name": "Do Rzeczy"
+        },
+        {
+          "name": "Niezależna"
+        }
+      ],
+      "what_it_means": "A judge still decides what speech gets pulled down.",
+      "economic_impact": "Poland may face pressure from Brussels over the veto.",
+      "everyday_example": "It's like refusing a takedown without a judge.",
+      "image": "media/2026-11-14/bg_3.jpg"
+    },
+    {
+      "rank": 2,
+      "headline": "US held $12 billion of Venezuela's oil money",
+      "summary": "A US report says Washington took in more than twelve billion dollars from Venezuelan oil. Spending needs US approval. A claim that a Vitol trader got a no-bid license over political ties is unproven.",
+      "label": "Moderately Globalist",
+      "why": "One country is approving another's oil money.",
+      "sources": [
+        {
+          "name": "OilPrice"
+        },
+        {
+          "name": "The Deep Dive"
+        },
+        {
+          "name": "GSM Global"
+        }
+      ],
+      "what_it_means": "Venezuela can't spend its oil money freely.",
+      "economic_impact": "Venezuela can't spend its oil money freely.",
+      "everyday_example": "It's like a neighbor holding your paycheck.",
+      "image": "media/2026-11-14/bg_2.jpg"
+    },
+    {
+      "rank": 1,
+      "headline": "Iran threatens Hormuz shipping and cables",
+      "summary": "The US accused Iran of firing on ships in the Strait of Hormuz and of wider threats. It blamed US and Israeli strikes, and warned it could cut internet cables, but those are only threats so far.",
+      "label": "Strongly Globalist",
+      "why": "A state is gating a shared sea lane.",
+      "sources": [
+        {
+          "name": "The Insight International"
+        },
+        {
+          "name": "The Hormuz Strait"
+        },
+        {
+          "name": "Windward"
+        }
+      ],
+      "what_it_means": "A shared sea lane is being used as a threat that can lift fuel prices.",
+      "economic_impact": "That can lift fuel prices.",
+      "everyday_example": "It's like blocking a shared driveway.",
+      "image": "media/2026-11-14/bg_1.jpg"
+    }
+  ],
+  "video": "media/2026-11-14/episode.mp4",
+  "poster": "media/2026-11-14/poster.jpg",
+  "thumbnail": "media/2026-11-14/thumbnail.png"
+}
