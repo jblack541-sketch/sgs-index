@@ -1,0 +1,137 @@
+{
+  "date": "2026-11-15",
+  "title": "SGS Weekly Recap: Top 5",
+  "tagline": "The week in power: where the world leaned, and why.",
+  "video_credits": [],
+  "discovery_note": "Overall, the week leaned Slightly Globalist.",
+  "stories": [
+    {
+      "rank": 5,
+      "headline": "Poland vetoes the EU content law",
+      "summary": "Poland's president vetoed the EU online-content law. It would have let officials order fast takedowns. He said a judge, not an office, should decide.",
+      "label": "Moderately Sovereign",
+      "why": "Poland blocked an EU speech-control law and kept the call with courts.",
+      "sources": [
+        {
+          "name": "Hungarian Conservative",
+          "url": "https://www.hungarianconservative.com/articles/current/nawrocki-dsa-online-censorship-free-speech-poland-eu/"
+        },
+        {
+          "name": "Do Rzeczy",
+          "url": "https://dorzeczy.pl/opinie/971493/ustawa-cenzorska-prezydent-zawetowal-ustawe-o-dsa.html"
+        },
+        {
+          "name": "Niezależna",
+          "url": "https://niezalezna.pl/polityka/prezydenckie-weto-dla-dsa-donald-tusk-chcial-przede-wszystkim-politycznej-cenzury/584123"
+        }
+      ],
+      "what_it_means": "A court still decides what speech comes down.",
+      "economic_impact": "Poland may face pressure from Brussels over the veto.",
+      "everyday_example": "It's like refusing a takedown without a judge.",
+      "image": "media/2026-11-15/bg_5.jpg"
+    },
+    {
+      "rank": 4,
+      "headline": "FAA nationwide ground stop",
+      "summary": "The FAA halted every US departure for more than four hours, the longest stop since 9/11. Officials blamed a contractor's network upgrade, with no confirmed cyber attack.",
+      "label": "Slightly Globalist",
+      "why": "A contractor-owned central network went down, and the whole country stopped flying.",
+      "sources": [
+        {
+          "name": "Epoch Times",
+          "url": "https://www.theepochtimes.com/us/faulty-router-or-contractor-error-may-have-triggered-faa-ground-stop-duffy-says-6125097"
+        },
+        {
+          "name": "AVweb",
+          "url": "https://avweb.com/aviation-news/faa-nationwide-ground-stop-lifts-smart-ai/"
+        },
+        {
+          "name": "Simple Flying",
+          "url": "https://simpleflying.com/nationwide-ground-stop-caused-same-firm-left-trump-boeing-747-8-security-gaps/"
+        }
+      ],
+      "what_it_means": "One contractor's network can stop the whole country's flights.",
+      "economic_impact": "Fourteen thousand flights were canceled.",
+      "everyday_example": "It's like a crew tripping power for every airport.",
+      "image": "media/2026-11-15/bg_4.jpg"
+    },
+    {
+      "rank": 3,
+      "headline": "UK would follow EU food rules",
+      "summary": "Britain and the EU finished a draft food deal. It cuts border checks, but Britain follows EU food rules with no vote, and the EU court has the final say.",
+      "label": "Strongly Globalist",
+      "why": "A nation agrees to take its food laws from Brussels with no vote.",
+      "sources": [
+        {
+          "name": "British Agriculture Bureau",
+          "url": "https://www.britishagriculturebureau.co.uk/updates-and-information/eu-uk-summit-to-take-place-in-brussels-on-20-november/"
+        },
+        {
+          "name": "Food Safety",
+          "url": "https://www.food-safety.com/articles/12000-ukeu-sps-agreement-implications-for-food-safety-regulations-trade-and-compliance"
+        },
+        {
+          "name": "Fishing News",
+          "url": "https://fishingnews.co.uk/news/sps-deal-agreed-uk-eu-summit-fisheries-concerns/"
+        }
+      ],
+      "what_it_means": "Brussels would write Britain's food laws.",
+      "economic_impact": "Importers warn of extra costs.",
+      "everyday_example": "It's like a faster lane with a rewritten list.",
+      "image": "media/2026-11-15/bg_3.jpg"
+    },
+    {
+      "rank": 2,
+      "headline": "Abu Dhabi talks, only a prisoner swap",
+      "summary": "In Abu Dhabi, a US idea would let Russia claim Donbas and send Russian gas to Europe through a US middleman. Talks ended with a prisoner swap, but no land deal.",
+      "label": "Moderately Globalist",
+      "why": "Ukraine's borders were negotiated by outsiders; nothing settled.",
+      "sources": [
+        {
+          "name": "Kyiv Independent",
+          "url": "https://kyivindependent.com/large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/"
+        },
+        {
+          "name": "NV.ua",
+          "url": "https://english.nv.ua/nation/u-s-team-crafts-map-shift-so-putin-can-claim-donbas-win-50657911.html"
+        },
+        {
+          "name": "LIGA.net",
+          "url": "https://news.liga.net/en/war/news/the-economist-us-proposes-redrawing-ukraines-regional-borders-for-the-sake-of-peace"
+        }
+      ],
+      "what_it_means": "Outside powers are sketching a nation's borders.",
+      "economic_impact": "War costs and Europe's gas squeeze go on.",
+      "everyday_example": "It's like neighbors redrawing your fence.",
+      "image": "media/2026-11-15/bg_2.jpg"
+    },
+    {
+      "rank": 1,
+      "headline": "Iran tightens its grip on Hormuz",
+      "summary": "Iran said it destroyed navigation aids in the Strait of Hormuz. The UN says twenty-five seafarers were killed. Officials in Iran said tankers hit mines, not verified, and also threatened undersea cables.",
+      "label": "Strongly Globalist",
+      "why": "A state is gating a shared sea lane; strong state power is not sovereignty.",
+      "sources": [
+        {
+          "name": "Iran SITREP",
+          "url": "https://www.iransitrep.com/day/2026-11-14"
+        },
+        {
+          "name": "The Hormuz Strait",
+          "url": "https://thehormuzstrait.com/strait-of-hormuz-sitrep-13-nov-2026/"
+        },
+        {
+          "name": "Windward",
+          "url": "https://windward.ai/blog/sanctioned-iran-linked-tankers-went-dark-over-gulf-of-oman-cables/"
+        }
+      ],
+      "what_it_means": "One country is using a shared sea lane as a weapon.",
+      "economic_impact": "Shipping costs push up fuel prices.",
+      "everyday_example": "It's like mining the shared driveway.",
+      "image": "media/2026-11-15/bg_1.jpg"
+    }
+  ],
+  "video": "media/2026-11-15/episode.mp4",
+  "poster": "media/2026-11-15/poster.jpg",
+  "thumbnail": "media/2026-11-15/thumbnail.png"
+}
