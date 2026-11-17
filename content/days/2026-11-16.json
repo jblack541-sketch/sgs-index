@@ -1,0 +1,160 @@
+{
+  "date": "2026-11-16",
+  "title": "Daily SGS Top 5",
+  "tagline": "Five stories, one question: who's in control?",
+  "video_credits": [
+    "Photo, Narva Castle: KalervoK (Wikimedia Commons, CC0)",
+    "Photo, ASEAN Secretariat Buildings: Kaliper1 (Wikimedia Commons, CC BY-SA 4.0)",
+    "Photo, View from Letna park: Stavros Argyropoulos (Wikimedia Commons, CC BY-SA 2.0)",
+    "Photo, Shenzhen Civic Center: Sparktour (Wikimedia Commons, CC BY-SA 4.0)",
+    "Photo, Bab-el-Mandeb Strait: NASA/METI/AIST/Japan Space Systems, and U.S./Japan ASTER Science Team (Wikimedia Commons, public domain)"
+  ],
+  "stories": [
+    {
+      "rank": 5,
+      "headline": "Estonia closes Russia road crossings",
+      "summary": "Attackers tried to bomb an Estonian drone maker outside Tallinn, and guards stopped them. Officials in Estonia say Russia ordered it, and will close the road crossings from December first.",
+      "label": "Slightly Sovereign",
+      "why": "A nation shuts its own border after a foreign attack.",
+      "sources": [
+        {
+          "name": "Estonian World",
+          "url": "https://estonianworld.com/security/estonia-plans-to-close-its-road-crossings-with-russia-after-an-attack-on-drone-maker-threod/"
+        },
+        {
+          "name": "Kyiv Independent",
+          "url": "https://kyivindependent.com/estonia-to-close-border-with-russia-after-moscow-linked-sabotage-attempt-on-drone-maker/"
+        },
+        {
+          "name": "Estonian MFA",
+          "url": "https://www.vm.ee/en/news/foreign-minister-tsahkna-estonia-close-road-border-crossings-russia"
+        }
+      ],
+      "what_it_means": "A small country is shutting its own door after a foreign attack.",
+      "economic_impact": "Shoppers and truckers lose a road.",
+      "everyday_example": "It's like changing the locks after a fire.",
+      "image": "media/2026-11-16/bg_5.jpg"
+    },
+    {
+      "rank": 4,
+      "headline": "ASEAN pact on data, payments and digital IDs",
+      "summary": "Eleven Southeast Asian countries signed a pact to move data, payments and digital IDs across borders. It starts around May twenty twenty-seven.",
+      "label": "Moderately Globalist",
+      "why": "A regional bloc sets the rules for people's data and IDs.",
+      "sources": [
+        {
+          "name": "Fintech News",
+          "url": "https://fintechnews.sg/141260/payments/asean-defa-payments-cross-border-data/"
+        },
+        {
+          "name": "Newsbeat Asia",
+          "url": "https://newsbeat.asia/economy/asean-signs-binding-digital-economy-agreement-covering-data-flows-payments-cybersecurity-and-ai/"
+        },
+        {
+          "name": "CNA",
+          "url": "https://www.channelnewsasia.com/singapore/asean-digital-economy-framework-agreement-6551526"
+        }
+      ],
+      "what_it_means": "People's IDs and payments will follow bloc rules, not each nation's.",
+      "economic_impact": "Small firms get easier payments; countries give up some control.",
+      "everyday_example": "It's like one rulebook for every store on the block.",
+      "image": "media/2026-11-16/bg_4.jpg"
+    },
+    {
+      "rank": 3,
+      "headline": "Prague rally against state-budget TV funding",
+      "summary": "Four hundred thousand people rallied in a Prague park on Sunday. The plan would fund public TV and radio from the state budget, not a household fee.",
+      "label": "Slightly Globalist",
+      "why": "Public newsrooms would depend on the politicians they cover.",
+      "sources": [
+        {
+          "name": "Expats.cz",
+          "url": "https://www.expats.cz/czech-news/article/echoes-of-1989-on-letna-prague-protest-over-media-funding-draws-400-000"
+        },
+        {
+          "name": "EUobserver",
+          "url": "https://euobserver.com/248607/eu-commissioner-vows-to-use-all-relevant-tools-to-protect-media-freedom-as-babis-public-broadcasting-bill-alarms-meps/"
+        },
+        {
+          "name": "The Public",
+          "url": "https://thepublic.info/en/news/in-prague-400000-people-took-to-the-streets-to-protest-against-the-babis-government-over-media-reform"
+        },
+        {
+          "name": "AP",
+          "url": "https://apnews.com/article/czech-protest-public-media-babis-a48f46db181edaa14a156be89862f5e3"
+        }
+      ],
+      "what_it_means": "People pay one less bill, but newsrooms would depend on the politicians they cover.",
+      "economic_impact": "Households save about nine dollars a month.",
+      "everyday_example": "It's like a town paper paid by the mayor.",
+      "image": "media/2026-11-16/bg_3.jpg"
+    },
+    {
+      "rank": 2,
+      "headline": "Trump, Xi and Putin meet in Shenzhen",
+      "summary": "China confirmed Xi Jinping will host Trump and Putin in Shenzhen on November nineteenth. The White House says the main topic is cutting nuclear weapons, and no deal is expected.",
+      "label": "Neutral",
+      "why": "A first three-way meeting, but no deal is expected.",
+      "sources": [
+        {
+          "name": "American Greatness",
+          "url": "https://amgreatness.com/2026/11/15/trump-to-hold-first-ever-nuclear-summit-with-putin-and-xi/"
+        },
+        {
+          "name": "Just the News",
+          "url": "https://justthenews.com/nation/states/center-square/trump-meet-xi-putin-china-nuclear-arms-talks-ukraine-agenda/"
+        },
+        {
+          "name": "American Wire",
+          "url": "https://americanwirenews.com/trump-xi-putin-to-hold-first-ever-trilateral-meeting-musk-to-accompany-potus-report/"
+        },
+        {
+          "name": "China MFA",
+          "url": "https://www.mfa.gov.cn/eng./xw/wsrc/202611/t20261116_12059663.html"
+        },
+        {
+          "name": "AFP",
+          "url": "https://www.afp.com/en/china-says-xi-trump-putin-discuss-world-peace"
+        }
+      ],
+      "what_it_means": "The three biggest nuclear powers meet, but nothing is decided yet.",
+      "economic_impact": "Markets will watch for any sign on the Iran war and oil prices.",
+      "everyday_example": "It's like three landlords meeting while tenants wait outside.",
+      "image": "media/2026-11-16/bg_2.jpg"
+    },
+    {
+      "rank": 1,
+      "headline": "Both Mideast oil sea gates are squeezed",
+      "summary": "Southern forces in Yemen pulled out of the Red Sea's narrow gate. Reports say Iran-aligned Houthis took the ground. The Strait of Hormuz is still almost shut.",
+      "label": "Strongly Globalist",
+      "why": "Iran and its allies are gating two shared oil routes.",
+      "sources": [
+        {
+          "name": "South24",
+          "url": "https://south24.net/news/news.php?nid=5873"
+        },
+        {
+          "name": "The Cradle",
+          "url": "https://thecradle.co/articles/ansarallah-forces-complete-encirclement-of-yemens-aden-in-major-southern-advance"
+        },
+        {
+          "name": "The Hormuz Strait",
+          "url": "https://thehormuzstrait.com/strait-of-hormuz-sitrep-15-nov-2026/"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/news/articles/cqvg2xgyvnjpo"
+        },
+        {
+          "name": "The National",
+          "url": "https://www.thenationalnews.com/news/gulf/2026/11/16/iran-escalates-threats-against-us-forces-and-gulf-states-as-third-american-carrier-arrives/"
+        }
+      ],
+      "what_it_means": "Iran and its allies have a hand on both oil sea gates.",
+      "economic_impact": "Oil was about ninety-six dollars, and shipping costs stay high.",
+      "everyday_example": "It's like one family controlling both neighborhood exits.",
+      "image": "media/2026-11-16/bg_1.jpg"
+    }
+  ],
+  "thumbnail": "media/2026-11-16/thumbnail.png"
+}
