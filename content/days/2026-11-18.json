@@ -1,0 +1,142 @@
+{
+  "date": "2026-11-18",
+  "title": "Daily SGS Top 5",
+  "tagline": "Five stories, one question: who's in control?",
+  "video_credits": [
+    "Photo, Ulaanbaatar Government Palace: Alexkom000 (Wikimedia Commons, CC BY 4.0)",
+    "Photo, Palazzo Montecitorio: LPLT (Wikimedia Commons, CC BY-SA 3.0)",
+    "Photo, Alaska State Capitol: Kimberly Vardeman (Wikimedia Commons, CC BY 2.0)",
+    "Photo, Knesset building: Fallaner (Wikimedia Commons, CC BY-SA 4.0)",
+    "Photo, House of the National Assembly of Serbia: kallerna (Wikimedia Commons, CC BY-SA 4.0)"
+  ],
+  "stories": [
+    {
+      "rank": 5,
+      "headline": "Mongolia's president asks to quit over a bribe claim",
+      "summary": "Mongolia's president Khurelsukh said he will step down over a twenty five million dollar railway bribe claim. He denies it, and parliament votes tomorrow.",
+      "label": "Slightly Sovereign",
+      "why": "A sitting president is stepping aside to face questions.",
+      "sources": [
+        {
+          "name": "Mongolia Weekly",
+          "url": "https://www.mongoliaweekly.org/post/mongolia-president-khurelsukh-resigns-over-tavan-tolgoi-railway-kickback-claim"
+        },
+        {
+          "name": "News.mn",
+          "url": "https://news.mn/en/801865/"
+        },
+        {
+          "name": "The Daily Context",
+          "url": "https://www.thedailycontext.com/article/mongolia-president-khurelsukh-resignation-request-parliament-vote-railway-allegations-november-2026"
+        }
+      ],
+      "what_it_means": "A sitting president is stepping aside to face questions.",
+      "economic_impact": "The railway that carries coal to China is now under review.",
+      "everyday_example": "It's like a club president stepping down while members check the books.",
+      "image": "media/2026-11-18/bg_5.jpg"
+    },
+    {
+      "rank": 4,
+      "headline": "Italy writes an IHRA definition into law",
+      "summary": "Italy's lower house wrote an outside definition of antisemitism into law, one hundred forty seven to ninety three. Under that law, the IHRA definition now guides schools, campuses and online posts, with no new crimes.",
+      "label": "Moderately Globalist",
+      "why": "An outside definition now shapes what people in Italy may say.",
+      "sources": [
+        {
+          "name": "Amnesty",
+          "url": "https://www.amnesty.org/en/latest/news/2026/11/italy-a-bleak-day-for-freedom-of-expression-as-parliament-votes-through-repressive-definition-of-antisemitism-into-law/"
+        },
+        {
+          "name": "European Jewish Congress",
+          "url": "https://eurojewcong.org/news/communities-news/italy/italys-parliament-has-given-final-approval-to-legislation-strengthening-the-countrys-efforts-to-combat-antisemitism/"
+        },
+        {
+          "name": "Il Fatto",
+          "url": "https://www.ilfattoquotidiano.it/2026/11/17/ddl-antisemitismo-malaguti-gaza-scontro-notizie/8575139/"
+        }
+      ],
+      "what_it_means": "An outside definition now shapes what people in Italy may say.",
+      "economic_impact": "Schools and platforms take on new monitoring duties.",
+      "everyday_example": "It's like a school using another district's rulebook to judge speech.",
+      "image": "media/2026-11-18/bg_4.jpg"
+    },
+    {
+      "rank": 3,
+      "headline": "Peltola wins Alaska, Democrats hold 56 Senate seats",
+      "summary": "Democrat Mary Peltola beat Republican Senator Dan Sullivan in Alaska, so Democrats will hold fifty six Senate seats. She's the first Alaska Native woman elected to the Senate.",
+      "label": "Neutral",
+      "why": "A normal election, not a shift toward or away from global control.",
+      "sources": [
+        {
+          "name": "Alaska Beacon",
+          "url": "https://alaskabeacon.com/2026/11/17/peltola-elected-to-fill-alaska-u-s-senate-seat-becomes-senates-56th-democrat-nationally/"
+        },
+        {
+          "name": "Alaska News",
+          "url": "https://alaskanews.com/c/alaska-news/analysis-peltola-flips-sullivans-senate-seat-as-alaska-news-calls-73-of-76-races"
+        },
+        {
+          "name": "Must Read Alaska",
+          "url": "https://mustreadalaska.com/kreiss-tomkins-claims-victory-spoiler-transfers-cant-save-sullivan-alaskans-keep-ranked-choice-voting/"
+        }
+      ],
+      "what_it_means": "Voters handed one party a big Senate majority, in a normal election.",
+      "economic_impact": "The state's oil and fishing interests get a new voice.",
+      "everyday_example": "It's like a homeowners board election where one slate wins most seats.",
+      "image": "media/2026-11-18/bg_3.jpg"
+    },
+    {
+      "rank": 2,
+      "headline": "Israel's Knesset starts to repeal judicial and media laws",
+      "summary": "Israel's Knesset elected Matan Kahana as speaker, then gave first approval to repeal judicial and media laws. Those votes still need three more readings, and broadcasting rules stay in limbo.",
+      "label": "Slightly Sovereign",
+      "why": "A new majority is trying to roll back court and media laws, but nothing is final yet.",
+      "sources": [
+        {
+          "name": "JFeed",
+          "url": "https://www.jfeed.com/news-israel/judicial-selection-committee-repeal"
+        },
+        {
+          "name": "Israel National News",
+          "url": "https://www.israelnationalnews.com/news/436517"
+        },
+        {
+          "name": "JNS",
+          "url": "https://www.jns.org/news/israel-news/knesset-begins-reversing-netanyahu-governments-judicial-and-media-reforms"
+        }
+      ],
+      "what_it_means": "A new majority is trying to roll back court and media laws, but nothing is final yet.",
+      "economic_impact": "Broadcasting rules stay in limbo.",
+      "everyday_example": "It's like a new school board undoing the last board's rulebook.",
+      "image": "media/2026-11-18/bg_2.jpg"
+    },
+    {
+      "rank": 1,
+      "headline": "Serbia's student movement takes control of parliament",
+      "summary": "Serbia's student movement now holds one hundred forty of two hundred fifty parliament seats. President Vucic's list has one hundred three, and the students have the votes to make Aleksandar Chupich the speaker today.",
+      "label": "Slightly Sovereign",
+      "why": "Ordinary citizens took power back from a long-ruling party, at the ballot box.",
+      "sources": [
+        {
+          "name": "Balkan Insight",
+          "url": "https://balkaninsight.com/2026/11/17/serbias-new-parliament-convenes-after-historic-election/bi/"
+        },
+        {
+          "name": "Vreme",
+          "url": "https://vreme.com/en/vesti/konstitutivna-sednica-izbor-predsednika-skupstine-cupic-radenovic/"
+        },
+        {
+          "name": "NIN",
+          "url": "https://www.nin.rs/english/news/129636/constitutive-session-of-the-national-assembly-of-serbia"
+        }
+      ],
+      "what_it_means": "Ordinary citizens took power back at the ballot box.",
+      "economic_impact": "A new government will reopen big state contracts.",
+      "everyday_example": "It's like neighbors who protested at every town meeting finally voting out the old council.",
+      "image": "media/2026-11-18/bg_1.jpg"
+    }
+  ],
+  "video": "media/2026-11-18/episode.mp4",
+  "poster": "media/2026-11-18/poster.jpg",
+  "thumbnail": "media/2026-11-18/thumbnail.png"
+}
