@@ -1,0 +1,142 @@
+{
+  "date": "2026-11-17",
+  "title": "Daily SGS Top 5",
+  "tagline": "Five stories, one question: who's in control?",
+  "video_credits": [
+    "Photo, Kigali Convention Centre: Schlawgclart (Wikimedia Commons, CC0)",
+    "Photo, Amman skyline: Ibrahim nabeel salah (Wikimedia Commons, CC BY 4.0)",
+    "Photo, US Department of Commerce building: Tony Webster (Wikimedia Commons, CC BY 2.0)",
+    "Photo, New Clark City aerial: Bases Conversion and Development Authority (Wikimedia Commons, public domain)",
+    "Photo, Crimean Bridge: Alexxx1979 (Wikimedia Commons, CC BY-SA 4.0)"
+  ],
+  "stories": [
+    {
+      "rank": 5,
+      "headline": "Five EU countries plan a Rwanda return hub",
+      "summary": "Five European countries plan a return hub in Rwanda for rejected asylum seekers. A pilot of about a hundred people could start in twenty twenty-seven, but nothing is signed.",
+      "label": "Slightly Globalist",
+      "why": "Nations get tougher on borders, under an EU rule.",
+      "sources": [
+        {
+          "name": "Brussels Signal",
+          "url": "https://brusselssignal.eu/2026/11/five-eu-countries-pick-rwanda-for-first-return-hub-outside-the-bloc/"
+        },
+        {
+          "name": "ECCHR",
+          "url": "https://www.ecchr.eu/en/press-release/47-organisations-call-on-the-eu-to-protect-peoples-rights-not-outsource-them/"
+        },
+        {
+          "name": "HRW",
+          "url": "https://www.hrw.org/news/2026/11/16/eu-countries-plan-rwanda-deportation-centers"
+        }
+      ],
+      "what_it_means": "Nations get tougher on borders, under a European Union rule.",
+      "economic_impact": "The five countries pay the costs.",
+      "everyday_example": "It's like a landlord paying for a room across town.",
+      "image": "media/2026-11-17/bg_5.jpg"
+    },
+    {
+      "rank": 4,
+      "headline": "Jordan and Iraq block Telegram",
+      "summary": "Jordan and Iraq blocked the Telegram app on the same day, hours apart. Neither went through a court, and Jordan gave no end date.",
+      "label": "Strongly Globalist",
+      "why": "Two governments switch off a messaging app, with no court.",
+      "sources": [
+        {
+          "name": "Al-Monitor",
+          "url": "https://www.al-monitor.com/originals/2026/11/iraq-jordan-ban-uae-backed-telegram-over-security-concerns-what-know"
+        },
+        {
+          "name": "964media",
+          "url": "https://en.964media.com/55410/"
+        },
+        {
+          "name": "ISOC Pulse",
+          "url": "https://pulse.internetsociety.org/en/shutdowns/telegram-blocked-in-jordan/"
+        }
+      ],
+      "what_it_means": "Two governments switched off a way millions of people talk, with no court.",
+      "economic_impact": "Small businesses and news channels lose reach.",
+      "everyday_example": "It's like cutting every phone line on the block.",
+      "image": "media/2026-11-17/bg_4.jpg"
+    },
+    {
+      "rank": 3,
+      "headline": "US license rule for AI chips and rentals",
+      "summary": "The U S now requires a license before A I chips go to five countries, including Singapore and Brazil. Anyone who rents that computing to China-based companies also needs one.",
+      "label": "Slightly Sovereign",
+      "why": "The United States is protecting its own technology and security.",
+      "sources": [
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/off-prem/2026/11/17/us-extends-chip-sale-restrictions-to-more-asian-countries-to-reduce-risk-of-diversion-to-china/5310307"
+        },
+        {
+          "name": "The Tech Boom",
+          "url": "https://thetechboom.com/2026/11/17/us-ai-chip-export-rule-singapore-malaysia-data-centres-australia/"
+        },
+        {
+          "name": "Nixon Peabody",
+          "url": "https://www.nixonpeabody.com/insights/alerts/2026/11/16/bis-targets-remote-access-to-advanced-chips-through-overseas-data-centers"
+        }
+      ],
+      "what_it_means": "The United States is protecting its own technology and security.",
+      "economic_impact": "Data centers there face new delays.",
+      "everyday_example": "It's like locking your own tools in the shed.",
+      "image": "media/2026-11-17/bg_3.jpg"
+    },
+    {
+      "rank": 2,
+      "headline": "Pax Silica protests and 300 arrests",
+      "summary": "About three hundred protesters were arrested at the U S led Pax Silica hub in the Philippines as Trump arrived. Indigenous families in Tarlac say the new zone will push them off their land.",
+      "label": "Strongly Globalist",
+      "why": "A foreign-led factory zone goes ahead over local land.",
+      "sources": [
+        {
+          "name": "The Diplomat",
+          "url": "https://thediplomat.com/2026/11/thousands-protest-pax-silica-in-the-philippines-ahead-of-president-trumps-arrival/"
+        },
+        {
+          "name": "Bulatlat",
+          "url": "https://www.bulatlat.com/2026/11/17/overcoming-police-brutality-protests-continue-vs-trump-pax-silica/"
+        },
+        {
+          "name": "Rappler",
+          "url": "https://www.rappler.com/philippines/pax-silica-protest-arrest-asean-opening-manila/"
+        }
+      ],
+      "what_it_means": "A foreign-led factory zone is going ahead over local land.",
+      "economic_impact": "Families there stand to lose land.",
+      "everyday_example": "It's like a chain building on the family farm.",
+      "image": "media/2026-11-17/bg_2.jpg"
+    },
+    {
+      "rank": 1,
+      "headline": "Ukraine knocks a Crimean Bridge span into the sea",
+      "summary": "Ukrainian forces knocked a span of the Crimean Bridge into the sea. Strikes on two days dropped a road arch into the water and damaged the rail.",
+      "label": "Moderately Globalist",
+      "why": "A NATO-backed proxy is widening the war.",
+      "sources": [
+        {
+          "name": "Meduza",
+          "url": "https://meduza.io/en/feature/2026/11/17/ukraine-strikes-crimea-bridge-for-second-time-in-two-days-sending-an-arch-crashing-into-the-water-and-halting-traffic"
+        },
+        {
+          "name": "Kyiv Independent",
+          "url": "https://kyivindependent.com/ukrainian-forces-reportedly-strike-crimea-bridge-after-russian-missiles-hit-kyiv-bridges/"
+        },
+        {
+          "name": "Ukrainska Pravda",
+          "url": "https://www.pravda.com.ua/eng/news/2026/11/17/8063218/"
+        }
+      ],
+      "what_it_means": "A NATO-backed proxy is widening the war.",
+      "economic_impact": "Fuel and food have to go the long way.",
+      "everyday_example": "It's like a backed crew blowing up the other side's bridge.",
+      "image": "media/2026-11-17/bg_1.jpg"
+    }
+  ],
+  "video": "media/2026-11-17/episode.mp4",
+  "poster": "media/2026-11-17/poster.jpg",
+  "thumbnail": "media/2026-11-17/thumbnail.png"
+}
