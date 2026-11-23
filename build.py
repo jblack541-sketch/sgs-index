@@ -85,7 +85,7 @@ def validate_day(d, name):
 
 
 # ---------------------------------------------------------------- layout
-NAV = [("index.html", "Home"), ("news/index.html", "Daily News"),
+NAV = [("index.html", "Home"), ("news/index.html", "Weekly Top 5"),
        ("mission.html", "Mission"), ("how-it-works.html", "How It Works"), ("newsletter.html", "Newsletter"),
        ("about.html", "About")]
 
@@ -113,9 +113,9 @@ def page(title, body, depth, active, site, desc="", rel=""):
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(title)} · {e(site['site_name'])}</title>
-<meta name="description" content="{e(desc or 'Daily world news, rated on one simple question: is power moving to everyday people and independent nations, or to global control?')}">
+<meta name="description" content="{e(desc or 'A weekly Top 5 of world news, rated on one simple question: is power moving to everyday people and independent nations, or to global control?')}">
 <link rel="stylesheet" href="{r}assets/style.css">
-<link rel="alternate" type="application/rss+xml" title="SGS Daily News" href="{r}feed.xml">
+<link rel="alternate" type="application/rss+xml" title="SGS Weekly Top 5" href="{r}feed.xml">
 {canon}</head><body>
 <header class="site-header"><div class="wrap bar">
   <a class="brand" href="{r}index.html"><span class="brand-mark" aria-hidden="true"></span><span>SGS<b>Index</b></span></a>
@@ -125,7 +125,7 @@ def page(title, body, depth, active, site, desc="", rel=""):
 <main>{body}</main>
 <footer class="site-footer"><div class="wrap foot">
   <div><strong>SGS Index</strong> · the Sovereignty–Globalism Spectrum, by {e(site['creator'])}. Who's really in control, explained in plain words.<br>
-  Follow <a href="https://x.com/{e(site['x_handle'])}" rel="noopener">@{e(site['x_handle'])}</a> on X · {yt_link(site)} for daily updates. ·
+  Follow <a href="https://x.com/{e(site['x_handle'])}" rel="noopener">@{e(site['x_handle'])}</a> on X · {yt_link(site)} for the weekly Top 5. ·
   <a href="{r}mission.html">My mission</a> · <a href="{r}feed.xml">RSS feed</a></div>
   <div class="muted small">{e(site.get('disclaimer_short', ''))}<br>
   <a href="{r}newsletter.html#disclaimer">Full disclaimer (plain English)</a> · © {year} {e(site['creator'])}.</div>
@@ -186,7 +186,7 @@ def episode_block(d, r, site):
         note = 'Text episode — no video for this day.'
         extra = ([f'<a href="{r}{e(d["thumbnail"])}">Thumbnail</a>'] if d.get("thumbnail") else [])
         dl = f'<p class="small muted">{note}' + (' · ' + ' · '.join(extra) if extra else '') + '</p>'
-    watch = f'<p class="small">{yt_link(site, "Watch the daily Top 5 on YouTube", new_tab=True)}</p>'
+    watch = f'<p class="small">{yt_link(site, "Watch the weekly Top 5 on YouTube", new_tab=True)}</p>'
     return f"""<div class="episode">
   <div class="player">{video}
     {dl}
@@ -204,7 +204,7 @@ SIGNUP_FORM = """<form class="signup" action="{action}" method="{method}" novali
   <button type="submit">Join the list</button></div>
   <fieldset><legend class="small">Send me</legend>
     <label class="chk"><input type="checkbox" name="list" value="ledger" checked> {name} (free monthly letter)</label>
-    <label class="chk"><input type="checkbox" name="list" value="daily"> Daily SGS Top 5 news recap</label>
+    <label class="chk"><input type="checkbox" name="list" value="daily"> SGS Weekly Recap Top 5</label>
   </fieldset>
   <label class="chk small"><input type="checkbox" name="consent" required> Yes, CreatorJoe can email me. I can unsubscribe anytime.</label>
   <p class="form-msg small" role="status" aria-live="polite"></p>
@@ -278,7 +278,7 @@ def how_body(site):
     <p class="small muted">Slightly, Moderately, Strongly or Extremely tells you how big the shift is. Sovereign or Globalist tells you which way it goes. Neutral means it doesn't really move either way.</p>
   </div>
   <h2>What gets rated</h2>
-  <p>The biggest world, policy and money stories of the day. That includes international groups (the UN, EU, WHO and IMF), treaties and trade deals, elections and changes in leadership, borders and a people's right to choose their own future, central banks, currencies and digital money, climate and global tax plans, how much countries rely on others for energy and goods, and who controls technology and data. The Daily SGS Top 5 counts down the five stories that shifted power the most that day.</p>
+  <p>The biggest world, policy and money stories of the week. That includes international groups (the UN, EU, WHO and IMF), treaties and trade deals, elections and changes in leadership, borders and a people's right to choose their own future, central banks, currencies and digital money, climate and global tax plans, how much countries rely on others for energy and goods, and who controls technology and data. The SGS Weekly Recap Top 5 counts down the five stories that shifted power the most that week.</p>
   <h2>Always improving</h2>
   <p>{x}</p>
   <p><a class="btn ghost" href="mission.html">Read my mission</a></p>
@@ -296,10 +296,10 @@ def mission_body(site):
   <h2>What I learned</h2>
   <p>Money leaves a trail. When you follow it, you can check anyone's receipts, including politicians. Where is the money going? Is it giving power back to people, or taking it away? That one question changed how I see the news.</p>
   <h2>What I'm doing with it</h2>
-  <p>The SGS Index is how I share that question with you. Every day I break down the biggest stories in plain words: what happened, what it means, and how it hits your wallet. Once a month, <em>{name}</em> looks at the long-term picture for investors.</p>
+  <p>The SGS Index is how I share that question with you. Every Sunday I break down the biggest stories in plain words: what happened, what it means, and how it hits your wallet. Once a month, <em>{name}</em> looks at the long-term picture for investors.</p>
   <h2>What you'll get</h2>
   <ul class="ticks">
-    <li><strong>The Daily SGS Top 5.</strong> A short video every morning that counts down the five biggest stories of the day. Each one gets a simple label, from Extremely Sovereign (more freedom for people and nations) to Extremely Globalist (more control at the global level), with Neutral in the middle.</li>
+    <li><strong>The SGS Weekly Recap Top 5.</strong> A short video every Sunday that counts down the five biggest stories of the week. Each one gets a simple label, from Extremely Sovereign (more freedom for people and nations) to Extremely Globalist (more control at the global level), with Neutral in the middle.</li>
     <li><strong><em>{name}</em>.</strong> A free letter, once a month, for people investing for the long haul. It skips the daily noise and looks at the big themes, like debt, interest rates, sound money and energy.</li>
     <li><strong>Words, not numbers.</strong> Every rating is a plain label, so you can see at a glance which way a story leans and how strongly.</li>
   </ul>
@@ -321,7 +321,7 @@ def mission_body(site):
   <h2>My promise</h2>
   <p>No hype and no jargon. If you can read the news, you can follow along, and we'll learn this together.</p>
   <p>Stay sovereign. <span class="muted">— Joe</span></p>
-  <p><a class="btn" href="news/index.html">Watch the Daily Top 5</a> <a class="btn ghost" href="newsletter.html">Get the monthly letter</a> <a class="btn ghost" href="how-it-works.html">How the index works</a></p>
+  <p><a class="btn" href="news/index.html">Watch the Weekly Top 5</a> <a class="btn ghost" href="newsletter.html">Get the monthly letter</a> <a class="btn ghost" href="how-it-works.html">How the index works</a></p>
 </div></section>"""
 
 
@@ -340,12 +340,12 @@ def build(site, days):
             f'<span class="h">{e(s["headline"])}</span><span class="label {"sov" if "Sovereign" in s["label"] else "glob" if "Globalist" in s["label"] else "neu"}">{e(s["label"])}</span></a></li>'
             for s in latest["stories"])
         latest_html = f"""<section class="section"><div class="wrap">
-  <div class="section-head"><p class="kicker">Today's news</p><h2>SGS Top 5 · {fmt_date(latest['date'])}</h2>
+  <div class="section-head"><p class="kicker">Latest Top 5</p><h2>SGS Top 5 · {fmt_date(latest['date'])}</h2>
   <p class="muted">{e(latest.get('tagline', ''))}</p></div>
   <div class="latest">
-    <a class="thumb" href="news/{latest['date']}/index.html"><img src="{e(latest.get('thumbnail') or latest.get('poster', ''))}" alt="Daily SGS Top 5 thumbnail for {fmt_date(latest['date'], False)}" loading="lazy"><span class="play">{'▶ Watch episode' if latest.get('video') else 'Read episode'}</span></a>
+    <a class="thumb" href="news/{latest['date']}/index.html"><img src="{e(latest.get('thumbnail') or latest.get('poster', ''))}" alt="SGS Top 5 thumbnail for {fmt_date(latest['date'], False)}" loading="lazy"><span class="play">{'▶ Watch episode' if latest.get('video') else 'Read episode'}</span></a>
     <div><ol class="toplist">{top}</ol>
-    <p><a class="btn" href="news/{latest['date']}/index.html">Read today's countdown →</a> <a class="btn ghost" href="news/index.html">Past days</a></p></div>
+    <p><a class="btn" href="news/{latest['date']}/index.html">Read the countdown →</a> <a class="btn ghost" href="news/index.html">Past episodes</a></p></div>
   </div></div></section>"""
     else:
         latest_html = ""
@@ -360,7 +360,7 @@ def build(site, days):
   <p class="kicker">Sovereignty–Globalism Spectrum</p>
   <h1>{e(head)}</h1>
   <p class="lede">{e(rest)}</p>
-  <p><a class="btn" href="news/index.html">Daily News</a> <a class="btn ghost" href="newsletter.html">{name}</a> <a class="btn ghost" href="mission.html">My mission</a></p>
+  <p><a class="btn" href="news/index.html">Weekly Top 5</a> <a class="btn ghost" href="newsletter.html">{name}</a> <a class="btn ghost" href="mission.html">My mission</a></p>
   {spectrum('Neutral', big=True).replace('<p class="label neu">Neutral</p>', '')}
 </div></section>
 {latest_html}
@@ -385,27 +385,27 @@ def build(site, days):
         newer = days[i - 1]["date"] if i > 0 else None
         older = days[i + 1]["date"] if i + 1 < len(days) else None
         pager = '<nav class="pager">' + (f'<a href="../{older}/index.html">← {fmt_date(older, False)}</a>' if older else '<span></span>') + \
-                '<a href="../index.html">All days</a>' + (f'<a href="../{newer}/index.html">{fmt_date(newer, False)} →</a>' if newer else '<span></span>') + '</nav>'
+                '<a href="../index.html">All episodes</a>' + (f'<a href="../{newer}/index.html">{fmt_date(newer, False)} →</a>' if newer else '<span></span>') + '</nav>'
         body = f"""<section class="section"><div class="wrap">
-  <div class="section-head"><p class="kicker">Daily News · {fmt_date(d['date'])}</p><h1>{e(d.get('title', 'Daily SGS Top 5'))}</h1>
+  <div class="section-head"><p class="kicker">SGS Top 5 · {fmt_date(d['date'])}</p><h1>{e(d.get('title', 'SGS Weekly Recap Top 5'))}</h1>
   <p class="lede">{e(d.get('tagline', ''))} We count down from #5 to #1, and each story gets a simple label showing which way it moves power.</p></div>
   {episode_block(d, '../../', site)}
   {pager}
 </div></section>
 <section class="section alt"><div class="wrap split">{pitch_short(site, '../../')}<div class="card form-card">{signup(site, 'day')}</div></div></section>"""
-        write(f"news/{d['date']}/index.html", page(f"SGS Top 5 · {fmt_date(d['date'], False)}", body, 2, "Daily News", site,
+        write(f"news/{d['date']}/index.html", page(f"SGS Top 5 · {fmt_date(d['date'], False)}", body, 2, "Weekly Top 5", site,
                                                    desc=" · ".join(s["headline"] for s in d["stories"]),
                                                    rel=f"news/{d['date']}/index.html"))
 
     # Archive
     items = "".join(f"""<li class="arch"><a href="{d['date']}/index.html">
   {f'<img src="../{e(d["thumbnail"])}" alt="" loading="lazy">' if d.get('thumbnail') else ''}
-  <div><p class="kicker">{fmt_date(d['date'])}</p><h3>{e(d.get('title', 'Daily SGS Top 5'))}</h3>
+  <div><p class="kicker">{fmt_date(d['date'])}</p><h3>{e(d.get('title', 'SGS Weekly Recap Top 5'))}</h3>
   <p class="small muted">{' · '.join(e(s['headline']) for s in d['stories'][::-1][:3])}…</p></div></a></li>""" for d in days)
     body = f"""<section class="section"><div class="wrap">
-  <div class="section-head"><p class="kicker">Daily News</p><h1>Archive</h1><p class="lede">Every Daily SGS Top 5, newest first. Each one counts down the five stories that shifted power the most that day.</p></div>
+  <div class="section-head"><p class="kicker">SGS Top 5</p><h1>Archive</h1><p class="lede">Every SGS Top 5, newest first. Each one counts down the five stories that shifted power the most.</p></div>
   <ul class="archive">{items or '<li>No episodes yet.</li>'}</ul></div></section>"""
-    write("news/index.html", page("Daily News archive", body, 1, "Daily News", site, rel="news/index.html"))
+    write("news/index.html", page("SGS Top 5 archive", body, 1, "Weekly Top 5", site, rel="news/index.html"))
 
     # How the index works
     write("how-it-works.html", page("How the index works", how_body(site), 0, "How It Works", site,
@@ -459,8 +459,8 @@ def build(site, days):
     rss_items = "".join(f"""<item><title>{e('SGS Top 5 · ' + fmt_date(d['date'], False))}</title><link>{e(abs_url(site, f"news/{d['date']}/index.html"))}</link>
 <guid isPermaLink="false">sgs-{d['date']}</guid><pubDate>{dt.datetime.fromisoformat(d['date']).strftime('%a, %d %b %Y 12:00:00 +0000')}</pubDate>
 <description>{e(' | '.join('#' + str(s['rank']) + ' ' + s['headline'] + ' (' + s['label'] + ')' for s in d['stories']))}</description></item>""" for d in days)
-    write("feed.xml", f'<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>SGS Index · Daily News</title>'
-                      f'<link>{e(abs_url(site))}</link><description>Daily world news, rated by who gains power: everyday people and independent nations, or global control.</description>{rss_items}</channel></rss>')
+    write("feed.xml", f'<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>SGS Index · Weekly Top 5</title>'
+                      f'<link>{e(abs_url(site))}</link><description>A weekly Top 5 of world news, rated by who gains power: everyday people and independent nations, or global control.</description>{rss_items}</channel></rss>')
 
 
 def write(rel, text):

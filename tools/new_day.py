@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Create content/days/<DATE>.json (+ copy media) from a daily video pipeline's data.py.
+"""Create content/days/<DATE>.json (+ copy media) from the Top 5 video pipeline's data.py.
 
 Usage:
   python3 tools/new_day.py --date 2026-10-28 --data /workspace/sgs/data.py \
-      --video /workspace/sgs/sgs_top5_2026-10-28_myvoice.mp4 \
+      --video /workspace/sgs/sgs_recap_2026-11-29_myvoice.mp4 \
       --thumbnail /workspace/sgs/thumbnail.png --img-dir /workspace/sgs/img \
       [--sources sources.json] [--force]
 
@@ -58,7 +58,7 @@ def main():
     srcmap = json.loads(Path(a.sources).read_text()) if a.sources else {}
     media = ROOT / "static" / "media" / a.date
     media.mkdir(parents=True, exist_ok=True)
-    day = {"date": a.date, "title": "Daily SGS Top 5", "tagline": "Five stories, one question: who's in control?",
+    day = {"date": a.date, "title": "SGS Weekly Recap Top 5", "tagline": "Five stories, one question: who's in control?",
            "video_credits": [], "stories": []}
     if a.video:
         shutil.copy(a.video, media / "episode.mp4"); day["video"] = f"media/{a.date}/episode.mp4"

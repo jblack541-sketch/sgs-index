@@ -1,7 +1,7 @@
 # SGS Index — website prototype
 
-Static site for CreatorJoe's **Sovereignty–Globalism Spectrum (SGS) Index**: daily news
-(the Daily SGS Top 5 countdown), an archive, an investor-newsletter signup, and an About page.
+Static site for CreatorJoe's **Sovereignty–Globalism Spectrum (SGS) Index**: a weekly Top 5, every Sunday
+(the SGS Weekly Recap), an archive, an investor-newsletter signup, and an About page.
 Plain HTML/CSS/JS, built by a stdlib-only Python script. No server, database or paid service needed.
 
 ## Public rule: no numeric scores
@@ -18,7 +18,7 @@ The site only ever shows verbal labels (`Slightly / Moderately / Strongly / Extr
 ```
 build.py                 # regenerates public/ from content/ + static/
 content/site.json        # site settings, incl. the newsletter form action (PLACEHOLDER)
-content/days/YYYY-MM-DD.json   # one file per day (labels only)
+content/days/YYYY-MM-DD.json   # one file per episode (labels only)
 static/                  # copied into public/ as-is: assets/ (css, js), fonts/, media/<date>/
 tools/new_day.py         # makes a day file from the video pipeline's data.py (drops scores)
 tools/screenshots.py     # full-page screenshots via Playwright + Chrome
@@ -32,7 +32,7 @@ Generated pages: `index.html`, `news/index.html` (archive), `news/<date>/index.h
 **Option A: from the Top 5 video pipeline** (`/workspace/sgs`):
 ```bash
 python3 tools/new_day.py --date 2026-10-28 --data /workspace/sgs/data.py \
-  --video /workspace/sgs/sgs_top5_2026-10-28_myvoice.mp4 \
+  --video /workspace/sgs/sgs_recap_2026-11-29_myvoice.mp4 \
   --thumbnail /workspace/sgs/thumbnail.png --img-dir /workspace/sgs/img \
   --sources sources.json          # optional: {"5": [{"name": "UN Press", "url": "https://…"}], …}
 ```
@@ -55,7 +55,7 @@ skipped when missing; `tools/new_day.py` copies them from data.py when present. 
 Plain, everyday words for everyone: short sentences, and explain any term (sovereignty, globalism, central banks, UN bodies…)
 in a few simple words the first time it appears. Labels only, never numbers.
 
-The newest day goes on the home page automatically, and every day is listed in the archive with
+The newest episode goes on the home page automatically, and every episode is listed in the archive with
 older/newer links.
 
 ## Newsletter signup (to wire up)
