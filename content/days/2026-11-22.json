@@ -1,0 +1,141 @@
+{
+  "date": "2026-11-22",
+  "title": "SGS Weekly Recap Top 5",
+  "tagline": "The week in power: where the world leaned, and why.",
+  "video_credits": [],
+  "discovery_note": "Overall, the week leaned Slightly Globalist.",
+  "stories": [
+    {
+      "rank": 5,
+      "headline": "Serbia's students take parliament",
+      "summary": "Serbia's new parliament met, and the Student List holds a clear majority. Lawmakers elected their pick, university lecturer Aleksandar Chupich, as speaker.",
+      "label": "Slightly Sovereign",
+      "why": "Voters turned a street movement into a parliamentary majority.",
+      "sources": [
+        {
+          "name": "Balkan Insight",
+          "url": "https://balkaninsight.com/2026/11/17/serbias-new-parliament-convenes-after-historic-election/"
+        },
+        {
+          "name": "Vreme",
+          "url": "https://vreme.com/en/vesti/konstitutivna-sednica-izbor-predsednika-skupstine-cupic-radenovic/"
+        },
+        {
+          "name": "NIN",
+          "url": "https://www.nin.rs/english/news/129636/constitutive-session-of-the-national-assembly-of-serbia"
+        }
+      ],
+      "what_it_means": "A street movement now runs the parliament, and a government still has to be formed.",
+      "economic_impact": "A government still has to be formed.",
+      "everyday_example": "It's like neighbors outvoting the longtime manager.",
+      "image": "media/2026-11-22/bg_5.jpg"
+    },
+    {
+      "rank": 4,
+      "headline": "Pax Silica protests and arrests in the Philippines",
+      "summary": "About three hundred protesters were arrested at the US-led Pax Silica hub in the Philippines as Trump arrived. Indigenous families in Tarlac say the new zone will push them off their land. Most were later released, but the project was not stopped.",
+      "label": "Strongly Globalist",
+      "why": "A foreign-led bloc project went ahead over local land after mass arrests.",
+      "sources": [
+        {
+          "name": "The Diplomat",
+          "url": "https://thediplomat.com/2026/11/thousands-protest-pax-silica-in-the-philippines-ahead-of-president-trumps-arrival/"
+        },
+        {
+          "name": "Bulatlat",
+          "url": "https://www.bulatlat.com/2026/11/17/overcoming-police-brutality-protests-continue-vs-trump-pax-silica/"
+        },
+        {
+          "name": "Rappler",
+          "url": "https://www.rappler.com/philippines/pax-silica-protest-arrest-asean-opening-manila/"
+        },
+        {
+          "name": "HRW",
+          "url": "https://www.hrw.org/news/2026/11/18/philippine-police-detain-hundreds-protesting-trump-visit"
+        }
+      ],
+      "what_it_means": "A foreign-led factory zone is going ahead over local land.",
+      "economic_impact": "Families there stand to lose land.",
+      "everyday_example": "It's like a chain building on the family farm.",
+      "image": "media/2026-11-22/bg_4.jpg"
+    },
+    {
+      "rank": 3,
+      "headline": "Russian missiles enter Poland; NATO help requested",
+      "summary": "During a huge Russian strike on Ukraine, three Russian objects came down in southeastern Poland. No one was hurt. Poland called it a provocation and asked NATO for more air defense.",
+      "label": "Moderately Globalist",
+      "why": "The war spilled across a NATO border, and Poland asked for more alliance forces.",
+      "sources": [
+        {
+          "name": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/11/20/unidentified-object-hits-poland-amid-russian-attacks-on-western-ukraine/"
+        },
+        {
+          "name": "Hromadske",
+          "url": "https://hromadske.ua/en/war/274695-two-russian-missiles-and-drone-land-in-poland-during-strikes-on-ukraine-defense-minister-says"
+        },
+        {
+          "name": "Defence24",
+          "url": "https://defence24.com/defence-policy/we-need-awacs-aircraft-and-f-35s-polish-defence-minister-appeals-to-nato-allies"
+        }
+      ],
+      "what_it_means": "The war spilled across a NATO border, and Poland wants more help to guard its own skies.",
+      "economic_impact": "Defense costs are rising.",
+      "everyday_example": "It's like a fight next door throwing bricks over your fence.",
+      "image": "media/2026-11-22/bg_3.jpg"
+    },
+    {
+      "rank": 2,
+      "headline": "Houthis hit Riyadh's wealth-fund tower",
+      "summary": "In Riyadh, a Houthi attack damaged the tower of Saudi Arabia's wealth fund. Windows were blown out, and no one was hurt. Two days later, more missiles aimed at the capital were intercepted.",
+      "label": "Strongly Globalist",
+      "why": "An Iran-backed proxy put a capital's financial tower under fire, then fired again.",
+      "sources": [
+        {
+          "name": "The Cradle",
+          "url": "https://thecradle.co/articles-id/41164"
+        },
+        {
+          "name": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabias-sovereign-wealth-funds-tower-riyadh-damaged-strike"
+        },
+        {
+          "name": "Military Affairs",
+          "url": "https://military-affairs.com/en/wire/iran/2026/11/19/riyadh-pif-tower-damaged-hormuz-half-oil-george-washington"
+        }
+      ],
+      "what_it_means": "This proxy fight is hitting the building that holds the kingdom's money.",
+      "economic_impact": "War-risk insurance carries real costs.",
+      "everyday_example": "It's like smashing the windows of the town bank, then coming back two days later.",
+      "image": "media/2026-11-22/bg_2.jpg"
+    },
+    {
+      "rank": 1,
+      "headline": "Shenzhen peace declaration skips the wars",
+      "summary": "In Shenzhen, Trump, Xi and Putin issued a four-point declaration toward peace. It covers UN reform, fuel supplies, official immunity, and nuclear risk. It does not mention the wars in Ukraine or Iran.",
+      "label": "Slightly Globalist",
+      "why": "Three powers signed a peace declaration that leaves the wars off the page.",
+      "sources": [
+        {
+          "name": "Kyiv Independent",
+          "url": "https://kyivindependent.com/trump-sits-down-with-his-friend-putin-chinas-xi-for-unprecedented-trilateral-talks/"
+        },
+        {
+          "name": "Brussels Signal",
+          "url": "https://brusselssignal.eu/2026/11/trump-xi-and-putin-open-nuclear-dialogue-with-ukraine-left-out/"
+        },
+        {
+          "name": "JIIA",
+          "url": "https://www.jiia.or.jp/eng/report/2026/11/strategic_comment_2026-23.html"
+        }
+      ],
+      "what_it_means": "They signed a peace label that leaves the wars off the page, and more fuel is only a plan.",
+      "economic_impact": "More fuel is only a plan.",
+      "everyday_example": "It's like three neighbors signing a good-fences note while the house next door is still on fire.",
+      "image": "media/2026-11-22/bg_1.jpg"
+    }
+  ],
+  "video": "media/2026-11-22/episode.mp4",
+  "poster": "media/2026-11-22/poster.jpg",
+  "thumbnail": "media/2026-11-22/thumbnail.png"
+}
